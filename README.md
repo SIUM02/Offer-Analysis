@@ -168,7 +168,6 @@ python3 scripts/plot_dataset.py --dark   # -> figures/dark/*.png
 | `5_labels.png` | The packs the cost model picks most often — the label the models learn |
 
 Needs matplotlib and pandas; nothing else in the project does.
-
 **Two things they make obvious.** GP's median data-only pack is BDT 98/GB
 against Banglalink's BDT 9 — a median dragged up by small content packs, not
 a bulk rate, which is why top-ups are priced from the 25th percentile. And
@@ -250,8 +249,8 @@ python3 scripts/user_test.py --operator Teletalk \
 ```
 
 Blank leaves a field at 0 (validity 30), `q` quits, and it loops; use the
-flags when the run has no keyboard. This one uses **no model** — it ranks by
-matching alone, on the standard library and the CSV.
+flags when the run has no keyboard. This one uses **no model** — matching
+alone, on the standard library and the CSV.
 
 **It ranks on the all-in cost** — not the sticker price, but what the whole
 request costs with that pack: the pack over the period asked for, plus the
@@ -276,9 +275,9 @@ go and buy. Two packs at BDT 366 genuinely beat the one pack that covers it
 at BDT 499. Per-unit pricing is the fallback only when nothing the operator
 sells is large enough, which is the ordinary case for SMS.
 
-Repeat purchases are priced the same way: *"To cover 30 days: buy 5x -> 15
-GB, 500 min, 500 SMS, BDT 1290 total"*. `--strict` turns all of it off and
-offers only packs that meet the request in full.
+Repeat purchases are priced the same way (*"buy 5x -> 15 GB, 500 min, 500
+SMS, BDT 1290 total"*), and `--strict` offers only packs that meet the
+request in full.
 
 ## The web page
 
@@ -286,33 +285,35 @@ offers only packs that meet the request in full.
 python3 scripts/web.py            # opens http://127.0.0.1:8000
 python3 scripts/web.py --port 8080 --no-open
 ```
+One page: operator and model as chips, sliders for data, minutes and SMS,
+validity chips, four presets, three packs as cards, and a theme toggle that
+remembers the choice. Move a slider and the results update in place — the
+page fetches `api/recommend` and re-renders without a reload, keeping the
+address bar in step so any state is a shareable link; with JavaScript off the
+button submits the form and the server renders the same markup. Under the
+cards, **what the other models would pick** answers the same request with
+each model you did not choose, which is the clearest way to see them
+disagree.
 
-One page: the five inputs as a form, a **Ranked by** selector, and three
-packs as cards. `CARDS` sets how many cards; `MORE` lists further packs in a
-table beneath and is currently 0, so there is no table — raise it to bring
-one back.
-
-**Ranked by** chooses which trained model answers: random forest (default),
-decision tree, or polynomial regression. They genuinely disagree — ask
-Teletalk for 5 GB, 250 minutes and 50 SMS over 30 days and the decision tree
-leads with the BDT 208 pack at 100% confidence while the random forest leads
-with the BDT 312 pack at 54%. The bar says what it shows: *Confidence* for
-the tree models (a probability), *Score* for the polynomial regression (its
-regression output squashed into 0–1 for ranking — not a probability).
+**Ranked by** chooses which trained model answers. They genuinely disagree —
+ask Teletalk for 5 GB, 250 minutes and 50 SMS over 30 days and the decision
+tree leads with the BDT 208 pack at 100% confidence while the random forest
+leads with the BDT 312 pack at 54%. The bar says what it shows: *Confidence*
+for the tree models (a probability), *Score* for the polynomial regression
+(its output squashed into 0–1 for ranking — not a probability).
 
 **The model picks; price orders.** The cards are the model's packs, cheapest
-first, where cheapest is the all-in cost: a BDT 39 pack bought five times
-that still leaves 125 minutes to buy costs BDT 301, so it sits behind the BDT
-208 pack that covers the month. Since the order is by price, the model's own
-favourite is not always first and is labelled *the model's top pick*.
+first — cheapest meaning the all-in cost, so a BDT 39 pack bought five times
+that still leaves 125 minutes to buy costs BDT 301 and sits behind the BDT
+208 pack that covers the month. The model's own favourite is therefore not
+always first, and is labelled *the model's top pick*.
 
 The cost matcher is not in the selector; it is the fallback when no model can
-be loaded, and the page says so when that happens. Top-up and all-in figures
-come from the catalogue rather than the model — facts about a pack, not
-opinions. The page imports `recommend`, `topup` and `period_price` from
-`user_test.py`, so there is one matching algorithm in the project, and it
-serves rendered HTML over `http.server` with no JavaScript, no Flask and no
-install. It binds `127.0.0.1`, so nothing outside the machine can reach it.
+be loaded, and the page says so. Top-up and all-in figures come from the
+catalogue rather than the model — facts about a pack, not opinions. The page
+imports `recommend`, `topup` and `period_price` from `user_test.py`, so there
+is one matching algorithm in the project. Served by `http.server` with no
+Flask and nothing to install, bound to `127.0.0.1`.
 
 ### Putting it online
 
