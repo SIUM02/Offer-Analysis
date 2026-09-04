@@ -28,6 +28,12 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from user_test import (SMS_TOPUP_BDT, covers, load_catalogue, period_price,
                        recommend, reference_rates, repeats_needed, topup)
 
+# Three packs get a card each. The rest of the shortlist goes in a table
+# underneath, ranked the same way -- enough to see where the three came from
+# and what the next-best thing costs, without a wall of cards.
+CARDS = 3
+MORE = 7
+
 PAGE = """<!doctype html>
 <html lang="en">
 <head>
@@ -99,6 +105,19 @@ PAGE = """<!doctype html>
   .note.gap { background: var(--warn-soft); color: var(--warn); }
   .note b { font-variant-numeric: tabular-nums; }
   .empty { color: var(--muted); margin-top: 2rem; }
+  h2 { font-size: .95rem; margin: 2rem 0 .2rem; }
+  .more-note { color: var(--muted); font-size: .85rem; margin: 0 0 .75rem; }
+  .scroll { overflow-x: auto; background: var(--card); border-radius: 12px;
+            border: 1px solid var(--line); }
+  table { border-collapse: collapse; width: 100%; font-size: .88rem; }
+  th, td { padding: .55rem .75rem; text-align: right; white-space: nowrap;
+           border-top: 1px solid var(--line); }
+  th { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em;
+       color: var(--muted); font-weight: 600; border-top: 0; }
+  th:first-child, td:first-child { text-align: left; white-space: normal;
+                                   min-width: 12rem; }
+  td b { font-variant-numeric: tabular-nums; }
+  td .plus { display: block; color: var(--warn); font-size: .8rem; }
   footer { color: var(--muted); font-size: .8rem; margin-top: 2.5rem;
            border-top: 1px solid var(--line); padding-top: 1rem; }
   code { background: var(--card); padding: .1rem .35rem; border-radius: 5px; }
@@ -203,6 +222,52 @@ def render_pack(row, value, wants, packs, rates, rank, nothing_covers):
         f'{"".join(notes)}</article>')
 
 
+def render_row(row, value, wants, packs, rates):
+    """One line of the table under the cards: what it gives, what it all
+    costs, and what it would take to fill whatever it misses."""
+    unlimited = row["category"] == "Unlimited"
+    validity_want = wants[3]
+    repeats = repeats_needed(row, validity_want)
+
+    missing = topup(row, wants, packs, rates)
+    allin = period_price(row, validity_want) + sum(l.price for l in missing)
+    gaps = ("<span class=\"plus\">+ {} &mdash; BDT {:g}</span>".format(
+        ", ".join(esc(line.what) for line in missing),
+        sum(line.price for line in missing)) if missing else "")
+    buys = f" &times;{repeats}" if repeats > 1 else ""
+
+    cells = ["Unlimited" if unlimited else f"{row['data_gb']:g} GB",
+             f"{row['minutes']:g}", f"{row['sms']:g}",
+             f"{row['validity_days']:g}", f"BDT {row['price_bdt']:g}{buys}"]
+    return ("<tr><td>{}{}</td>{}<td><b>BDT {:g}</b></td>"
+            "<td>{:.0%}</td></tr>").format(
+                esc(row["offer_name"]), gaps,
+                "".join(f"<td>{c}</td>" for c in cells), allin, value)
+
+
+def render_more(results, wants, packs, rates, strict):
+    if not results:
+        return ""
+    rows = "".join(render_row(row, value, wants, packs, rates)
+                   for row, value in results)
+
+    # In strict mode the order comes from the hard rule -- coverage first,
+    # then the cost model -- so the all-in and value columns are genuinely
+    # not in order, and the note should not pretend they are.
+    order = ("Ordered by the strict rule, coverage first, so the last two "
+             "columns are not in order." if strict else
+             "Ranked the same way as the three above, by the all-in cost.")
+    return (
+        "<h2>More options</h2>"
+        f'<p class="more-note">{order} <b>All in</b> includes '
+        "filling anything the pack misses; a price shown &times;n is what "
+        "the repeat purchases cost over the whole period.</p>"
+        '<div class="scroll"><table><thead><tr>'
+        "<th>Pack</th><th>Data</th><th>Min</th><th>SMS</th><th>Days</th>"
+        "<th>Price</th><th>All in</th><th>Value</th>"
+        f"</tr></thead><tbody>{rows}</tbody></table></div>")
+
+
 def render_results(catalogue, rates, form):
     if not form["submitted"]:
         return ('<p class="empty">Tell it what you want and it will price '
@@ -210,7 +275,8 @@ def render_results(catalogue, rates, form):
 
     operator = form["operator"]
     wants = (form["data"], form["minutes"], form["sms"], form["validity"])
-    results = recommend(catalogue, rates, operator, wants, strict=form["strict"])
+    results = recommend(catalogue, rates, operator, wants,
+                        top=CARDS + MORE, strict=form["strict"])
     if not results:
         return f'<p class="empty">{esc(operator)} sells no buyable pack.</p>'
 
@@ -223,8 +289,9 @@ def render_results(catalogue, rates, form):
     cards = "".join(
         render_pack(row, value, wants, packs, rates[operator], rank,
                     nothing_covers)
-        for rank, (row, value) in enumerate(results))
-    return header + cards
+        for rank, (row, value) in enumerate(results[:CARDS]))
+    return header + cards + render_more(results[CARDS:], wants, packs,
+                                        rates[operator], form["strict"])
 
 
 def read_form(query, operators):
@@ -256,11 +323,8 @@ def render_page(catalogue, rates, operators, query):
     one invocation per request and no server to run.
     """
     form = read_form(query, operators)
-    matcher_line = (f"{len(catalogue)} buyable packs across "
-                    f"{len(operators)} operators. Matching algorithm only "
-                    f"&mdash; no trained model.")
+   
     return (PAGE
-            .replace("MATCHER_LINE", matcher_line)
             .replace("FORM_FIELDS", form_fields(operators, form))
             .replace("RESULTS", render_results(catalogue, rates, form))
             .replace("SMS_RATE", f"{SMS_TOPUP_BDT:g}")

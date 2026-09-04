@@ -316,7 +316,10 @@ python3 scripts/web.py --port 8080 --no-open
 ```
 
 One page: the same five inputs as a form, the same three packs as cards,
-the same arithmetic underneath. It imports `recommend`, `topup` and
+then seven more in a table under them &mdash; ten in all, ranked the same
+way, with each row showing what it gives, what it costs, what filling its
+gaps would add and the all-in total. `CARDS` and `MORE` at the top of the
+file set how many of each. The same arithmetic runs underneath. It imports `recommend`, `topup` and
 `period_price` straight out of `user_test.py`, so there is one matching
 algorithm in this project and the page cannot drift away from the command
 line — change the matcher and both change together.
