@@ -1,0 +1,72 @@
+Regular Data Package
+Volume,Validity,Price,USSD Code,Trigger Information
+7 Days
+100 MB,7 Days,TK 11,*111*501#,Yes
+500 MB,7 Days,TK 18,*111*717#,Yes
+1 GB,7 Days,TK 22,*111*534#,Yes
+2GB+ 102 MB Bonus,7 Days,TK 38,*111*736#,Yes
+3GB+ 154MB Bonus,7 Days,TK 46,*111*44#,Yes
+4GB+ 205MB bonus,7 Days,TK 55,*111*756#,Yes
+5GB+256MB Bonus,7 Days,TK 67,*111*764#,Yes
+10 GB,7 Days,TK 102,*111*97#,Yes
+15GB+768MB Bonus,7 Days,TK 136,*111*551#,Yes
+30 Days
+100 MB,30 Days,TK 23,*111*716#,Yes
+500 MB,30 Days,TK 37,*111*503#,Yes
+1 GB,30 Days,TK 56,*111*49#,Yes
+2 GB,30 Days,TK 88,*111*93#,Yes
+3 GB,30 Days,TK 131,*111*531#,Yes
+4 GB,30 Days,TK 166,*111*776#,Yes
+5 GB,30 Days,TK 191,*111*532#,Yes
+10 GB,30 Days,TK 226,*111*550#,Yes
+15 GB,30 Days,TK 259,*111*777#,Yes
+30 GB,30 Days,TK 359,*111*344#,Yes
+45 GB,30 Days,TK 419,*111*445#,Yes
+1 Day/ 3 Days
+1 GB,1 Day,TK16,*111*800#,Yes
+2 GB,1 Day,TK28,*111*801#,Yes
+3GB+ 154MB Bonus,3 Days,TK41,*111*802#,Yes
+Unlimited/ Uninterrupted/ Weekend Offer
+Unlimited,25 GB,TK 271,*111*309#,Yes
+Unlimited,50 GB,TK 563,*111*599#,Yes
+Unlimited,75 GB,TK 751,*111*799#,Yes
+Weekend Offer,1GB,TK13,*111*2024#,Yes
+"Uninterrupted Data Offer (1GB Per Day, 30GB in 30 Days)",30 GB,TK 284,*111*299#,Yes
+
+Unlimited Volume (24h),Unlimited,TK 73,*111*81#,No
+Unlimited Volume (2h),Unlimited,TK 19,*111*19#,Yes
+Regular Combo Package
+Volume,Validity,Price,USSD Code,Trigger Information
+1 GB+25 minute+10 SMS,7 days,Tk 39,*111*116#,Yes
+30 days,Tk 47,*111*118#,Yes
+1 GB+55 minute+50 SMS,7 days,Tk 52,*111*102#,Yes
+30 days,Tk 66,*111*121#,Yes
+1.2 GB+150 minute+120 SMS,7 days,Tk 100,*111*123#,Yes
+30 days,Tk 106,*111*103#,Yes
+5 GB+250 minute+50 SMS,7 days,Tk 167,*111*126#,Yes
+5 GB+250 minute+300 SMS,30 days,Tk 208,*111*104#,Yes
+10 GB+100 minute+50 SMS,30 days,Tk 218,*111*107#,Yes
+2 GB+350 minute+20 SMS,7 days,Tk 226,*111*132#,Yes
+30 days,Tk 234,*111*108#,Yes
+10 GB+350 minute+100 SMS,30 days,Tk 312,*111*105#,Yes
+5 GB+450 minute+50 SMS,7 days,Tk 298,*111*136#,Yes
+30 days,Tk 311,*111*109#,Yes
+12 GB+500 minute+350 SMS,30 days,Tk 416,*111*110#,Yes
+35 GB+800 minute+100SMS,30 days,Tk 572,*111*111#,Yes
+40GB+900 minute+100SMS,30 days,Tk 624,*111*112#,Yes
+50GB+1000 minute,30 days,Tk 648,*111*113#,No
+Minute Bundle Package
+Offer Name,Validity,Price,USSD,Trigger Information
+Minute_Bundle_23 Min,3 Days,Tk 15,*111*7*1#,Yes
+Minute_Bundle_53 Min,3 Days,Tk 34,*111*7*2#,Yes
+Minute_Bundle_75 Min,5 Days,Tk 49,*111*7*4#,Yes
+Minute_Bundle_143 Min,7 Days,Tk 91,*111*7*3#,Yes
+Minute_Bundle_477 Min,30 Days,Tk 301,*111*287#,Yes
+Minute_Bundle_108 Min,7 Days,Tk 69,*111*7*5#,Yes
+Minute_Bundle_116 Min,10 days,Tk 74,*111*7*6#,Yes
+Minute_Bundle_168 Min,30 Days,Tk 109,*111*7*7#,Yes
+Minute_Bundle_214 Min,30 Days,Tk 139,*111*7*8#,Yes
+SMS Bundle Package
+SMS_Bundle_Pack500,30 Days,Tk 61,*111*58#,Yes
+SMS_Bundle_Pack100,7 Days,Tk 14,*111*13#,Yes
+SMS_Bundle_Pack50,3 Days,Tk 7,*111*6#,Yes

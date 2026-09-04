@@ -1,0 +1,113 @@
+operator,offer_id,offer_name,category,data_gb,minutes,sms,validity_days,speed_cap_mbps,roaming,ussd_code,auto_renewal,source_page,price_per_gb,price_per_minute,price_per_sms,price_bdt
+Grameenphone,GPD250251R,0.78 GB,Data,0.78,0.0,0.0,1.0,0.0,No,Scratch Card,No,internet-packages,50.0,0,0,39.0
+Grameenphone,GPD250026R,0.98 GB,Data,0.98,0.0,0.0,3.0,0.0,No,*121*3091#,No,internet-packages,100.0,0,0,98.0
+Grameenphone,GPD250077R,3 GB,Data,3.0,0.0,0.0,3.0,0.0,No,*121*3188#,No,internet-packages,39.33,0,0,118.0
+Grameenphone,GPD250082R,2 GB,Data,2.0,0.0,0.0,7.0,0.0,No,*121*148#,Yes,internet-packages,74.0,0,0,148.0
+Grameenphone,GPD250021R,2.1 GB,Data,2.1,0.0,0.0,7.0,0.0,No,*121*3179#,Yes,internet-packages,85.24,0,0,179.0
+Grameenphone,GPD250027R,2.2 GB,Data,2.2,0.0,0.0,7.0,0.0,No,*121*3286#,Yes,internet-packages,90.0,0,0,198.0
+Grameenphone,GPD250032R,2.3 GB,Data,2.3,0.0,0.0,7.0,0.0,No,*121*3219#,Yes,internet-packages,95.22,0,0,219.0
+Grameenphone,GPD250037R,2.4 GB,Data,2.4,0.0,0.0,7.0,0.0,No,*121*3249#,Yes,internet-packages,103.75,0,0,249.0
+Grameenphone,GPD250027U,Uninterrupted Weekly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,7.0,10.0,No,*121*3298#,Yes,internet-packages,0,0,0,242.0
+Grameenphone,GPC240051B,0.1 GB + 10 Minutes,Combo,0.1,10.0,0.0,30.0,0.0,No,*121*259#,Yes,internet-packages,2590.0,25.9,0,259.0
+Grameenphone,GPC250007R,0.05 GB + 15 Minutes,Combo,0.05,15.0,0.0,28.0,0.0,No,*121*279#,Yes,internet-packages,5580.0,18.6,0,279.0
+Grameenphone,GPD250016R,2 GB,Data,2.0,0.0,0.0,30.0,0.0,No,*121*3297#,Yes,internet-packages,154.0,0,0,308.0
+Grameenphone,GPC250064R,0.5 GB + 20 Minutes,Combo,0.5,20.0,0.0,30.0,0.0,No,*121*398#,Yes,internet-packages,796.0,19.9,0,398.0
+Grameenphone,GPD250067R,1 GB,Data,1.0,0.0,0.0,30.0,0.0,No,*121*3609#,Yes,internet-packages,499.0,0,0,499.0
+Grameenphone,GPD250250R,30GB (1GB/Day),Data,30.0,0.0,0.0,30.0,0.0,No,*121*3228#,No,internet-packages,18.3,0,0,549.0
+Grameenphone,GPD250028R,3.5 GB,Data,3.5,0.0,0.0,30.0,0.0,No,*121*3619#,Yes,internet-packages,171.14,0,0,599.0
+Grameenphone,GPD250273R,60GB (2GB/Day),Data,60.0,0.0,0.0,30.0,0.0,No,*121*0649#,No,internet-packages,10.82,0,0,649.0
+Grameenphone,GPD250272R,4.5 GB,Data,4.5,0.0,0.0,30.0,0.0,No,*121*3639#,Yes,internet-packages,155.11,0,0,698.0
+Grameenphone,GPD250274R,90GB (3GB/Day),Data,90.0,0.0,0.0,30.0,0.0,No,*121*0749#,No,internet-packages,8.32,0,0,749.0
+Grameenphone,GPD250038R,4.5 GB,Data,4.5,0.0,0.0,30.0,0.0,No,*121*3648#,Yes,internet-packages,177.33,0,0,798.0
+Grameenphone,GPD250044R,5 GB,Data,5.0,0.0,0.0,30.0,0.0,No,*121*3898#,Yes,internet-packages,179.6,0,0,898.0
+Grameenphone,GPD250025U,Uninterrupted Monthly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,30.0,10.0,No,*121*3888#,No,internet-packages,0,0,0,806.0
+Grameenphone,GPD250026U,Uninterrupted Monthly Data Package ( upto 15Mbps speed),Unlimited,0.0,0.0,0.0,30.0,15.0,No,*121*3999#,No,internet-packages,0,0,0,899.0
+Grameenphone,GPD250276R,5 GB,Data,5.0,0.0,0.0,90.0,0.0,No,*121*0988#,No,internet-packages,197.6,0,0,988.0
+Grameenphone,GPD250045R,50 GB,Data,50.0,0.0,0.0,365.0,0.0,No,*121*3988#,No,internet-packages,39.76,0,0,1988.0
+Grameenphone,GPD250031R,1.2 GB,Data,1.2,0.0,0.0,3.0,0.0,No,*121*3908#,No,internet-packages,90.0,0,0,108.0
+Grameenphone,GPC250066R,0.6 GB + 23 Minutes,Combo,0.6,23.0,0.0,30.0,0.0,No,*121*498#,Yes,internet-packages,830.0,21.65,0,498.0
+Grameenphone,GPD250009U,25 GB,Data,25.0,0.0,0.0,730,0.0,No,*121*3017#,No,internet-packages,41.96,0,0,1049.0
+Grameenphone,GPD250010U,50 GB,Data,50.0,0.0,0.0,730,0.0,No,*121*3318#,No,internet-packages,32.98,0,0,1649.0
+Grameenphone,GPD250011U,75 GB,Data,75.0,0.0,0.0,730,0.0,No,*121*3319#,No,internet-packages,28.65,0,0,2149.0
+Grameenphone,GPD250046C,0.10 GB,Data,0.1,0.0,0.0,2.0,0.0,No,*121*1136#,No,internet-packages,380.0,0,0,38.0
+Grameenphone,GPC250039R,2GB+80Minutes+100SMS,Combo,2.0,80.0,100.0,7.0,0.0,No,*121*217#,Yes,internet-packages,108.5,2.71,2.17,217.0
+Grameenphone,GPC250040R,3GB+100Minutes+100SMS,Combo,3.0,100.0,100.0,7.0,0.0,No,*121*258#,Yes,internet-packages,86.0,2.58,2.58,258.0
+Grameenphone,GPC250069R,0.8GB+30Minutes,Combo,0.8,30.0,0.0,30.0,0.0,No,*121*598#,Yes,internet-packages,747.5,19.93,0,598.0
+Grameenphone,GPC250121R,2GB + 55 Minute,Combo,2.0,55.0,0.0,30.0,0.0,No,*121*699#,Yes,internet-packages,349.5,12.71,0,699.0
+Grameenphone,GPC250050R,1.5GB+60Minutes,Combo,1.5,60.0,0.0,30.0,0.0,No,*121*818#,Yes,internet-packages,545.33,13.63,0,818.0
+Grameenphone,GPC250051R,2GB+80Minutes+100SMS,Combo,2.0,80.0,100.0,30.0,0.0,No,*121*999#,Yes,internet-packages,499.5,12.49,9.99,999.0
+Grameenphone,GPC250052R,2.5GB+90Minutes,Combo,2.5,90.0,0.0,30.0,0.0,No,*121*1099#,Yes,internet-packages,439.6,12.21,0,1099.0
+Grameenphone,GPC250053R,3GB+100Minutes+100SMS,Combo,3.0,100.0,100.0,30.0,0.0,No,*121*1199#,Yes,internet-packages,399.67,11.99,11.99,1199.0
+Grameenphone,GPC250124R,4GB + 200Minutes,Combo,4.0,200.0,0.0,30.0,0.0,No,*121*1493#,Yes,internet-packages,373.25,7.46,0,1493.0
+Grameenphone,GPC250120R,3GB + 150 Minutes,Combo,3.0,150.0,0.0,90.0,0.0,No,*121*3997#,No,internet-packages,499.0,9.98,0,1497.0
+Grameenphone,GPC250054R,2GB + 60 Minutes,Combo,2.0,60.0,0.0,365.0,0.0,No,*121*2997#,No,internet-packages,1498.5,49.95,0,2997.0
+Grameenphone,GPD250147R,0.2 GB Streaming/Content,Data,0.2,0.0,0.0,3.0,0.0,No,*121*1043#,No,internet-packages,230.0,0,0,46.0
+Grameenphone,GPD250149R,0.51 GB Streaming/Content,Data,0.51,0.0,0.0,30.0,0.0,No,*121*1044#,No,internet-packages,325.49,0,0,166.0
+Grameenphone,GPD250162R,0.4 GB Internet + 0.3 GB Streaming/Content,Data,0.7,0.0,0.0,7.0,0.0,No,*121*1184#,No,internet-packages,265.71,0,0,186.0
+Grameenphone,GPD250168R,0.83 GB Internet + 0.71 GB Streaming/Content,Data,1.54,0.0,0.0,30.0,0.0,No,*121*1185#,No,internet-packages,250.65,0,0,386.0
+Grameenphone,GPD250199R,0.512 GB Streaming/Content,Data,0.512,0.0,0.0,30.0,0.0,No,*121*1183#,No,internet-packages,304.69,0,0,156.0
+Grameenphone,GPD250153R,0.41 GB Streaming/Content,Data,0.41,0.0,0.0,30.0,0.0,No,*121*1045#,No,internet-packages,648.78,0,0,266.0
+Grameenphone,GPD250155R,0.61 GB Streaming/Content,Data,0.61,0.0,0.0,30.0,0.0,No,*121*1046#,No,internet-packages,600.0,0,0,366.0
+Grameenphone,GPD250201R,1.12 GB Streaming/Content,Data,1.12,0.0,0.0,30.0,0.0,No,*121*1048#,No,internet-packages,416.07,0,0,466.0
+Grameenphone,GPD250164R,0.6 GB Internet + 0.5 GB Streaming/Content,Data,1.1,0.0,0.0,7.0,0.0,No,*121*1047#,No,internet-packages,223.64,0,0,246.0
+Grameenphone,GPD250165R,0.63 GB Streaming/Content,Data,0.63,0.0,0.0,30.0,0.0,No,*121*1191#,No,internet-packages,453.97,0,0,286.0
+Grameenphone,GPD250246R,0.48 GB Streaming/Content,Data,0.48,0.0,0.0,30.0,0.0,No,*121*117#,No,internet-packages,275.0,0,0,132.0
+Grameenphone,GPD250241R,0.15 GB Internet,Data,0.15,0.0,0.0,30.0,0.0,No,*121*1072#,No,internet-packages,513.33,0,0,77.0
+Grameenphone,GPD250249R,0.08 GB Internet,Data,0.08,0.0,0.0,15.0,0.0,No,*121*1333#,No,internet-packages,412.5,0,0,33.0
+Grameenphone,GPC250049R,1 GB + 50 Minutes,Combo,1.0,50.0,0.0,30.0,0.0,No,*121*799#,No,internet-packages,799.0,15.98,0,799.0
+Grameenphone,GPD260006R,2GB Internet,Data,2.0,0.0,0.0,7.0,0.0,No,*121*1130#,No,internet-packages,133.5,0,0,267.0
+Grameenphone,GPD260027R,300 MB Internet,Data,0.293,0.0,0.0,3.0,0.0,No,*121*1182#,No,internet-packages,194.54,0,0,57.0
+Grameenphone,GP-OFF-001,1 Number Plan (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.86,0.5,497.0
+Grameenphone,GP-OFF-002,Nishchinto Basic (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.9998,0.5,220.0
+Grameenphone,GP-OFF-003,djuice (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.9998,0.5,400.0
+Grameenphone,GP-OFF-004,Nishchinto (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.9998,0.5,400.0
+Grameenphone,GP-OFF-005,Bondhu (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.9998,0.5,0.0
+Grameenphone,GP-OFF-006,Smile (Prepaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,1.9998,0.5,0.0
+Grameenphone,GP-OFF-007,Prime (Postpaid plan),Tariff Plan,0.0,0.0,0.0,730,0.0,No,Unknown,Unknown,prepaid-postpaid-packages,0,0.6,0.0,0.0
+Grameenphone,GP-OFF-008,75 Minutes,Minute,0.0,75.0,0.0,2.0,0.0,No,*121*4405#,Unknown,bonus-minute-offer,0,0.65,0,49.0
+Grameenphone,GP-OFF-009,200 Minutes,Minute,0.0,200.0,0.0,7.0,0.0,No,*121*0139#,Unknown,bonus-minute-offer,0,0.69,0,139.0
+Grameenphone,GP-OFF-010,250 Minutes,Minute,0.0,250.0,0.0,30.0,0.0,No,*121*218#,Unknown,bonus-minute-offer,0,0.91,0,228.0
+Grameenphone,GP-OFF-011,330 Minutes,Minute,0.0,330.0,0.0,30.0,0.0,No,*121*268#,Unknown,bonus-minute-offer,0,0.81,0,268.0
+Grameenphone,GP-OFF-012,500 Minutes,Minute,0.0,500.0,0.0,30.0,0.0,No,*121*339#,Unknown,bonus-minute-offer,0,0.68,0,339.0
+Grameenphone,GP-OFF-013,820mins + 1TK/MIN + 500SMS,Combo,0.0,820.0,500.0,30.0,0.0,No,*121*519#,Unknown,all-one-minute-pack,0,0.63,1.04,519.0
+Grameenphone,GP-OFF-014,1020mins + 1TK/MIN + 2000SMS,Combo,0.0,1020.0,2000.0,30.0,0.0,No,*121*639#,Unknown,all-one-minute-pack,0,0.63,0.32,639.0
+Grameenphone,GP-OFF-015,1165mins + 1TK/MIN + 2000SMS,Combo,0.0,1165.0,2000.0,30.0,0.0,No,*121*729#,Unknown,all-one-minute-pack,0,0.63,0.36,729.0
+Grameenphone,GP-OFF-016,50 SMS 14TK (3 Day’s Validity Pack),SMS,0.0,0.0,50.0,3.0,0.0,No,*121*14#,Unknown,sms-packs,0,0,0.28,14.0
+Grameenphone,GP-OFF-017,110 SMS 26 TK (3 Day’s Validity Pack),SMS,0.0,0.0,110.0,3.0,0.0,No,*121*026#,Unknown,sms-packs,0,0,0.24,26.0
+Grameenphone,GP-OFF-018,210 SMS 47 TK (3 Day’s Validity Pack),SMS,0.0,0.0,210.0,3.0,0.0,No,*121*46#,Unknown,sms-packs,0,0,0.22,47.0
+Grameenphone,GP-OFF-019,100 SMS 28 TK (7 Day’s Validity Pack),SMS,0.0,0.0,100.0,7.0,0.0,No,*121*28#,Unknown,sms-packs,0,0,0.28,28.0
+Grameenphone,GP-OFF-020,210 SMS 49 TK (7 Day’s Validity Pack),SMS,0.0,0.0,210.0,7.0,0.0,No,*121*049#,Unknown,sms-packs,0,0,0.23,49.0
+Grameenphone,GP-OFF-021,110 SMS 37 TK (Monthly SMS Pack),SMS,0.0,0.0,110.0,30.0,0.0,No,*121*36#,Unknown,sms-packs,0,0,0.34,37.0
+Grameenphone,GP-OFF-022,215 SMS 66 TK (Monthly SMS Pack),SMS,0.0,0.0,215.0,30.0,0.0,No,*121*66#,Unknown,sms-packs,0,0,0.31,66.0
+Grameenphone,GP-OFF-023,350 SMS 86 TK (Monthly SMS Pack),SMS,0.0,0.0,350.0,30.0,0.0,No,*121*86#,Unknown,sms-packs,0,0,0.25,86.0
+Grameenphone,GP-OFF-024,500 SMS 93 TK (Monthly SMS Pack),SMS,0.0,0.0,500.0,30.0,0.0,No,*121*96#,Unknown,sms-packs,0,0,0.19,93.0
+Grameenphone,GP-OFF-025,52 SMS 18 TK (Priyotoma Pack),SMS,0.0,0.0,52.0,0.0,0.0,No,*121*18#,Unknown,sms-packs,0,0,0.35,18.0
+Grameenphone,GP-OFF-026,45 Days Hajj Internet Pack,Roaming,20.0,0.0,0.0,45.0,0.0,Yes,Unknown,Unknown,stay-connected-during-hajj,124.95,0,0,2499.0
+Grameenphone,GP-OFF-027,45 Days Hajj Combo Pack,Roaming,15.0,75.0,0.0,45.0,0.0,Yes,Unknown,Unknown,stay-connected-during-hajj,199.93,39.99,0,2999.0
+Grameenphone,GP-OFF-028,45 Days Hajj Combo Max Pack,Roaming,40.0,150.0,0.0,45.0,1.0,Yes,Unknown,Unknown,stay-connected-during-hajj,149.97,39.99,0,5999.0
+Grameenphone,GP-OFF-029,45 Days Hajj Voice Pack,Roaming,0.0,100.0,0.0,45.0,0.0,Yes,Unknown,Unknown,stay-connected-during-hajj,0,16.99,0,1699.0
+Grameenphone,GP-OFF-030,15 Days Hajj Combo,Roaming,6.0,10.0,0.0,15.0,0.0,Yes,Unknown,Unknown,stay-connected-during-hajj,166.5,99.9,0,999.0
+Grameenphone,GP-OFF-031,15 Days Hajj Combo Max,Roaming,10.0,50.0,0.0,15.0,1.0,Yes,Unknown,Unknown,stay-connected-during-hajj,199.9,39.98,0,1999.0
+Grameenphone,GP-OFF-032,15 Days Hajj Voice,Roaming,0.0,65.0,0.0,15.0,0.0,Yes,Unknown,Unknown,stay-connected-during-hajj,0,15.37,0,999.0
+Grameenphone,GP-OFF-033,7 Days Internet Roaming Pack @ 1499 TK,Roaming,5.25,0.0,0.0,7.0,0.0,Yes,*66*2*3#,Unknown,bonus-roaming-packs,380.57,0,0,1998.0
+Grameenphone,GP-OFF-034,15 Days Internet Roaming Pack @ 2199 TK,Roaming,8.25,0.0,0.0,15.0,0.0,Yes,*66*2*4#,Unknown,bonus-roaming-packs,355.27,0,0,2931.0
+Grameenphone,GP-OFF-035,30 Days Internet Roaming Pack @ 2999 TK,Roaming,11.25,0.0,0.0,30.0,0.0,Yes,*66*2*5#,Unknown,bonus-roaming-packs,355.29,0,0,3997.0
+Grameenphone,GP-OFF-036,"Probashi Pack (Unlimited Incoming SMS, 3 GB local bonus)",Roaming,3.0,0.0,0.0,1095.0,0.0,Yes,Unknown,Unknown,probashi-roaming-prepaid,331.33,0,0,994.0
+Grameenphone,GP-OFF-037,"Probashi Pack (Unlimited Incoming SMS, 5 GB local bonus)",Roaming,5.0,0.0,0.0,1825.0,0.0,Yes,Unknown,Unknown,probashi-roaming-prepaid,298.8,0,0,1494.0
+Grameenphone,GP-OFF-038,Play Pack Super + 500 SMS,Entertainment,0.0,0.0,500.0,30.0,0.0,No,Unknown,Unknown,play-packs,0,0,0.35,173.0
+Grameenphone,GP-OFF-039,Play Pack Sports + 335 SMS,Entertainment,0.0,0.0,335.0,30.0,0.0,No,Unknown,Unknown,play-packs,0,0,0.33,111.0
+Grameenphone,GP-OFF-040,3 Years Account Validity + 600 Minutes,Validity,0.0,600.0,0.0,30.0,0.0,No,Unknown,Unknown,account-validity-extender,0,1.66,0,997.0
+Grameenphone,GP-OFF-041,5 Years Account Validity + 900 Minutes,Validity,0.0,900.0,0.0,30.0,0.0,No,Unknown,Unknown,account-validity-extender,0,1.66,0,1498.0
+Grameenphone,GP-OFF-042,Main account validity extension (3 years),Validity,0.0,0.0,0.0,1095.0,0.0,No,Unknown,Unknown,validity-pack,0,0,0,695.0
+Grameenphone,GP-OFF-043,Main account validity extension (5 years),Validity,0.0,0.0,0.0,1825.0,0.0,No,Unknown,Unknown,validity-pack,0,0,0,995.0
+Grameenphone,GP-OFF-044,Shukhee 130 sms,SMS,0.0,0.0,130.0,5.0,0.0,No,Unknown,Unknown,shukhee-packs-offer,0,0,0.33,43.0
+Grameenphone,GP-OFF-045,Shukhee 330 sms,SMS,0.0,0.0,330.0,7.0,0.0,No,Unknown,Unknown,shukhee-packs-offer,0,0,0.34,112.0
+Grameenphone,GP-OFF-046,Shukhee 420 sms,SMS,0.0,0.0,420.0,15.0,0.0,No,Unknown,Unknown,shukhee-packs-offer,0,0,0.34,143.0
+Grameenphone,GP-OFF-047,Shukhee 120 minutes,Minute,0.0,120.0,0.0,30.0,0.0,No,Unknown,Unknown,shukhee-packs-offer,0,1.48,0,177.0
+Grameenphone,GP-OFF-048,Number One call rate recharge 34 TK,Call Rate,0.0,0.0,0.0,2.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,34.0
+Grameenphone,GP-OFF-049,Number One call rate recharge 64 TK,Call Rate,0.0,0.0,0.0,3.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,64.0
+Grameenphone,GP-OFF-050,Number One call rate recharge 94 TK,Call Rate,0.0,0.0,0.0,7.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,94.0
+Grameenphone,GP-OFF-051,Number One call rate recharge 208 TK,Call Rate,0.0,0.0,0.0,30.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,208.0
+Grameenphone,GP-OFF-052,Number One call rate recharge 309 TK,Call Rate,0.0,0.0,0.0,60.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,309.0
+Grameenphone,GP-OFF-053,Number One call rate recharge 509 TK,Call Rate,0.0,0.0,0.0,90.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,509.0
+Grameenphone,GP-OFF-054,Number One call rate recharge 989 TK,Call Rate,0.0,0.0,0.0,365.0,0.0,No,Unknown,Unknown,number-one-call-rate-offer,0,0.6,0,989.0

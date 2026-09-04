@@ -1,0 +1,868 @@
+SIM Operator ,SIM  Type ,Packages Type  ,"Package Volume 
+(Data/ Minutes/ SMS)","Validity
+(Days/Hours )","Price
+(BDT)"
+Airtel,Regular SIM ,Data ,1GB FB + Insta,15 Days,12
+Airtel,Regular SIM ,Data ,300MB,3 Days,17
+Airtel,Regular SIM ,Data ,700 MB (100MB Bonus),3 Days,29
+Airtel,Regular SIM ,Data ,612 MB,3 Days,32
+Airtel,Regular SIM ,Data ,612 MB,30 Days,132
+Airtel,Regular SIM ,Data ,750 MB,3 Days,38
+Airtel,Regular SIM ,Data ,2.5GB (1.1GB Bonus),3 Days,49
+Airtel,Regular SIM ,Data ,1.5 GB,3 Days,57
+Airtel,Regular SIM ,Data ,2 GB,7 Days,101
+Airtel,Regular SIM ,Data ,3GB,3 Days,63
+Airtel,Regular SIM ,Data ,3GB,30 Days,229
+Airtel,Regular SIM ,Data ,5 GB,3 Days,68
+Airtel,Regular SIM ,Data ,4.5GB,7 Days,114
+Airtel,Regular SIM ,Data ,5GB,30 Days,249
+Airtel,Regular SIM ,Data ,3 GB,3 Days,76
+Airtel,Regular SIM ,Data ,5.5GB,3 Days,89
+Airtel,Regular SIM ,Data ,5GB,7 Days,129
+Airtel,Regular SIM ,Data ,20GB (5GB Bonus),7 Days,147
+Airtel,Regular SIM ,Data ,20GB (5GB Bonus),30 Days,344
+Airtel,Regular SIM ,Data ,30GB,30 Days,398
+Airtel,Regular SIM ,Data ,35GB ( 5GB Bonus),30 Days,429
+Airtel,Regular SIM ,Data ,800 MB 15 min,30 Days,36
+Airtel,Regular SIM ,Combo Package ,1GB + 20min,3 Days,36
+Airtel,Regular SIM ,Combo Package ,1.5 GB + 25 min,3 Days,67
+Airtel,Regular SIM ,Combo Package ,1.5GB + 25min,7 Days,98
+Airtel,Regular SIM ,Combo Package ,1GB + 70Min,30 Days,158
+Airtel,Regular SIM ,Combo Package ,3GB + 150Min,7 Days,128
+Airtel,Regular SIM ,Combo Package ,4GB + 150Min,30 Days,198
+Airtel,Regular SIM ,Combo Package ,4GB + 475min,30 Days,298
+Airtel,Regular SIM ,Combo Package ,7GB + 300Min,30 Days,299
+Airtel,Regular SIM ,Combo Package ,6 GB + 200Min,30 Days,348
+Airtel,Regular SIM ,Combo Package ,25GB + 700Min,30 Days,498
+Airtel,Regular SIM ,Combo Package ,28GB + 750min,30 Days,548
+Airtel,Regular SIM ,Combo Package ,35GB + 900Min,30 Days,598
+Airtel,Regular SIM ,Combo Package ,25GB + 500 Min,30 Days,648
+Airtel,Regular SIM ,Combo Package ,40 GB + 600 Min,30 Days,799
+Airtel,Regular SIM ,Combo Package ,4 GB + 475 Min,3 Days,293
+Airtel,Regular SIM ,Combo Package ,4 GB + 475 Min,7 Days,295
+Airtel,Regular SIM ,Combo Package ,4 GB + 475 Min,15 Days,297
+Airtel,Regular SIM ,Combo Package ,1 GB + 1000 Min,3 Days,601
+Airtel,Regular SIM ,Combo Package ,1 GB + 1000 Min,7 Days,602
+Airtel,Regular SIM ,Combo Package ,1 GB + 1000 Min,15 Days,603
+Airtel,Regular SIM ,Combo Package ,1 GB + 1000 Min,30 Days,604
+Airtel,Regular SIM ,Combo Package ,1 GB + 1000 Min,30 Days,604
+Airtel,Regular SIM ,Data ,1.4 GB,3 Days,49
+Airtel,Regular SIM ,Data ,1.7 GB,3  Days,49
+Airtel,Regular SIM ,Combo Package ,10 GB + 300 MIN,30 Days ,348
+Airtel,Regular SIM ,Combo Package ,4 GB + 200 MIN,30 Days ,198
+Airtel,Regular SIM ,Combo Package ,3GB + 150Min,30 Days ,219
+Airtel,Regular SIM ,Combo Package ,8GB + 200Min,30 Days ,397
+Airtel,Regular SIM ,Data ,40 GB,30 Days ,549
+Airtel,Regular SIM ,Data ,15 GB,30 Days ,399
+Airtel,Regular SIM ,Combo Package ,30 GB + 600Min,30 Days ,719
+Airtel,Regular SIM ,Combo Package ,1.5GB + 15 Min,3 Days,44
+Airtel,Regular SIM ,Combo Package ,5GB + 200Min,30 Days ,269
+Airtel,Regular SIM ,Data ,35 GB,30 Days ,497
+Airtel,Regular SIM ,Data ,2 GB,3 Days,41
+Airtel,Regular SIM ,Data ,20 GB,7 Days,147
+Airtel,Regular SIM ,Data ,2 GB,7 Days,60
+Airtel,Regular SIM ,Data ,10 GB,3 Days,89
+Airtel,Regular SIM ,Data ,3.5 GB,3 Days,57
+Airtel,Regular SIM ,Data ,12 GB ,7 Days,129
+Airtel,Regular SIM ,Data ,300 MB,3 Days,19
+Airtel,Regular SIM ,Data ,45 GB,30 Days,449
+Airtel,Regular SIM ,Data ,16 GB,15 Days,200
+Airtel,Regular SIM ,Data ,6 GB,3 Days,68
+Airtel,Regular SIM ,Data ,18 GB,30 Days,349
+Airtel,Regular SIM ,Data ,25 GB,7 Days,164
+Airtel,Regular SIM ,Data ,6 GB,7 Days,114
+Airtel,Regular SIM ,Data ,2.5 GB,3 Days,49
+Airtel,Regular SIM ,Data ,8 GB,3 Days,76
+Airtel,Regular SIM ,Data ,50 GB,30 Days,497
+Airtel,Regular SIM ,Data ,800 MB,3 Days,32
+Airtel,Regular SIM ,Data ,60 GB,30 Days,549
+Airtel,Regular SIM ,Data ,32 GB,30 Days,399
+Airtel,Regular SIM ,Minutes ,10 Minutes,1 Day,6
+Airtel,Regular SIM ,Minutes ,12 Minutes,2 Days,8
+Airtel,Regular SIM ,Minutes ,21 Minutes,2 Days,14
+Airtel,Regular SIM ,Minutes ,30 Minutes,2 Days,18
+Airtel,Regular SIM ,Minutes ,46 Minutes,2 Days,28
+Airtel,Regular SIM ,Minutes ,55 Minutes,4 Days,34
+Airtel,Regular SIM ,Minutes ,75 Minutes,7 Days,48
+Airtel,Regular SIM ,Combo Package ,"14 Min, 16 SMS",24 Hours,9
+Airtel,Regular SIM ,Combo Package ,"16 Min, 19 SMS",24 Hours,10.96
+Airtel,Regular SIM ,Minutes ,28 Minutes,24 Hours,18
+Airtel,Regular SIM ,Minutes ,35 Minutes,2 Days,23
+Airtel,Regular SIM ,Minutes ,70 Minutes,7 Days,46
+Airtel,Regular SIM ,Minutes ,85 Minutes,7 Days,53
+Airtel,Regular SIM ,Minutes ,115 Minutes,7 Days,74
+Airtel,Regular SIM ,Minutes ,130 Minutes,7 Days,78
+Airtel,Regular SIM ,Minutes ,145 Minutes,7 Days,93
+Airtel,Regular SIM ,Minutes ,160 Minutes,7 Days,97
+Airtel,Regular SIM ,Combo Package ,"1.5GB, 40 Min, 50 SMS",7 Days,98
+Airtel,Regular SIM ,Minutes ,175 Minutes,10 Days,107
+Airtel,Regular SIM ,Minutes ,190 Minutes,15 Days,118
+Airtel,Regular SIM ,Combo Package ,"235 Min, 250 SMS, 1GB",30 Days,149
+Airtel,Regular SIM ,Minutes ,275 Minutes,30 Days,169
+Airtel,Regular SIM ,Combo Package ,"80 Min, 2GB",30 Day,198
+Airtel,Regular SIM ,Minutes ,330 Minutes,30 Day,199
+Airtel,Regular SIM ,Minutes ,340 Minutes,30 Day,207
+Airtel,Regular SIM ,Combo Package ,"370 Min, 800 SMS, 500MB 4G",30 Days,228
+Airtel,Regular SIM ,Combo Package ,"440 Min, 1GB",30 Days,278
+Airtel,Regular SIM ,Minutes ,510 Minutes,30 Days,307
+Airtel,Regular SIM ,Combo Package ,"580 Min, 500SMS",30 Days,349
+Airtel,Regular SIM ,Minutes ,830 Minutes,30 Days,499
+Airtel,Regular SIM ,Combo Package ,1000 Min+1GB,30 Days,604
+Airtel,Regular SIM ,Combo Package ,"950 Min, 800 SMS, 2GB",30 Days,574
+Airtel,Regular SIM ,SMS,800 SMS,3 DAYS,15
+Airtel,Regular SIM ,SMS,3000 SMS,6 DAYS,37
+Airtel,Regular SIM ,SMS,4000 SMS,6 DAYS,47
+Airtel,Regular SIM ,SMS,5000 SMS,6 DAYS,57
+Airtel,Regular SIM ,SMS,1500 SMS,30 DAYS,25
+Airtel,Regular SIM ,SMS,150 SMS,24 Hours,5
+Airtel,Regular SIM ,SMS,40 SMS,12 Hours,2
+Airtel,Reactivation SIM ,Minutes ,30 MINUTE,7 Days,18
+Airtel,Reactivation SIM ,Minutes ,55 MINUTE,15 Days,34
+Airtel,Reactivation SIM ,Combo Package ,3GB + 30MINUTE + 48 PAISA/MINUTE (+TAX),7 Days Rate Cutter 30 Days,37
+Airtel,Reactivation SIM ,Minutes ,75 MINUTE,30 Days,46
+Airtel,Reactivation SIM ,Data ,8 GB,7 Days,77
+Airtel,Reactivation SIM ,Combo Package ,6 GB + 120 MINUTE,30 Days,119
+Banglalink ,Regular SIM ,Data ,300 MB,30 Days,76
+Banglalink ,Regular SIM ,Data ,5 GB,7 Days,46
+Banglalink ,Regular SIM ,Data ,10 GB,30 Days,96
+Banglalink ,Regular SIM ,Data ,5 GB,7 Days,129
+Banglalink ,Regular SIM ,Data ,200 MB,3 Days,18
+Banglalink ,Regular SIM ,Data ,1.5 GB,3 Days,49
+Banglalink ,Regular SIM ,Data ,512 MB,7 Days,51
+Banglalink ,Regular SIM ,Data ,2 GB,7 Days,114
+Banglalink ,Regular SIM ,Data ,11 GB,7 Days,149
+Banglalink ,Regular SIM ,Data ,15 GB,7 Days,169
+Banglalink ,Regular SIM ,Data ,1.5 GB,30 Days,209
+Banglalink ,Regular SIM ,Data ,3 GB,30 Days,249
+Banglalink ,Regular SIM ,Data ,5 GB,30 Days,299
+Banglalink ,Regular SIM ,Data ,35 GB,30 Days,499
+Banglalink ,Regular SIM ,Data ,15 GB,30 Days,399
+Banglalink ,Regular SIM ,Data ,3 GB,3 Days,68
+Banglalink ,Regular SIM ,Data ,512 MB,3 Days,36
+Banglalink ,Regular SIM ,Data ,2 GB,3 Days,58
+Banglalink ,Regular SIM ,Data ,2 GB,15 Days,194
+Banglalink ,Regular SIM ,Data ,200 MB,15 Days,63
+Banglalink ,Regular SIM ,Data ,1 GB,15 Days,116
+Banglalink ,Regular SIM ,Data ,512 MB,15 Days,91
+Banglalink ,Regular SIM ,Data ,5 GB,365 Days,306
+Banglalink ,Regular SIM ,Data ,30 GB,30 Days,389
+Banglalink ,Regular SIM ,Data ,60 GB,30 Days,619
+Banglalink ,Regular SIM ,Data ,8 GB,3 Days,89
+Banglalink ,Regular SIM ,Data ,100 MB,3 Days,9
+Banglalink ,Regular SIM ,Data ,300 MB,3 Days,19
+Banglalink ,Regular SIM ,Data ,50 GB,30 Days,599
+Banglalink ,Regular SIM ,Data ,8 GB,7 Days,139
+Banglalink ,Regular SIM ,Data ,3 GB,30 Days,99
+Banglalink ,Regular SIM ,Data ,1 GB,30 Days,141
+Banglalink ,Regular SIM ,Data ,3 GB,3 Days,54
+Banglalink ,Regular SIM ,Data ,45 GB,30 Days,497
+Banglalink ,Regular SIM ,Data ,4 GB,2  Days,22
+Banglalink ,Regular SIM ,Data ,6 GB,3 Days,33
+Banglalink ,Regular SIM ,Data ,15 GB,10 Days,547
+Banglalink ,Regular SIM ,Data ,40 GB,10 Days,1199
+Banglalink ,Regular SIM ,Data ,1 GB,3 Days,29
+Banglalink ,Regular SIM ,Data ,4 GB,15 Days,76
+Banglalink ,Regular SIM ,Data ,1 GB,3 Days,42
+Banglalink ,Regular SIM ,Data ,5 GB,3 Days,78
+Banglalink ,Regular SIM ,Data ,3 GB,7 Days,122
+Banglalink ,Regular SIM ,Data ,3 GB,15 Days,204
+Banglalink ,Regular SIM ,Data ,11 GB,15 Days,342
+Banglalink ,Regular SIM ,Data ,25 GB,30 Days,449
+Banglalink ,Regular SIM ,Data ,60 GB,15 Days,542
+Banglalink ,Regular SIM ,Data ,60 GB,30 Days,699
+Banglalink ,Regular SIM ,Data ,2 GB,30 Days,239
+Banglalink ,Regular SIM ,Data ,35 GB,15 Days,462
+Banglalink ,Regular SIM ,Data ,50 GB,15 Days,512
+Banglalink ,Regular SIM ,Data ,2 GB,7 Days,99
+Banglalink ,Regular SIM ,Data ,10 GB,30 Days,388
+Banglalink ,Regular SIM ,Minutes ,15 Minutes,2 Days,9
+Banglalink ,Regular SIM ,Minutes ,10 Minutes,1 Days,6
+Banglalink ,Regular SIM ,Minutes ,19 Minutes,2 Days,12
+Banglalink ,Regular SIM ,Minutes ,28 Minutes,2 Days,17
+Banglalink ,Regular SIM ,Minutes ,45 Minutes,3 Days,27
+Banglalink ,Regular SIM ,Minutes ,55 Minutes,4 Days,37
+Banglalink ,Regular SIM ,Minutes ,100 Minutes,7 Days,66
+Banglalink ,Regular SIM ,Minutes ,85 Minutes,7 Days,57
+Banglalink ,Regular SIM ,Minutes ,120 Minutes,7 Days,77
+Banglalink ,Regular SIM ,Minutes ,190 Minutes,15ÿDays,117
+Banglalink ,Regular SIM ,Minutes ,230 Minutes,30 Days,147
+Banglalink ,Regular SIM ,Minutes ,230 Minutes,30 Days,157
+Banglalink ,Regular SIM ,Minutes ,460 Minutes,30 Days,297
+Banglalink ,Regular SIM ,Minutes ,340 Minutes,30 Days,207
+Banglalink ,Regular SIM ,Minutes ,510 Minutes,30 Days,307
+Banglalink ,Regular SIM ,Minutes ,300 Minutes,30 Days,197
+Banglalink ,Regular SIM ,Minutes ,235 Minutes,30 Days,137
+Banglalink ,Regular SIM ,Minutes ,160 Minutes,7 Days,97
+Banglalink ,Regular SIM ,Minutes ,178 Minutes,7 Days,107
+Banglalink ,Regular SIM ,Combo Package ,"48 Minutes, 150MB",7 Days,38
+Banglalink ,Regular SIM ,Combo Package ,"95 Minutes, 0.5GB, 10 SMS",7 Days,88
+Banglalink ,Regular SIM ,Combo Package ,"150 Minutes, 1GB, 30 SMS",30 Days,188
+Banglalink ,Regular SIM ,Combo Package ,"280 Minutes, 2GB, 30 SMS",30 Days,288
+Banglalink ,Regular SIM ,Combo Package ,"490 Minutes, 4GB, 30 SMS",30 Days,488
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,7 days,59
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,60 days,159
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,2 Days,21
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,3 Days,29
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,7ÿDays,39
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,30ÿDays,59
+Banglalink ,Regular SIM ,Minutes ,69 paisa/ min,30ÿDays,69
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,10 Days,79
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,30 Days,109
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,60 Days,159
+Banglalink ,Regular SIM ,SMS,500 SMS,30 Days,30
+Banglalink ,Regular SIM ,SMS,200 SMS,15 Days,15
+Banglalink ,Regular SIM ,SMS,70 SMS,7 Days,7
+Banglalink ,Regular SIM ,SMS,30 SMS,3 Days,3
+Banglalink ,Reactivation SIM ,Data ,8GB+150Min,30 DAYS,158
+Banglalink ,Reactivation SIM ,Data ,7GB,7 DAYS,58
+Banglalink ,Reactivation SIM ,Minutes ,60p/min,30 DAYS,39
+Banglalink ,Reactivation SIM ,Minutes ,90 Min (Any),90 DAYS,57
+Banglalink ,Reactivation SIM ,Data ,3GB,7 DAYS,49
+Banglalink ,Regular SIM ,Data ,15GB,UnlimitedÿDays,547
+Banglalink ,Regular SIM ,Data ,40GB,UnlimitedÿDays,"1,199"
+Banglalink ,Regular SIM ,Data ,5GB,365ÿDays,306
+Banglalink ,Regular SIM ,Data ,30GB (1GB Daily),30 Days,389
+Banglalink ,Regular SIM ,Data ,50GB (2GB Daily),30 Days,619
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,7 days,59
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,60 days,159
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,2 Days,21
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,3 Days,29
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,7ÿDays,39
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,30ÿDays,59
+Banglalink ,Regular SIM ,Minutes ,69 paisa/ min,30ÿDays,69
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,10 Days,79
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,30 Days,109
+Banglalink ,Regular SIM ,Minutes ,66 paisa/ min,60 Days,159
+Banglalink ,Regular SIM ,Minutes ,48p/min (any) BL App,7 Days,43
+GP,Regular SIM ,Data ,200 MB,3 Days,9
+GP,Regular SIM ,Data ,200 MB,3 Days,9
+GP,Regular SIM ,Data ,450 MB,3 Days,19
+GP,Regular SIM ,Data ,512MB,3 Days,38
+GP,Regular SIM ,Data ,1GB,3 Days,43
+GP,Regular SIM ,Data ,1.5GB,3 Days,58
+GP,Regular SIM ,Data ,2GB,3 Days,69
+GP,Regular SIM ,Data ,4GB,3 Days,84
+GP,Regular SIM ,Data ,4.5GB,3 Days,89
+GP,Regular SIM ,Data ,7GB,3 Days,98
+GP,Regular SIM ,Data ,15GB,3 Days,118
+GP,Regular SIM ,Data ,1GB,3 Days,63
+GP,Regular SIM ,Data ,2GB,3 Days,83
+GP,Regular SIM ,Data ,200 MB,7 Days,26
+GP,Regular SIM ,Data ,450 MB,7 Days,51
+GP,Regular SIM ,Data ,512MB,7 Days,56
+GP,Regular SIM ,Data ,1GB,7 Days,63
+GP,Regular SIM ,Data ,1.5GB,7 Days,112
+GP,Regular SIM ,Data ,2GB,7 Days,114
+GP,Regular SIM ,Data ,4GB,7 Days,129
+GP,Regular SIM ,Data ,4.5GB,7 Days,148
+GP,Regular SIM ,Data ,7GB,7 Days,159
+GP,Regular SIM ,Data ,15GB,7 Days,179
+GP,Regular SIM ,Data ,20GB,7 Days,198
+GP,Regular SIM ,Data ,1.2GB,7 Days,17
+GP,Regular SIM ,Data ,1GB,7 Days,134
+GP,Regular SIM ,Data ,2GB,7 Days,164
+GP,Regular SIM ,Data ,200 MB,15 Days,55
+GP,Regular SIM ,Data ,450 MB,15 Days,75
+GP,Regular SIM ,Data ,512MB,15 Days,96
+GP,Regular SIM ,Data ,1GB,15 Days,109
+GP,Regular SIM ,Data ,1.5GB,15 Days,166
+GP,Regular SIM ,Data ,2GB,15 Days,177
+GP,Regular SIM ,Data ,4GB,15 Days,214
+GP,Regular SIM ,Data ,4.5GB,15 Days,299
+GP,Regular SIM ,Data ,20GB,15 Days,476
+GP,Regular SIM ,Data ,45GB,15 Days,538
+GP,Regular SIM ,Data ,60GB,15 Days,642
+GP,Regular SIM ,Data ,200 MB,30 Days,88
+GP,Regular SIM ,Data ,450 MB,30 Days,108
+GP,Regular SIM ,Data ,512MB,30 Days,126
+GP,Regular SIM ,Data ,1GB,30 Days,143
+GP,Regular SIM ,Data ,1.5GB,30 Days,211
+GP,Regular SIM ,Data ,2GB,30 Days,209
+GP,Regular SIM ,Data ,4GB,30 Days,299
+GP,Regular SIM ,Data ,4.5GB,30 Days,319
+GP,Regular SIM ,Data ,7GB,30 Days,359
+GP,Regular SIM ,Data ,15GB,30 Days,398
+GP,Regular SIM ,Data ,20GB,30 Days,499
+GP,Regular SIM ,Data ,45GB,30 Days,599
+GP,Regular SIM ,Data ,60GB,30 Days,698
+GP,Regular SIM ,Data ,1GB,30 Days,399
+GP,Regular SIM ,Data ,2GB,30 Days,598
+GP,Regular SIM ,Data ,1.5GB,30 Days,497
+GP,Regular SIM ,Data ,3GB,30 Days,749
+GP,Regular SIM ,Data ,5GB,365 Days,449
+GP,Regular SIM ,Data ,40GB,48628 Days,1199
+GP,Regular SIM ,Data ,15GB,48628 Days,549
+GP,Regular SIM ,Minutes,8 Minutes,4 Hours,5
+GP,Regular SIM ,Minutes,11 Minutes,4 Hours,7
+GP,Regular SIM ,Minutes,18 Minutes,12 Hours,14
+GP,Regular SIM ,Minutes,27 Minutes,24 Hours,19
+GP,Regular SIM ,Minutes,45 Minutes,2 Days,29
+GP,Regular SIM ,Minutes,55 Minutes,2 Days,36
+GP,Regular SIM ,Minutes,65 Minutes,3 Days,44
+GP,Regular SIM ,Minutes,80 Minutes,3 Days,48
+GP,Regular SIM ,Minutes,80 Minutes,7 Days,59
+GP,Regular SIM ,Minutes,100 Minutes,7 Days,68
+GP,Regular SIM ,Minutes,110 Minutes,7 Days,74
+GP,Regular SIM ,Minutes,180 Minutes,7 Days,108
+GP,Regular SIM ,Minutes,200 Minutes,7 Days,124
+GP,Regular SIM ,Minutes,210 Minutes,7 Days,128
+GP,Regular SIM ,Minutes,200 Minutes,10 Days,132
+GP,Regular SIM ,Minutes,200 Minutes,15ÿDays,157
+GP,Regular SIM ,Minutes,200 Minutes,30ÿDays,174
+GP,Regular SIM ,Combo Package ,330 Min+512MB,30ÿDays,218
+GP,Regular SIM ,Minutes,400 Minutes,30ÿDays,248
+GP,Regular SIM ,Minutes,400 Minutes,30ÿDays,258
+GP,Regular SIM ,Minutes,600 Minutes,30ÿDays,378
+GP,Regular SIM ,Minutes,750 Minutes,30 Days,498
+GP,Regular SIM ,Minutes,800 Minutes,30 Days,488
+GP,Regular SIM ,Combo Package ,"1,000 Min+1GB",30ÿDays,609
+GP,Reactivation SIM ,Combo Package ,1200Min+1GB,30ÿDays,727
+GP,Reactivation SIM ,Combo Package ,5GB+150MIN,30 Days,130
+GP,Reactivation SIM ,Data ,6GB,7 Days,60
+GP,Reactivation SIM ,Combo Package ,2GB+50MIN,3 Days,45
+GP,Reactivation SIM ,Combo Package ,30GB+750Min,30 Days,619
+GP,Reactivation SIM ,Minutes,125Min,30 Days,75
+GP,Regular SIM ,SMS,25 SMS,3 Days,2
+GP,Regular SIM ,SMS,100 (GP-GP),4 Days,7
+GP,Regular SIM ,SMS,50 SMS,30 Days,8
+GP,Regular SIM ,SMS,200 SMS,30 Days,10
+GP,Regular SIM ,SMS,500 SMS,30 Days,18
+GP,Regular SIM ,SMS,"1,000 SMS",30 Days,22
+GP,Regular SIM ,SMS,"2,000 SMS",30 Days,29
+GP,Regular SIM ,Minutes,1 Poisha/Sec,90 Days,309
+GP,Regular SIM ,Minutes,1 Tk/min (all inclusive),15 Days,48
+GP,Regular SIM ,Minutes,1 Tk/min (all inclusive),30 Days,79
+GP,Regular SIM ,Minutes,69 Poisha/minute,60 Days,209
+GP,Regular SIM ,Minutes,69 Poisha/minute,30 Days,109
+GP,Regular SIM ,Minutes,69 Poisha/minute,7 Days,49
+GP,Regular SIM ,Minutes,69 Poisha/minute,2 Days,21
+GP,Regular SIM ,Combo Package ,150Min+3.5 GB (2.5 GB + 1 GB Bonus),7 days,149
+GP,Regular SIM ,Combo Package ,250Min+3.5 GB,30 days,299
+GP,Regular SIM ,Combo Package ,300Min+8 GB (6 GB + 2 GB Bonus),30 days,397
+GP,Regular SIM ,Combo Package ,350Min+12 GB (6 GB + 6 GB Bonus),30 days,498
+GP,Regular SIM ,Combo Package ,700Min+20 GB (15 GB + 5 GB Bonus),30 days,699
+GP,Regular SIM ,Combo Package ,800Min+35 GB (25GB + 10 GB Bonus),30 days,799
+GP,Regular SIM ,Combo Package ,1000Min+50 GB,30 days,899
+GP,Regular SIM ,Combo Package ,1600Min+50GB + 500 SMS,30 days,998
+Robi,Regular SIM ,Combo Package ,50 GB + 1000 Minutes,15 Days,949
+Robi,Regular SIM ,Combo Package ,50 GB + 1000 Minutes,30 Days,998
+Robi,Regular SIM ,Data ,50 GB,15 Days,469
+Robi,Regular SIM ,Data ,50 GB ,30 Days,698
+Robi,Regular SIM ,Data ,45 GB ,30 Days,598
+Robi,Regular SIM ,Combo Package ,40 GB + 700 Minutes,30 Days,899
+Robi,Regular SIM ,Combo Package ,40 GB + 700 Minutes,15 Days,769
+Robi,Regular SIM ,Combo Package ,40 GB + 700 Minutes ,15 Days,559
+Robi,Regular SIM ,Combo Package ,40 GB + 600 Minutes ,30 Days,799
+Robi,Regular SIM ,Data ,35 GB,30 Days,549
+Robi,Regular SIM ,Data ,35 GB,15 Days,439
+Robi,Regular SIM ,Data ,22 GB,15 Days,459
+Robi,Regular SIM ,Combo Package ,22 GB + 600 Minutes,30 Days,719
+Robi,Regular SIM ,Combo Package ,18 GB + 400 Minutes,15 Days,359
+Robi,Regular SIM ,Data ,16 GB,7 Days,178
+Robi,Regular SIM ,Data ,16 GB,15 Days,279
+Robi,Regular SIM ,Data ,16 GB,30 Days,497
+Robi,Regular SIM ,Data ,15 GB,30 Days,399
+Robi,Regular SIM ,Data ,15 GB,15 Days,209
+Robi,Regular SIM ,Combo Package ,15 GB + 350 Minutes,15 Days,548
+Robi,Regular SIM ,Data ,10 GB,30 Days,164
+Robi,Regular SIM ,Combo Package ,8 GB + 200 Minutes,7 Days,397
+Robi,Regular SIM ,Data ,8 GB,7 Days,148
+Robi,Regular SIM ,Data ,8 GB,3 Days,96
+Robi,Regular SIM ,Data ,7 GB,7 Days,319
+Robi,Regular SIM ,Data ,6 GB,30 Days,299
+Robi,Regular SIM ,Data ,6 GB,3 Days,107
+Robi,Regular SIM ,Data ,5 GB,3 Days,89
+Robi,Regular SIM ,Data ,5 GB,3 Days,131
+Robi,Regular SIM ,Combo Package ,5 GB + 150 Minutes,7 Days,208
+Robi,Regular SIM ,Data ,3 GB,15 Days,114
+Robi,Regular SIM ,Combo Package ,3 GB + 100 Minutes,7 Days,196
+Robi,Regular SIM ,Data ,3 GB ,7 Days,76
+Robi,Regular SIM ,Data ,3 GB,30 Days,264
+Robi,Regular SIM ,Combo Package ,3 GB + 100 Minutes,30 Days,269
+Robi,Regular SIM ,Combo Package ,2 GB + 30 Minutes,15 Days,154
+Robi,Regular SIM ,Data ,2 GB,30 Days,239
+Robi,Regular SIM ,Data ,2 GB,3 Days,63
+Robi,Regular SIM ,Data ,2 GB,15 Days,171
+Robi,Regular SIM ,Combo Package ,2 GB + 30 minutes,7 Days,124
+Robi,Regular SIM ,Data ,1.5 GB,3 Days,57
+Robi,Regular SIM ,Combo Package ,1 GB + 30 Minutes,7 Days,98
+Robi,Regular SIM ,Combo Package ,1 GB + 30 Minutes,15 Days,138
+Robi,Regular SIM ,Combo Package ,1 GB + 100 Minutes,7 Days,149
+Robi,Regular SIM ,Combo Package ,1 GB + 20 Minutes,30 Days,197
+Robi,Regular SIM ,Data ,912 MB,3 Days,46
+Robi,Regular SIM ,Data ,812 MB,3 Days,41
+Robi,Regular SIM ,Data ,812 MB,7 Days,189
+Robi,Regular SIM ,Data ,712 MB,3 Days,38
+Robi,Regular SIM ,Data ,612 MB,30 Days,132
+Robi,Regular SIM ,Data ,612 MB,15 Days,123
+Robi,Regular SIM ,Data ,612 MB,7 Days,84
+Robi,Regular SIM ,Data ,400 MB,30 Days,25
+Robi,Regular SIM ,Data ,200 MB,7 Days,29
+Robi,Regular SIM ,Minutes,10 Minutes,6 Hours,8
+Robi,Regular SIM ,Minutes,19 Minutes,16 Hours,14
+Robi,Regular SIM ,Minutes,42 Minutes,2 Days,27
+Robi,Regular SIM ,Minutes,65 Minutes,2 Days,43
+Robi,Regular SIM ,Minutes,95 Minutes,7 Days,64
+Robi,Regular SIM ,Minutes,155 Minutes,7 Days,99
+Robi,Regular SIM ,Minutes,230 Minutes,30 Days,169
+Robi,Regular SIM ,Minutes,320 Minutes,30 Days,207
+Robi,Regular SIM ,Minutes,840 Minutes,30 Days,507
+Robi,Regular SIM ,Minutes,120 Minutes,7 Days,78
+Robi,Regular SIM ,Minutes,500 Minutes,30 Days,307
+Robi,Regular SIM ,Combo Package ,550 Minutes +10GB,30 Days,350
+Robi,Regular SIM ,Minutes,530 Minutes,30 Days,320
+Robi,Regular SIM ,Minutes,1600 Minutes,30 Days,997
+Robi,Regular SIM ,Minutes,220 Minutes,15 Days,144
+Robi,Regular SIM ,Combo Package ,"20GB, 400Min & 100 SMS",30 Days,599
+Robi,Regular SIM ,Minutes,470 Minutes,30 Days,288
+Robi,Regular SIM ,Combo Package ,"700 MB, 20 Min & 25 SMS",7 Days,58
+Robi,Regular SIM ,Combo Package ,"5GB, 480 Min & 100 SMS",30 Days,599
+Robi,Regular SIM ,Combo Package ,"2GB, 140 Min & 150 SMS",28 Days,251
+Robi,Regular SIM ,Minutes,270 Minutes,30 Days,183
+Robi,Regular SIM ,Minutes,90 Minutes,10 Days,61
+Robi ,Reactivation SIM ,Combo Package ,30GB+700 Minutes,30 Days,448
+Robi ,Reactivation SIM ,Combo Package ,6GB+120 Minutes,30 Days,119
+Robi ,Reactivation SIM ,Data ,8GB,7 Days,77
+Robi ,Reactivation SIM ,Data ,6.5GB,7 Days,48
+Robi ,Reactivation SIM ,Combo Package ,47p/ min call rate,30 Days,47
+Robi ,Reactivation SIM ,Combo Package ,3GB+30 min+48p/ min call rate,7 Days,37
+Robi ,Reactivation SIM ,Combo Package ,1GB+45 Minutes,7 Days,31
+Robi ,Regular SIM ,SMS,180 SMS,30 Days,5
+Robi ,Regular SIM ,SMS,450 SMS,30 Days,10
+Robi ,Regular SIM ,SMS,1400 SMS,30 Days,20
+Robi ,Regular SIM ,Combo Package ,"350 SMS, 60MB",3 DAYS,15
+Robi ,Regular SIM ,Combo Package ,"100 SMS, 20MB",1 DAY,5
+Robi ,Regular SIM ,minutes,"54 p/min, any",3 Days,47
+Robi ,Regular SIM ,minutes,"60 p/min, any",90 Days,208
+Robi ,Regular SIM ,minutes,66p/min,2 Days,21
+Robi ,Regular SIM ,minutes,66p/min,6 Days,39
+Robi ,Regular SIM ,minutes,66p/min,7 Days,49
+Robi ,Regular SIM ,minutes,66p/min,30 Days,109
+Robi ,Regular SIM ,minutes,66p/min,60 Days,166
+Teletalk ,Regular SIM ,Data,100MB,15 Days,18
+Teletalk ,Regular SIM ,Data,500MB,15 Days,32
+Teletalk ,Regular SIM ,Data,1GB,15 Days,38
+Teletalk ,Regular SIM ,Data,2GB,15 Days,67
+Teletalk ,Regular SIM ,Data,3GB,15 Days,98
+Teletalk ,Regular SIM ,Data,4GB,15 Days,119
+Teletalk ,Regular SIM ,Data,5GB,15 Days,136
+Teletalk ,Regular SIM ,Data,20GB,15 Days,152
+Teletalk ,Regular SIM ,Data,25GB,15 Days,159
+Teletalk ,Regular SIM ,Data,30GB,15 Days,189
+Teletalk ,Regular SIM ,Data,45GB,15 Days,259
+Teletalk ,Regular SIM ,Data,100MB,3 Days,9
+Teletalk ,Regular SIM ,Data,500MB,3 Days,17
+Teletalk ,Regular SIM ,Data,1GB,3 Days,21
+Teletalk ,Regular SIM ,Data,2GB,3 Days,36
+Teletalk ,Regular SIM ,Data,3GB,3 Days,44
+Teletalk ,Regular SIM ,Data,4GB,3 Days,56
+Teletalk ,Regular SIM ,Data,5GB,3 Days,64
+Teletalk ,Regular SIM ,Data,100MB,30 Days,21
+Teletalk ,Regular SIM ,Data,500MB,30 Days,39
+Teletalk ,Regular SIM ,Data,1GB,30 Days,59
+Teletalk ,Regular SIM ,Data,2GB,30 Days,93
+Teletalk ,Regular SIM ,Data,3GB,30 Days,139
+Teletalk ,Regular SIM ,Data,4GB,30 Days,176
+Teletalk ,Regular SIM ,Data,5GB,30 Days,201
+Teletalk ,Regular SIM ,Data,10GB,30 Days,239
+Teletalk ,Regular SIM ,Data,15GB,30 Days,276
+Teletalk ,Regular SIM ,Data,20GB,30 Days,301
+Teletalk ,Regular SIM ,Data,25GB,30 Days,319
+Teletalk ,Regular SIM ,Data,30GB,30 Days,344
+Teletalk ,Regular SIM ,Data,45GB,30 Days,445
+Teletalk ,Regular SIM ,Data,100MB,7 Days,13
+Teletalk ,Regular SIM ,Data,500MB,7 Days,25
+Teletalk ,Regular SIM ,Data,1GB,7 Days,27
+Teletalk ,Regular SIM ,Data,2GB,7 Days,47
+Teletalk ,Regular SIM ,Data,3GB,7 Days,57
+Teletalk ,Regular SIM ,Data,4GB,7 Days,69
+Teletalk ,Regular SIM ,Data,5GB,7 Days,78
+Teletalk ,Regular SIM ,Data,10GB,7 Days,97
+Teletalk ,Regular SIM ,Data,15GB,7 Days,129
+Teletalk ,Regular SIM ,Combo Package ,1 GB+25 minute+10 SMS,3 Days,33ÿ
+Teletalk ,Regular SIM ,Combo Package ,1 GB+25 minute+10 SMS,15 Days,41
+Teletalk ,Regular SIM ,Combo Package ,1 GB+55 minute+50 SMS,15 Days,54
+Teletalk ,Regular SIM ,Combo Package ,1.2 GB+150 minute+120 SMSÿ,15 Days,98
+Teletalk ,Regular SIM ,Combo Package ,5 GB+250 minute+300 SMS,15 Days,187ÿ
+Teletalk ,Regular SIM ,Combo Package ,2 GB+350 minute+20 SMSÿ,15 Days,221
+Teletalk ,Regular SIM ,Combo Package ,5 GB+450 minute+50 SMSÿ,15 Days,292ÿ
+Teletalk ,Regular SIM ,Combo Package ,10 GB+100 minute+50 SMSÿ,15 Days,193ÿ
+Teletalk ,Regular SIM ,Combo Package ,10 GB+350 minute+100 SMSÿ,15 Days,287ÿ
+Teletalk ,Regular SIM ,Combo Package ,12 GB+500 minute+350 SMSÿ,15 Days,387
+Teletalk ,Regular SIM ,Combo Package ,35 GB+800 minute+100SMSÿ,15 Days,537
+Teletalk ,Regular SIM ,Combo Package ,40GB+900 minute+100SMSÿ,15 Days,587
+Teletalk ,Regular SIM ,Combo Package ,50GB+1000 minute+200SMSÿ,15 Days,633ÿ
+Teletalk ,Regular SIM ,Combo Package ,1.2 GB+150 minute+120 SMSÿ,3 Days,94ÿ
+Teletalk ,Regular SIM ,Combo Package ,1 GB+55 minute+50 SMS,3 Days,42
+Teletalk ,Regular SIM ,Combo Package ,5 GB+250 minute+300 SMS,3 Days,168
+Teletalk ,Regular SIM ,Combo Package ,2 GB+350 minute+20 SMSÿ,3 Days,213ÿ
+Teletalk ,Regular SIM ,Combo Package ,5 GB+450 minute+50 SMSÿ,3 Days,273
+Teletalk ,Regular SIM ,Combo Package ,1 GB+25 minute+10 SMS,30 Days,43
+Teletalk ,Regular SIM ,Combo Package ,1 GB+55 minute+50 SMS,30 Days,63ÿ
+Teletalk ,Regular SIM ,Combo Package ,2 GB+350 minute+20 SMSÿ,30 Days,224
+Teletalk ,Regular SIM ,Combo Package ,10 GB+350 minute+100 SMSÿ,30 Days,299
+Teletalk ,Regular SIM ,Combo Package ,5 GB+450 minute+50 SMSÿ,30 Days,297
+Teletalk ,Regular SIM ,Combo Package ,35 GB+800 minute+100SMSÿ,30 Days,548ÿ
+Teletalk ,Regular SIM ,Combo Package ,40GB+900 minute+100SMSÿ,30 Days,598
+Teletalk ,Regular SIM ,Combo Package ,1.2 GB+150 minute+120 SMSÿ,30 Days,101ÿ
+Teletalk ,Regular SIM ,Combo Package ,5 GB+250 minute+300 SMS,30 Days,199ÿ
+Teletalk ,Regular SIM ,Combo Package ,10 GB+100 minute+50 SMSÿ,30ÿ Days,209
+Teletalk ,Regular SIM ,Combo Package ,12 GB+500 minute+350 SMSÿ,30 Days,399
+Teletalk ,Regular SIM ,Combo Package ,50GB+1000 minute+200SMSÿ,30 Days,648
+Teletalk ,Regular SIM ,Combo Package ,1 GB+25 minute+10 SMS,7 Days,37
+Teletalk ,Regular SIM ,Combo Package ,1 GB+55 minute+50 SMS,7 Days,50
+Teletalk ,Regular SIM ,Combo Package ,1.2 GB+150 minute+120 SMSÿ,7 Days,96ÿ
+Teletalk ,Regular SIM ,Combo Package ,5 GB+250 minute+300 SMS,7 Days,181
+Teletalk ,Regular SIM ,Combo Package ,2 GB+350 minute+20 SMSÿ,7ÿ Days,217ÿ
+Teletalk ,Regular SIM ,Combo Package ,5 GB+450 minute+50 SMSÿ,7 Days,286
+Teletalk ,Regular SIM ,minutes,23 Minutes,3 Days,14
+Teletalk ,Regular SIM ,minutes,53 Minutes,5 Days,32
+Teletalk ,Regular SIM ,minutes,143 Minutes,7 Days,86
+Teletalk ,Regular SIM ,minutes,477 Minutes,30 Days,287
+Teletalk ,Regular SIM ,Combo Package ,12min+15 SMS+50MB,3 Days,10
+Teletalk ,Regular SIM ,Combo Package ,55min+50 SMS+1GB,7 Days,50
+Teletalk ,Regular SIM ,Combo Package ,150min+120 SMS+1GB,30 Days,101
+Teletalk ,Regular SIM ,Minutes,143 Minutes,7 Days,86
+Teletalk ,Regular SIM ,Combo Package ,168 Min+97 SMS,10 Days,101
+Teletalk ,Regular SIM ,Minutes,477 Minutes,30 Days,287
+Teletalk ,Regular SIM ,Combo Package ,380 Min+100 SMS+1.5GB,30 Days,299
+Teletalk ,Regular SIM ,SMS,96 SMS ,5 Days,10
+Teletalk ,Reactivation SIM ,Data,1GB,30 DAYS,21
+Teletalk ,Reactivation SIM ,Minutes,45.p/ Min. Call Rate,90 DAYS,0
+Teletalk ,Reactivation SIM ,Data,2GB Free Data,7 DAYS,0
+Teletalk ,Reactivation SIM ,Data,6GB,UnlimitedÿDays,127
+Teletalk ,Reactivation SIM ,Data,26GB,UnlimitedÿDays,309
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

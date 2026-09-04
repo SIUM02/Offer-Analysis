@@ -1,0 +1,1138 @@
+operator,offer_id,offer_name,category,data_gb,minutes,sms,validity_days,ussd_code,source_page,price_per_gb,price_per_minute,price_per_sms,price_bdt
+Grameenphone,GPD250251R,0.78 GB,Data,0.78,0.0,0.0,1.0,Scratch Card,internet-packages,50.0,0.0,0.0,39.0
+Grameenphone,GPD250026R,0.98 GB,Data,0.98,0.0,0.0,3.0,*121*3091#,internet-packages,100.0,0.0,0.0,98.0
+Grameenphone,GPD250077R,3 GB,Data,3.0,0.0,0.0,3.0,*121*3188#,internet-packages,39.33,0.0,0.0,118.0
+Grameenphone,GPD250082R,2 GB,Data,2.0,0.0,0.0,7.0,*121*148#,internet-packages,74.0,0.0,0.0,148.0
+Grameenphone,GPD250021R,2.1 GB,Data,2.1,0.0,0.0,7.0,*121*3179#,internet-packages,85.24,0.0,0.0,179.0
+Grameenphone,GPD250027R,2.2 GB,Data,2.2,0.0,0.0,7.0,*121*3286#,internet-packages,90.0,0.0,0.0,198.0
+Grameenphone,GPD250032R,2.3 GB,Data,2.3,0.0,0.0,7.0,*121*3219#,internet-packages,95.22,0.0,0.0,219.0
+Grameenphone,GPD250037R,2.4 GB,Data,2.4,0.0,0.0,7.0,*121*3249#,internet-packages,103.75,0.0,0.0,249.0
+Grameenphone,GPD250027U,Uninterrupted Weekly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,7.0,*121*3298#,internet-packages,0.0,0.0,0.0,242.0
+Grameenphone,GPC240051B,0.1 GB + 10 Minutes,Combo,0.1,10.0,0.0,30.0,*121*259#,internet-packages,2590.0,25.9,0.0,259.0
+Grameenphone,GPC250007R,0.05 GB + 15 Minutes,Combo,0.05,15.0,0.0,28.0,*121*279#,internet-packages,5580.0,18.6,0.0,279.0
+Grameenphone,GPD250016R,2 GB,Data,2.0,0.0,0.0,30.0,*121*3297#,internet-packages,154.0,0.0,0.0,308.0
+Grameenphone,GPC250064R,0.5 GB + 20 Minutes,Combo,0.5,20.0,0.0,30.0,*121*398#,internet-packages,796.0,19.9,0.0,398.0
+Grameenphone,GPD250067R,1 GB,Data,1.0,0.0,0.0,30.0,*121*3609#,internet-packages,499.0,0.0,0.0,499.0
+Grameenphone,GPD250250R,30GB (1GB/Day),Data,30.0,0.0,0.0,30.0,*121*3228#,internet-packages,18.3,0.0,0.0,549.0
+Grameenphone,GPD250028R,3.5 GB,Data,3.5,0.0,0.0,30.0,*121*3619#,internet-packages,171.14,0.0,0.0,599.0
+Grameenphone,GPD250273R,60GB (2GB/Day),Data,60.0,0.0,0.0,30.0,*121*0649#,internet-packages,10.82,0.0,0.0,649.0
+Grameenphone,GPD250272R,4.5 GB,Data,4.5,0.0,0.0,30.0,*121*3639#,internet-packages,155.11,0.0,0.0,698.0
+Grameenphone,GPD250274R,90GB (3GB/Day),Data,90.0,0.0,0.0,30.0,*121*0749#,internet-packages,8.32,0.0,0.0,749.0
+Grameenphone,GPD250038R,4.5 GB,Data,4.5,0.0,0.0,30.0,*121*3648#,internet-packages,177.33,0.0,0.0,798.0
+Grameenphone,GPD250044R,5 GB,Data,5.0,0.0,0.0,30.0,*121*3898#,internet-packages,179.6,0.0,0.0,898.0
+Grameenphone,GPD250025U,Uninterrupted Monthly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,30.0,*121*3888#,internet-packages,0.0,0.0,0.0,806.0
+Grameenphone,GPD250026U,Uninterrupted Monthly Data Package ( upto 15Mbps speed),Unlimited,0.0,0.0,0.0,30.0,*121*3999#,internet-packages,0.0,0.0,0.0,899.0
+Grameenphone,GPD250276R,5 GB,Data,5.0,0.0,0.0,90.0,*121*0988#,internet-packages,197.6,0.0,0.0,988.0
+Grameenphone,GPD250045R,50 GB,Data,50.0,0.0,0.0,365.0,*121*3988#,internet-packages,39.76,0.0,0.0,1988.0
+Grameenphone,GPD250031R,1.2 GB,Data,1.2,0.0,0.0,3.0,*121*3908#,internet-packages,90.0,0.0,0.0,108.0
+Grameenphone,GPC250066R,0.6 GB + 23 Minutes,Combo,0.6,23.0,0.0,30.0,*121*498#,internet-packages,830.0,21.65,0.0,498.0
+Grameenphone,GPD250009U,25 GB,Data,25.0,0.0,0.0,730.0,*121*3017#,internet-packages,41.96,0.0,0.0,1049.0
+Grameenphone,GPD250010U,50 GB,Data,50.0,0.0,0.0,730.0,*121*3318#,internet-packages,32.98,0.0,0.0,1649.0
+Grameenphone,GPD250011U,75 GB,Data,75.0,0.0,0.0,730.0,*121*3319#,internet-packages,28.65,0.0,0.0,2149.0
+Grameenphone,GPD250046C,0.10 GB,Data,0.1,0.0,0.0,2.0,*121*1136#,internet-packages,380.0,0.0,0.0,38.0
+Grameenphone,GPC250039R,2GB+80Minutes+100SMS,Combo,2.0,80.0,100.0,7.0,*121*217#,internet-packages,108.5,2.71,2.17,217.0
+Grameenphone,GPC250040R,3GB+100Minutes+100SMS,Combo,3.0,100.0,100.0,7.0,*121*258#,internet-packages,86.0,2.58,2.58,258.0
+Grameenphone,GPC250069R,0.8GB+30Minutes,Combo,0.8,30.0,0.0,30.0,*121*598#,internet-packages,747.5,19.93,0.0,598.0
+Grameenphone,GPC250121R,2GB + 55 Minute,Combo,2.0,55.0,0.0,30.0,*121*699#,internet-packages,349.5,12.71,0.0,699.0
+Grameenphone,GPC250050R,1.5GB+60Minutes,Combo,1.5,60.0,0.0,30.0,*121*818#,internet-packages,545.33,13.63,0.0,818.0
+Grameenphone,GPC250051R,2GB+80Minutes+100SMS,Combo,2.0,80.0,100.0,30.0,*121*999#,internet-packages,499.5,12.49,9.99,999.0
+Grameenphone,GPC250052R,2.5GB+90Minutes,Combo,2.5,90.0,0.0,30.0,*121*1099#,internet-packages,439.6,12.21,0.0,1099.0
+Grameenphone,GPC250053R,3GB+100Minutes+100SMS,Combo,3.0,100.0,100.0,30.0,*121*1199#,internet-packages,399.67,11.99,11.99,1199.0
+Grameenphone,GPC250124R,4GB + 200Minutes,Combo,4.0,200.0,0.0,30.0,*121*1493#,internet-packages,373.25,7.46,0.0,1493.0
+Grameenphone,GPC250120R,3GB + 150 Minutes,Combo,3.0,150.0,0.0,90.0,*121*3997#,internet-packages,499.0,9.98,0.0,1497.0
+Grameenphone,GPC250054R,2GB + 60 Minutes,Combo,2.0,60.0,0.0,365.0,*121*2997#,internet-packages,1498.5,49.95,0.0,2997.0
+Grameenphone,GPD250147R,0.2 GB Streaming/Content,Data,0.2,0.0,0.0,3.0,*121*1043#,internet-packages,230.0,0.0,0.0,46.0
+Grameenphone,GPD250149R,0.51 GB Streaming/Content,Data,0.51,0.0,0.0,30.0,*121*1044#,internet-packages,325.49,0.0,0.0,166.0
+Grameenphone,GPD250162R,0.4 GB Internet + 0.3 GB Streaming/Content,Data,0.7,0.0,0.0,7.0,*121*1184#,internet-packages,265.71,0.0,0.0,186.0
+Grameenphone,GPD250168R,0.83 GB Internet + 0.71 GB Streaming/Content,Data,1.54,0.0,0.0,30.0,*121*1185#,internet-packages,250.65,0.0,0.0,386.0
+Grameenphone,GPD250199R,0.512 GB Streaming/Content,Data,0.512,0.0,0.0,30.0,*121*1183#,internet-packages,304.69,0.0,0.0,156.0
+Grameenphone,GPD250153R,0.41 GB Streaming/Content,Data,0.41,0.0,0.0,30.0,*121*1045#,internet-packages,648.78,0.0,0.0,266.0
+Grameenphone,GPD250155R,0.61 GB Streaming/Content,Data,0.61,0.0,0.0,30.0,*121*1046#,internet-packages,600.0,0.0,0.0,366.0
+Grameenphone,GPD250201R,1.12 GB Streaming/Content,Data,1.12,0.0,0.0,30.0,*121*1048#,internet-packages,416.07,0.0,0.0,466.0
+Grameenphone,GPD250164R,0.6 GB Internet + 0.5 GB Streaming/Content,Data,1.1,0.0,0.0,7.0,*121*1047#,internet-packages,223.64,0.0,0.0,246.0
+Grameenphone,GPD250165R,0.63 GB Streaming/Content,Data,0.63,0.0,0.0,30.0,*121*1191#,internet-packages,453.97,0.0,0.0,286.0
+Grameenphone,GPD250246R,0.48 GB Streaming/Content,Data,0.48,0.0,0.0,30.0,*121*117#,internet-packages,275.0,0.0,0.0,132.0
+Grameenphone,GPD250241R,0.15 GB Internet,Data,0.15,0.0,0.0,30.0,*121*1072#,internet-packages,513.33,0.0,0.0,77.0
+Grameenphone,GPD250249R,0.08 GB Internet,Data,0.08,0.0,0.0,15.0,*121*1333#,internet-packages,412.5,0.0,0.0,33.0
+Grameenphone,GPC250049R,1 GB + 50 Minutes,Combo,1.0,50.0,0.0,30.0,*121*799#,internet-packages,799.0,15.98,0.0,799.0
+Grameenphone,GPD260006R,2GB Internet,Data,2.0,0.0,0.0,7.0,*121*1130#,internet-packages,133.5,0.0,0.0,267.0
+Grameenphone,GPD260027R,300 MB Internet,Data,0.293,0.0,0.0,3.0,*121*1182#,internet-packages,194.54,0.0,0.0,57.0
+Grameenphone,GP-OFF-008,75 Minutes,Minute,0.0,75.0,0.0,2.0,*121*4405#,bonus-minute-offer,0.0,0.65,0.0,49.0
+Grameenphone,GP-OFF-009,200 Minutes,Minute,0.0,200.0,0.0,7.0,*121*0139#,bonus-minute-offer,0.0,0.69,0.0,139.0
+Grameenphone,GP-OFF-010,250 Minutes,Minute,0.0,250.0,0.0,30.0,*121*218#,bonus-minute-offer,0.0,0.91,0.0,228.0
+Grameenphone,GP-OFF-011,330 Minutes,Minute,0.0,330.0,0.0,30.0,*121*268#,bonus-minute-offer,0.0,0.81,0.0,268.0
+Grameenphone,GP-OFF-012,500 Minutes,Minute,0.0,500.0,0.0,30.0,*121*339#,bonus-minute-offer,0.0,0.68,0.0,339.0
+Grameenphone,GP-OFF-013,820mins + 1TK/MIN + 500SMS,Combo,0.0,820.0,500.0,30.0,*121*519#,all-one-minute-pack,0.0,0.63,1.04,519.0
+Grameenphone,GP-OFF-014,1020mins + 1TK/MIN + 2000SMS,Combo,0.0,1020.0,2000.0,30.0,*121*639#,all-one-minute-pack,0.0,0.63,0.32,639.0
+Grameenphone,GP-OFF-015,1165mins + 1TK/MIN + 2000SMS,Combo,0.0,1165.0,2000.0,30.0,*121*729#,all-one-minute-pack,0.0,0.63,0.36,729.0
+Grameenphone,GP-OFF-016,50 SMS 14TK (3 Day’s Validity Pack),SMS,0.0,0.0,50.0,3.0,*121*14#,sms-packs,0.0,0.0,0.28,14.0
+Grameenphone,GP-OFF-017,110 SMS 26 TK (3 Day’s Validity Pack),SMS,0.0,0.0,110.0,3.0,*121*026#,sms-packs,0.0,0.0,0.24,26.0
+Grameenphone,GP-OFF-018,210 SMS 47 TK (3 Day’s Validity Pack),SMS,0.0,0.0,210.0,3.0,*121*46#,sms-packs,0.0,0.0,0.22,47.0
+Grameenphone,GP-OFF-019,100 SMS 28 TK (7 Day’s Validity Pack),SMS,0.0,0.0,100.0,7.0,*121*28#,sms-packs,0.0,0.0,0.28,28.0
+Grameenphone,GP-OFF-020,210 SMS 49 TK (7 Day’s Validity Pack),SMS,0.0,0.0,210.0,7.0,*121*049#,sms-packs,0.0,0.0,0.23,49.0
+Grameenphone,GP-OFF-021,110 SMS 37 TK (Monthly SMS Pack),SMS,0.0,0.0,110.0,30.0,*121*36#,sms-packs,0.0,0.0,0.34,37.0
+Grameenphone,GP-OFF-022,215 SMS 66 TK (Monthly SMS Pack),SMS,0.0,0.0,215.0,30.0,*121*66#,sms-packs,0.0,0.0,0.31,66.0
+Grameenphone,GP-OFF-023,350 SMS 86 TK (Monthly SMS Pack),SMS,0.0,0.0,350.0,30.0,*121*86#,sms-packs,0.0,0.0,0.25,86.0
+Grameenphone,GP-OFF-024,500 SMS 93 TK (Monthly SMS Pack),SMS,0.0,0.0,500.0,30.0,*121*96#,sms-packs,0.0,0.0,0.19,93.0
+Grameenphone,GP-OFF-025,52 SMS 18 TK (Priyotoma Pack),SMS,0.0,0.0,52.0,0.0,*121*18#,sms-packs,0.0,0.0,0.35,18.0
+Grameenphone,GP-OFF-038,Play Pack Super + 500 SMS,Entertainment,0.0,0.0,500.0,30.0,Unknown,play-packs,0.0,0.0,0.35,173.0
+Grameenphone,GP-OFF-039,Play Pack Sports + 335 SMS,Entertainment,0.0,0.0,335.0,30.0,Unknown,play-packs,0.0,0.0,0.33,111.0
+Grameenphone,GP-OFF-040,3 Years Account Validity + 600 Minutes,Validity,0.0,600.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,997.0
+Grameenphone,GP-OFF-041,5 Years Account Validity + 900 Minutes,Validity,0.0,900.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,1498.0
+Grameenphone,GP-OFF-042,Main account validity extension (3 years),Validity,0.0,0.0,0.0,1095.0,Unknown,validity-pack,0.0,0.0,0.0,695.0
+Grameenphone,GP-OFF-043,Main account validity extension (5 years),Validity,0.0,0.0,0.0,1825.0,Unknown,validity-pack,0.0,0.0,0.0,995.0
+Grameenphone,GP-OFF-044,Shukhee 130 sms,SMS,0.0,0.0,130.0,5.0,Unknown,shukhee-packs-offer,0.0,0.0,0.33,43.0
+Grameenphone,GP-OFF-045,Shukhee 330 sms,SMS,0.0,0.0,330.0,7.0,Unknown,shukhee-packs-offer,0.0,0.0,0.34,112.0
+Grameenphone,GP-OFF-046,Shukhee 420 sms,SMS,0.0,0.0,420.0,15.0,Unknown,shukhee-packs-offer,0.0,0.0,0.34,143.0
+Grameenphone,GP-OFF-047,Shukhee 120 minutes,Minute,0.0,120.0,0.0,30.0,Unknown,shukhee-packs-offer,0.0,1.48,0.0,177.0
+Grameenphone,GP-OFF-048,Number One call rate recharge 34 TK,Call Rate,0.0,0.0,0.0,2.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,34.0
+Grameenphone,GP-OFF-049,Number One call rate recharge 64 TK,Call Rate,0.0,0.0,0.0,3.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,64.0
+Grameenphone,GP-OFF-050,Number One call rate recharge 94 TK,Call Rate,0.0,0.0,0.0,7.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,94.0
+Grameenphone,GP-OFF-051,Number One call rate recharge 208 TK,Call Rate,0.0,0.0,0.0,30.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,208.0
+Grameenphone,GP-OFF-052,Number One call rate recharge 309 TK,Call Rate,0.0,0.0,0.0,60.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,309.0
+Grameenphone,GP-OFF-053,Number One call rate recharge 509 TK,Call Rate,0.0,0.0,0.0,90.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,509.0
+Grameenphone,GP-OFF-054,Number One call rate recharge 989 TK,Call Rate,0.0,0.0,0.0,365.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,989.0
+Banglalink,TK119DATAUSSD72HRR,Banglalink Prepaid 6 gb at only Tk. 119 recharge!,Data,6.0,0.0,0.0,3.0,*121*119#,offers/prepaid/internet,19.83,0.0,0.0,119.0
+Banglalink,TK348USSD260510R,Banglalink Prepaid 6GB Tk. 348!,Data,6.0,0.0,0.0,30.0,*121*348#,offers/prepaid/internet,58.0,0.0,0.0,348.0
+Banglalink,TK98USSDBLD260028A,Banglalink Prepaid 5GB Tk. 98!,Data,5.0,0.0,0.0,1.0,*121*98#,offers/prepaid/internet,19.6,0.0,0.0,98.0
+Banglalink,TK398USSD260010R,Banglalink Prepaid 10GB Tk. 398!,Data,10.0,0.0,0.0,30.0,*121*398#,offers/prepaid/internet,39.8,0.0,0.0,398.0
+Banglalink,TK498USSDBLD260023D,Banglalink Prepaid 25GB Tk. 498!,Data,25.0,0.0,0.0,30.0,*121*498#,offers/prepaid/internet,19.92,0.0,0.0,498.0
+Banglalink,TK598DATAUSSD30D,Banglalink Prepaid 35GB Tk. 598!,Data,35.0,0.0,0.0,30.0,*121*598#,offers/prepaid/internet,17.09,0.0,0.0,598.0
+Banglalink,TK698DATAUSSD,Banglalink Prepaid 75GB Tk. 698!,Data,75.0,0.0,0.0,30.0,*121*698#,offers/prepaid/internet,9.31,0.0,0.0,698.0
+Banglalink,TK798DATAUSSD,Banglalink Prepaid 100GB Tk. 798!,Data,100.0,0.0,0.0,30.0,*121*798#,offers/prepaid/internet,7.98,0.0,0.0,798.0
+Banglalink,TK898USSDBLD260066R,Banglalink Prepaid 120GB Tk. 898!,Data,120.0,0.0,0.0,30.0,*121*898#,offers/prepaid/internet,7.48,0.0,0.0,898.0
+Banglalink,TK158USSDBLD260019R,Banglalink Prepaid 4GB Tk. 158!,Data,4.0,0.0,0.0,7.0,*121*158#,offers/prepaid/internet,39.5,0.0,0.0,158.0
+Banglalink,TK999USSDBLD250066B,Banglalink Prepaid 150GB Tk. 999!,Data,150.0,0.0,0.0,30.0,*121*999#,offers/prepaid/internet,6.66,0.0,0.0,999.0
+Banglalink,TK149USSDBLD260028A,Banglalink Prepaid 25 GB Tk. 149!,Data,25.0,0.0,0.0,3.0,*121*149#,offers/prepaid/internet,5.96,0.0,0.0,149.0
+Banglalink,TK99USSDBLD240028A,Banglalink 3GB only Tk. 99!,Data,3.0,0.0,0.0,3.0,*121*99#,offers/prepaid/internet,33.0,0.0,0.0,99.0
+Banglalink,TK229USSDBLD260004R,Banglalink Prepaid 30GB Tk. 229!,Data,30.0,0.0,0.0,7.0,*121*229#,offers/prepaid/internet,7.63,0.0,0.0,229.0
+Banglalink,TK249DATAUSSD7D,Banglalink Prepaid 50GB Tk. 249!,Data,50.0,0.0,0.0,7.0,*121*249#,offers/prepaid/internet,4.98,0.0,0.0,249.0
+Banglalink,TK988DATAUSSD90D,Banglalink 50 GB only Tk. 988!,Data,50.0,0.0,0.0,90.0,*121*988#,offers/prepaid/internet,19.76,0.0,0.0,988.0
+Banglalink,TK1494DATAUSSD30D,Banglalink Prepaid 78GB only Tk. 1494!,Data,78.0,0.0,0.0,90.0,*121*1494#,offers/prepaid/internet,19.15,0.0,0.0,1494.0
+Banglalink,TK1794DATAUSSD30D,Banglalink Prepaid 117GB only Tk. 1794!,Data,117.0,0.0,0.0,90.0,*121*1794#,offers/prepaid/internet,15.33,0.0,0.0,1794.0
+Banglalink,TK2094DATAUSSD30D,Banglalink Prepaid 234GB only Tk. 2094!,Data,234.0,0.0,0.0,90.0,*121*2094#,offers/prepaid/internet,8.95,0.0,0.0,2094.0
+Banglalink,TK1988DATAUSSD365D,Banglalink 100 GB only Tk. 1988!,Data,100.0,0.0,0.0,365.0,*121*988#,offers/prepaid/internet,19.88,0.0,0.0,1988.0
+Banglalink,TK2498USSDBLU230002X,Banglalink 50 GB only Tk. 2498!,Data,50.0,0.0,0.0,3650.0,*121*2498#,offers/prepaid/internet,49.96,0.0,0.0,2498.0
+Banglalink,TK129DATAUSSD72HR,Banglalink Prepaid 15GB Tk. 129!,Data,15.0,0.0,0.0,3.0,*121*129#,offers/prepaid/internet,8.6,0.0,0.0,129.0
+Banglalink,TK179USSDBLD250019R,Banglalink 8 GB only Tk.179!,Data,8.0,0.0,0.0,7.0,*121*179#,offers/prepaid/internet,22.38,0.0,0.0,179.0
+Banglalink,TK199USSDBLD220072B,Banglalink 15 GB only Tk. 199!,Data,15.0,0.0,0.0,7.0,*121*199#,offers/prepaid/internet,13.27,0.0,0.0,199.0
+Banglalink,TK36USSD3DGCAL,Banglalink 3GB (2.5GB Toffee included) only Tk. 66!,Data,3.0,0.0,0.0,3.0,*121*66#,offers/prepaid/internet,22.0,0.0,0.0,66.0
+Banglalink,TK100USSD30DGCAL,Banglalink 4GB: imo + BiP + Telegram only Tk. 100!,Data,4.0,0.0,0.0,30.0,*121*1016#,offers/prepaid/internet,25.0,0.0,0.0,100.0
+Banglalink,TK60USSD7DGCAL,Banglalink 2GB: imo + BiP + Telegram only Tk. 60!,Data,2.0,0.0,0.0,7.0,*121*1044#,offers/prepaid/internet,30.0,0.0,0.0,60.0
+Banglalink,TK20USSD3DGSOC,Banglalink 2GB: Facebook + WhatsApp + Instagram + Snapchat + BiP only Tk. 50!,Data,2.0,0.0,0.0,3.0,*121*1057#,offers/prepaid/internet,25.0,0.0,0.0,50.0
+Banglalink,TK60USSD3DGVID,Banglalink 3GB: YouTube + TikTok only Tk. 60!,Data,30.0,0.0,0.0,3.0,*121*1072#,offers/prepaid/internet,2.0,0.0,0.0,60.0
+Banglalink,TK49USSD50MIN72H,Minute Pack @Tk.49,Minute,0.0,70.0,0.0,3.0,*121*49#,offers/prepaid/voice,0.0,0.7,0.0,49.0
+Banglalink,TK319USSD450MIN30D,Minute Pack @Tk.319!,Minute,0.0,450.0,0.0,30.0,*121*319#,offers/prepaid/voice,0.0,0.71,0.0,319.0
+Banglalink,TK269USSD300MIN30D,Minute Pack @Tk.269,Minute,0.0,330.0,0.0,30.0,*121*269#,offers/prepaid/voice,0.0,0.82,0.0,269.0
+Banglalink,TK29USSD46MIN24H,Minute Pack @Tk.29,Minute,0.0,45.0,0.0,2.0,*121*29#,offers/prepaid/voice,0.0,0.64,0.0,29.0
+Banglalink,TK137USSD200MIN7D,Minute Pack @Tk.137,Minute,0.0,200.0,0.0,7.0,*121*137#,offers/prepaid/voice,0.0,0.69,0.0,137.0
+Banglalink,TK227USSD250MIN30D,Minute Pack @ Tk. 227,Minute,0.0,250.0,0.0,30.0,*121*227#,offers/prepaid/voice,0.0,0.91,0.0,227.0
+Banglalink,TK77USSD120MIN72H,Minute Pack @Tk.77,Minute,0.0,120.0,0.0,3.0,*121*77#,offers/prepaid/voice,0.0,0.64,0.0,77.0
+Banglalink,TK39USSD60MIN24H,Minute Pack @Tk.39,Minute,0.0,50.0,0.0,1.0,*121*39#,offers/prepaid/voice,0.0,0.78,0.0,39.0
+Banglalink,TK357USSD500MIN30D,Minute Pack @Tk.357,Minute,0.0,500.0,0.0,30.0,*121*357#,offers/prepaid/voice,0.0,0.71,0.0,357.0
+Banglalink,TK109USSD150MIN5D,Minute Pack @Tk.109,Minute,0.0,150.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.73,0.0,109.0
+Banglalink,TK67USSD100MIN72HRS,Minute Pack @Tk.67,Minute,0.0,100.0,0.0,2.0,*121*67#,offers/prepaid/voice,0.0,0.67,0.0,67.0
+Banglalink,TK157USSD240MIN7D,Minute Pack @Tk. 157,Minute,0.0,240.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.65,0.0,157.0
+Banglalink,TK127USSD200MIN7D,Minute Pack @ Tk. 127,Minute,0.0,180.0,0.0,5.0,*121*127#,offers/prepaid/voice,0.0,0.71,0.0,127.0
+Banglalink,TK97USSD110MIN5D,Minute Pack @Tk.97,Minute,0.0,120.0,0.0,5.0,*121*97#,offers/prepaid/voice,0.0,0.81,0.0,97.0
+Banglalink,TK57USSD80MIN48HRS,Minute Pack @Tk.57,Minute,0.0,80.0,0.0,2.0,*121*57#,offers/prepaid/voice,0.0,0.71,0.0,57.0
+Banglalink,TK447USSD700MIN30D,Minute Pack @Tk.447,Minute,0.0,700.0,0.0,30.0,*121*447#,offers/prepaid/voice,0.0,0.64,0.0,447.0
+Banglalink,TK507USSD840MIN30D,Minute Pack @Tk.639,Minute,0.0,1000.0,0.0,30.0,*121*639#,offers/prepaid/voice,0.0,0.64,0.0,639.0
+Banglalink,TK419USSD650MIN30D,Minute Pack @Tk.419,Minute,0.0,620.0,0.0,30.0,*121*419#,offers/prepaid/voice,0.0,0.68,0.0,419.0
+Banglalink,TK327USSD450MIN30D,Minute Pack @Tk.327,Minute,0.0,400.0,0.0,30.0,*121*327#,offers/prepaid/voice,0.0,0.82,0.0,327.0
+Banglalink,TK729USSD1165MIN30D,Minute Pack @Tk. 729,Minute,0.0,1165.0,0.0,30.0,*121*729#,offers/prepaid/voice,0.0,0.63,0.0,729.0
+Banglalink,TK1197USSD1200MIN365D,Minute Pack @Tk.1197,Minute,0.0,1200.0,0.0,365.0,*121*1197#,offers/prepaid/voice,0.0,1.0,0.0,1197.0
+Banglalink,TK493USSDMA2Y,Main Account Validity,Validity,0.0,0.0,0.0,730.0,*121*493#,offers/prepaid/voice,0.0,0.0,0.0,493.0
+Banglalink,TK693USSDMA3Y,Main Account Validity,Validity,0.0,0.0,0.0,1095.0,*121*693#,offers/prepaid/voice,0.0,0.0,0.0,693.0
+Banglalink,TK649USSDBLC260015R,Banglalink Prepaid 30GB+400Min Tk. 649!,Combo,30.0,400.0,0.0,30.0,*121*649#,offers/prepaid/bundles,21.63,1.62,0.0,649.0
+Banglalink,TK749USSDBLC,Banglalink Prepaid 40GB+800Min (20 GB Extra On Repurchase) only Tk. 749!,Combo,40.0,800.0,0.0,30.0,*121*749#,offers/prepaid/bundles,18.73,0.94,0.0,749.0
+Banglalink,TK549USSDBLC,Banglalink Prepaid 15GB + 400Min Tk. 549!,Combo,15.0,400.0,0.0,30.0,*121*549#,offers/prepaid/bundles,36.6,1.37,0.0,549.0
+Banglalink,TK998USSDBLC230015D,Banglalink Prepaid 50 GB+1500 Min only Tk. 998!,Combo,50.0,1500.0,0.0,30.0,*121*998#,offers/prepaid/bundles,19.96,0.67,0.0,998.0
+Banglalink,TK399MXBUSSD,Banglalink Prepaid 5GB+150Min only Tk. 399!,Combo,5.0,150.0,0.0,30.0,*121*399#,offers/prepaid/bundles,79.8,2.66,0.0,399.0
+Banglalink,TK499USSDBLC250002D,Banglalink Prepaid 10GB + 200min Tk. 499!,Combo,10.0,200.0,0.0,30.0,*121*499#,offers/prepaid/bundles,49.9,2.5,0.0,499.0
+Banglalink,TK1199USSDMXB30D,Banglalink Prepaid 150GB+1800M Tk. 1199!,Combo,150.0,1800.0,0.0,30.0,*121*1199#,offers/prepaid/bundles,7.99,0.67,0.0,1199.0
+Banglalink,TK1497USSDBLC250002D,Banglalink Prepaid 59GB+600Min only Tk. 1497!,Combo,59.0,600.0,0.0,90.0,*121*1497#,offers/prepaid/bundles,25.37,2.5,0.0,1497.0
+Banglalink,TK1797USSDBLC250002D,Banglalink Prepaid 78GB+900Min only Tk. 1797!,Combo,78.0,900.0,0.0,90.0,*121*1797#,offers/prepaid/bundles,23.04,2.0,0.0,1797.0
+Banglalink,TK2097USSDBLC250002D,Banglalink Prepaid 98GB+1500Min only Tk. 2097!,Combo,98.0,1500.0,0.0,90.0,*121*2097#,offers/prepaid/bundles,21.4,1.4,0.0,2097.0
+Banglalink,TK2997USSDMXB30D,Banglalink 60 GB+ 1200 minute only Tk.2997!,Combo,60.0,1200.0,0.0,365.0,*121*2997#,offers/prepaid/bundles,49.95,2.5,0.0,2997.0
+Banglalink,TK86USSD30DSMSSUB,"Banglalink Prepaid Hoichoi, Bongo Subscription + 130 SMS at only Tk. 96!",Combo,0.0,0.0,130.0,30.0,*121*1086#,offers/prepaid/bundles,0.0,0.0,0.74,96.0
+Banglalink,TK66USSD30DSMSSUB,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 100 SMS at only Tk. 66!",Combo,0.0,0.0,100.0,30.0,*121*1040#,offers/prepaid/bundles,0.0,0.0,0.66,66.0
+Banglalink,TK33USSD7DSMSSUB,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 50 SMS at only Tk. 33!",Combo,0.0,0.0,50.0,7.0,*121*1033#,offers/prepaid/bundles,0.0,0.0,0.66,33.0
+Banglalink,TK156USSD30DSMSSUB,"Banglalink Prepaid Hoichoi, Bongo, DeeptoPlay, iScreen Subscription + 150 SMS at only Tk. 156!",Combo,0.0,0.0,150.0,30.0,*121*1156#,offers/prepaid/bundles,0.0,0.0,1.04,156.0
+Banglalink,TK60SMSBUNDLE3,Banglalink 500 SMS Bundle only at Tk. 160!,Combo,0.0,0.0,500.0,30.0,*121*2*8#,offers/prepaid/bundles,0.0,0.0,0.32,160.0
+Banglalink,TK20SMSBUNDLE1,Banglalink 120 SMS Bundle only at Tk. 45!,Combo,0.0,0.0,120.0,7.0,*121*2*8#,offers/prepaid/bundles,0.0,0.0,0.38,45.0
+Banglalink,TK10SMSBUNDLE,Banglalink 60 SMS Bundle only at Tk. 30!,Combo,0.0,0.0,60.0,3.0,*121*2*8#,offers/prepaid/bundles,0.0,0.0,0.5,30.0
+Banglalink,TK48PP89P3DREG10SEC,89 paisa/minute with Tk. 48recharge,Call Rate,0.0,0.0,0.0,3.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,48.0
+Banglalink,TK188PP1P30D1SEC,1 paisa/sec with Tk. 188 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,188.0
+Banglalink,TK309PP1P90D1SEC,1 paisa/sec with Tk. 309 recharge,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,309.0
+Banglalink,TK159PP89P30D10SEC,89 paisa/Min with Tk. 159 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,159.0
+Banglalink,NEWSIMOFFER2,Banglalink New Prepaid SIM offer,New SIM,4.0,40.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,42.5,4.25,0.0,170.0
+Banglalink,NEWSIMOFFER1,Banglalink New Prepaid SIM offer,New SIM,40.0,300.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,10.0,1.33,0.0,400.0
+Banglalink,TK99USSDREACT4GB7D,Banglalink Special Reactivation Pack 6 GB Internet at only Tk. 99!,Bondho SIM,6.0,0.0,0.0,7.0,*121*200#,offers/prepaid/bondho-sim,16.5,0.0,0.0,99.0
+Banglalink,TK127USSDREACTBTL30D,Banglalink Special Reactivation Pack 200 Minutes at only Tk. 127!,Bondho SIM,0.0,200.0,0.0,30.0,*121*200#,offers/prepaid/bondho-sim,0.0,0.64,0.0,127.0
+Banglalink,TK229USSDREACTBTL30D,Banglalink Special Reactivation Pack 25GB Internet at only Tk. 229!,Bondho SIM,25.0,0.0,0.0,30.0,*121*200#,offers/prepaid/bondho-sim,9.16,0.0,0.0,229.0
+Banglalink,TK298USSDREACTMIX30D,Banglalink Special Reactivation Bundle 30GB + 300 Minutes at only Tk. 298!,Bondho SIM,30.0,300.0,0.0,30.0,*121*200#,offers/prepaid/bondho-sim,9.93,0.99,0.0,298.0
+Teletalk,TT-001,100 MB,Data,0.0977,0.0,0.0,7.0,*111*501#,Internet-offers,112.59,0.0,0.0,11.0
+Teletalk,TT-002,500 MB,Data,0.4883,0.0,0.0,7.0,*111*717#,Internet-offers,36.86,0.0,0.0,18.0
+Teletalk,TT-003,1 GB,Data,1.0,0.0,0.0,7.0,*111*534#,Internet-offers,22.0,0.0,0.0,22.0
+Teletalk,TT-004,2GB+ 102 MB Bonus,Data,2.0996,0.0,0.0,7.0,*111*736#,Internet-offers,18.1,0.0,0.0,38.0
+Teletalk,TT-005,3GB+ 154MB Bonus,Data,3.1504,0.0,0.0,7.0,*111*44#,Internet-offers,14.6,0.0,0.0,46.0
+Teletalk,TT-006,4GB+ 205MB bonus,Data,4.2002,0.0,0.0,7.0,*111*756#,Internet-offers,13.09,0.0,0.0,55.0
+Teletalk,TT-007,5GB+256MB Bonus,Data,5.25,0.0,0.0,7.0,*111*764#,Internet-offers,12.76,0.0,0.0,67.0
+Teletalk,TT-008,10 GB,Data,10.0,0.0,0.0,7.0,*111*97#,Internet-offers,10.2,0.0,0.0,102.0
+Teletalk,TT-009,15GB+768MB Bonus,Data,15.75,0.0,0.0,7.0,*111*551#,Internet-offers,8.63,0.0,0.0,136.0
+Teletalk,TT-010,100 MB,Data,0.0977,0.0,0.0,30.0,*111*716#,Internet-offers,235.41,0.0,0.0,23.0
+Teletalk,TT-011,500 MB,Data,0.4883,0.0,0.0,30.0,*111*503#,Internet-offers,75.77,0.0,0.0,37.0
+Teletalk,TT-012,1 GB,Data,1.0,0.0,0.0,30.0,*111*49#,Internet-offers,56.0,0.0,0.0,56.0
+Teletalk,TT-013,2 GB,Data,2.0,0.0,0.0,30.0,*111*93#,Internet-offers,44.0,0.0,0.0,88.0
+Teletalk,TT-014,3 GB,Data,3.0,0.0,0.0,30.0,*111*531#,Internet-offers,43.67,0.0,0.0,131.0
+Teletalk,TT-015,4 GB,Data,4.0,0.0,0.0,30.0,*111*776#,Internet-offers,41.5,0.0,0.0,166.0
+Teletalk,TT-016,5 GB,Data,5.0,0.0,0.0,30.0,*111*532#,Internet-offers,38.2,0.0,0.0,191.0
+Teletalk,TT-017,10 GB,Data,10.0,0.0,0.0,30.0,*111*550#,Internet-offers,22.6,0.0,0.0,226.0
+Teletalk,TT-018,15 GB,Data,15.0,0.0,0.0,30.0,*111*777#,Internet-offers,17.27,0.0,0.0,259.0
+Teletalk,TT-019,30 GB,Data,30.0,0.0,0.0,30.0,*111*344#,Internet-offers,11.97,0.0,0.0,359.0
+Teletalk,TT-020,45 GB,Data,45.0,0.0,0.0,30.0,*111*445#,Internet-offers,9.31,0.0,0.0,419.0
+Teletalk,TT-021,1 GB,Data,1.0,0.0,0.0,1.0,*111*800#,Internet-offers,16.0,0.0,0.0,16.0
+Teletalk,TT-022,2 GB,Data,2.0,0.0,0.0,1.0,*111*801#,Internet-offers,14.0,0.0,0.0,28.0
+Teletalk,TT-023,3GB+ 154MB Bonus,Data,3.1504,0.0,0.0,3.0,*111*802#,Internet-offers,13.01,0.0,0.0,41.0
+Teletalk,TT-024,25 GB (unlimited validity),Data,25.0,0.0,0.0,730.0,*111*309#,Internet-offers,10.84,0.0,0.0,271.0
+Teletalk,TT-025,50 GB (unlimited validity),Data,50.0,0.0,0.0,730.0,*111*599#,Internet-offers,11.26,0.0,0.0,563.0
+Teletalk,TT-026,75 GB (unlimited validity),Data,75.0,0.0,0.0,730.0,*111*799#,Internet-offers,10.01,0.0,0.0,751.0
+Teletalk,TT-027,Weekend Offer,Data,1.0,0.0,0.0,0.0,*111*2024#,Internet-offers,13.0,0.0,0.0,13.0
+Teletalk,TT-028,"Uninterrupted Data Offer (1GB Per Day, 30GB in 30 Days)",Data,30.0,0.0,0.0,30.0,*111*299#,Internet-offers,9.47,0.0,0.0,284.0
+Teletalk,TT-029,Unlimited Volume (24h),Unlimited,0.0,0.0,0.0,1.0,*111*81#,Internet-offers,0.0,0.0,0.0,73.0
+Teletalk,TT-030,Unlimited Volume (2h),Unlimited,0.0,0.0,0.0,0.0833,*111*19#,Internet-offers,0.0,0.0,0.0,19.0
+Teletalk,TT-031,1 GB+25 minute+10 SMS,Combo,1.0,25.0,10.0,7.0,*111*116#,Internet-offers,39.0,1.56,3.9,39.0
+Teletalk,TT-032,1 GB+25 minute+10 SMS,Combo,1.0,25.0,10.0,30.0,*111*118#,Internet-offers,47.0,1.88,4.7,47.0
+Teletalk,TT-033,1 GB+55 minute+50 SMS,Combo,1.0,55.0,50.0,7.0,*111*102#,Internet-offers,52.0,0.95,1.04,52.0
+Teletalk,TT-034,1 GB+55 minute+50 SMS,Combo,1.0,55.0,50.0,30.0,*111*121#,Internet-offers,66.0,1.2,1.32,66.0
+Teletalk,TT-035,1.2 GB+150 minute+120 SMS,Combo,1.2,150.0,120.0,7.0,*111*123#,Internet-offers,83.33,0.67,0.83,100.0
+Teletalk,TT-036,1.2 GB+150 minute+120 SMS,Combo,1.2,150.0,120.0,30.0,*111*103#,Internet-offers,88.33,0.71,0.88,106.0
+Teletalk,TT-037,5 GB+250 minute+50 SMS,Combo,5.0,250.0,50.0,7.0,*111*126#,Internet-offers,33.4,0.67,3.34,167.0
+Teletalk,TT-038,5 GB+250 minute+300 SMS,Combo,5.0,250.0,300.0,30.0,*111*104#,Internet-offers,41.6,0.83,0.69,208.0
+Teletalk,TT-039,10 GB+100 minute+50 SMS,Combo,10.0,100.0,50.0,30.0,*111*107#,Internet-offers,21.8,2.18,4.36,218.0
+Teletalk,TT-040,2 GB+350 minute+20 SMS,Combo,2.0,350.0,20.0,7.0,*111*132#,Internet-offers,113.0,0.65,11.3,226.0
+Teletalk,TT-041,2 GB+350 minute+20 SMS,Combo,2.0,350.0,20.0,30.0,*111*108#,Internet-offers,117.0,0.67,11.7,234.0
+Teletalk,TT-042,10 GB+350 minute+100 SMS,Combo,10.0,350.0,100.0,30.0,*111*105#,Internet-offers,31.2,0.89,3.12,312.0
+Teletalk,TT-043,5 GB+450 minute+50 SMS,Combo,5.0,450.0,50.0,7.0,*111*136#,Internet-offers,59.6,0.66,5.96,298.0
+Teletalk,TT-044,5 GB+450 minute+50 SMS,Combo,5.0,450.0,50.0,30.0,*111*109#,Internet-offers,62.2,0.69,6.22,311.0
+Teletalk,TT-045,12 GB+500 minute+350 SMS,Combo,12.0,500.0,350.0,30.0,*111*110#,Internet-offers,34.67,0.83,1.19,416.0
+Teletalk,TT-046,35 GB+800 minute+100SMS,Combo,35.0,800.0,100.0,30.0,*111*111#,Internet-offers,16.34,0.71,5.72,572.0
+Teletalk,TT-047,40GB+900 minute+100SMS,Combo,40.0,900.0,100.0,30.0,*111*112#,Internet-offers,15.6,0.69,6.24,624.0
+Teletalk,TT-048,50GB+1000 minute,Combo,50.0,1000.0,0.0,30.0,*111*113#,Internet-offers,12.96,0.65,0.0,648.0
+Teletalk,TT-049,Minute_Bundle_23 Min,Minute,0.0,23.0,0.0,3.0,*111*7*1#,Internet-offers,0.0,0.65,0.0,15.0
+Teletalk,TT-050,Minute_Bundle_53 Min,Minute,0.0,53.0,0.0,3.0,*111*7*2#,Internet-offers,0.0,0.64,0.0,34.0
+Teletalk,TT-051,Minute_Bundle_75 Min,Minute,0.0,75.0,0.0,5.0,*111*7*4#,Internet-offers,0.0,0.65,0.0,49.0
+Teletalk,TT-052,Minute_Bundle_143 Min,Minute,0.0,143.0,0.0,7.0,*111*7*3#,Internet-offers,0.0,0.64,0.0,91.0
+Teletalk,TT-053,Minute_Bundle_477 Min,Minute,0.0,477.0,0.0,30.0,*111*287#,Internet-offers,0.0,0.63,0.0,301.0
+Teletalk,TT-054,Minute_Bundle_108 Min,Minute,0.0,108.0,0.0,7.0,*111*7*5#,Internet-offers,0.0,0.64,0.0,69.0
+Teletalk,TT-055,Minute_Bundle_116 Min,Minute,0.0,116.0,0.0,10.0,*111*7*6#,Internet-offers,0.0,0.64,0.0,74.0
+Teletalk,TT-056,Minute_Bundle_168 Min,Minute,0.0,168.0,0.0,30.0,*111*7*7#,Internet-offers,0.0,0.65,0.0,109.0
+Teletalk,TT-057,Minute_Bundle_214 Min,Minute,0.0,214.0,0.0,30.0,*111*7*8#,Internet-offers,0.0,0.65,0.0,139.0
+Teletalk,TT-058,SMS_Bundle_Pack500,SMS,0.0,0.0,500.0,30.0,*111*58#,Internet-offers,0.0,0.0,0.12,61.0
+Teletalk,TT-059,SMS_Bundle_Pack100,SMS,0.0,0.0,100.0,7.0,*111*13#,Internet-offers,0.0,0.0,0.14,14.0
+Teletalk,TT-060,SMS_Bundle_Pack50,SMS,0.0,0.0,50.0,3.0,*111*6#,Internet-offers,0.0,0.0,0.14,7.0
+Teletalk,TT-061,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,29.0
+Teletalk,TT-062,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,99.0
+Teletalk,TT-063,Projonmo rate cutter: 65 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.65,0.0,29.0
+Teletalk,TT-064,Youth rate cutter: 65 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.65,0.0,99.0
+Teletalk,TT-065,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,3.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,24.0
+Teletalk,TT-066,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,44.0
+Teletalk,TT-067,Agami rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,10.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,33.0
+Teletalk,TT-068,Bornomala rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,93.0
+Teletalk,TT-069,9GB + 19 Minutes,Bondho SIM,9.0,19.0,0.0,30.0,*111*2025#,voice/attractive-close-sim-offer,2.11,1.0,0.0,19.0
+Teletalk,TT-070,29GB + 99 Minutes,Bondho SIM,29.0,99.0,0.0,30.0,*111*99#,voice/attractive-close-sim-offer,3.41,1.0,0.0,99.0
+Teletalk,TT-080,25 GB,Data,25.0,0.0,0.0,730.0,Unknown,voice/prepaid/gen-z,11.32,0.0,0.0,283.0
+Teletalk,TT-081,24 minutes + 10 SMS,Combo,0.0,24.0,10.0,365.0,Unknown,voice/prepaid/gen-z,0.0,0.75,1.8,18.0
+Teletalk,TT-082,2GB,Data,2.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,8.5,0.0,0.0,17.0
+Teletalk,TT-083,1GB,Data,1.0,0.0,0.0,30.0,Unknown,voice/prepaid/gen-z,21.0,0.0,0.0,21.0
+Teletalk,TT-084,5GB,Data,5.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,9.4,0.0,0.0,47.0
+Teletalk,TT-085,10GB,Data,10.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,7.1,0.0,0.0,71.0
+Teletalk,TT-086,2 GB*,Data,2.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,8.5,0.0,0.0,17.0
+Teletalk,TT-087,8 GB,Data,8.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,11.12,0.0,0.0,89.0
+Teletalk,TT-088,300 Min + 10 GB,Combo,10.0,300.0,0.0,30.0,Unknown,voice/prepaid/shadheen,29.2,0.97,0.0,292.0
+Teletalk,TT-090,15 GB,Data,15.0,0.0,0.0,30.0,*111*708#,voice/prepaid/teletalk-professional-package,13.4,0.0,0.0,201.0
+Teletalk,TT-091,35 GB,Data,35.0,0.0,0.0,30.0,*111*709#,voice/prepaid/teletalk-professional-package,10.34,0.0,0.0,362.0
+Teletalk,TT-092,65 GB,Data,65.0,0.0,0.0,30.0,*111*710#,voice/prepaid/teletalk-professional-package,6.91,0.0,0.0,449.0
+Teletalk,TT-093,300 Min + 200 SMS + 5 GB,Combo,5.0,300.0,200.0,30.0,*111*711#,voice/prepaid/teletalk-professional-package,49.8,0.83,1.25,249.0
+Teletalk,TT-094,500 Min + 250 SMS + 10 GB,Combo,10.0,500.0,250.0,30.0,*111*712#,voice/prepaid/teletalk-professional-package,39.9,0.8,1.6,399.0
+Teletalk,TT-095,800 Min + 300 SMS + 30 GB,Combo,30.0,800.0,300.0,30.0,*111*713#,voice/prepaid/teletalk-professional-package,19.97,0.75,2.0,599.0
+Teletalk,TT-096,1000 Min + 100 SMS + 50 GB,Combo,50.0,1000.0,100.0,30.0,*111*714#,voice/prepaid/teletalk-professional-package,13.98,0.7,6.99,699.0
+Robi,ROBI-001,3 GB,Data,3.0,0.0,0.0,3.0,Unknown,offers?tab=internet,32.67,0.0,0.0,98.0
+Robi,ROBI-002,100 GB,Data,100.0,0.0,0.0,30.0,Unknown,offers?tab=internet,7.98,0.0,0.0,798.0
+Robi,ROBI-003,Unlimited Internet,Unlimited,0.0,0.0,0.0,7.0,Unknown,offers?tab=internet,0.0,0.0,0.0,247.0
+Robi,ROBI-004,35 GB + 600 Mins,Combo,35.0,600.0,0.0,30.0,Unknown,offers?tab=bundles,22.83,1.33,0.0,799.0
+Robi,ROBI-005,25 GB + 500 Mins,Combo,25.0,500.0,0.0,30.0,Unknown,offers?tab=bundles,27.96,1.4,0.0,699.0
+Robi,ROBI-006,15 GB + 350 Mins,Combo,15.0,350.0,0.0,30.0,Unknown,offers?tab=bundles,39.93,1.71,0.0,599.0
+Robi,ROBI-007,3 GB + 100 Mins,Combo,3.0,100.0,0.0,30.0,Unknown,offers?tab=bundles,103.0,3.09,0.0,309.0
+Robi,ROBI-008,75 GB + 1500 Mins,Combo,75.0,1500.0,0.0,30.0,Unknown,offers?tab=bundles,13.25,0.66,0.0,994.0
+Robi,ROBI-009,30 GB + 400 Mins,Combo,30.0,400.0,0.0,30.0,Unknown,offers?tab=bundles,19.8,1.49,0.0,594.0
+Robi,ROBI-010,15 GB + 200 Mins,Combo,15.0,200.0,0.0,30.0,Unknown,offers?tab=bundles,26.27,1.97,0.0,394.0
+Robi,ROBI-011,5 Year Shodesh Pack,Validity,0.0,0.0,0.0,1825.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1394.0
+Robi,ROBI-012,3 Year Shodesh Pack,Validity,0.0,0.0,0.0,1095.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,894.0
+Robi,ROBI-013,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,54.0
+Robi,ROBI-014,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,144.0
+Robi,ROBI-015,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,64.0
+Robi,ROBI-016,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,204.0
+Robi,ROBI-017,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,7.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,94.0
+Robi,ROBI-018,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,90.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,304.0
+Robi,ROBI-019,190 Mins,Minute,0.0,190.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,1.05,0.0,199.0
+Robi,ROBI-020,260 Mins,Minute,0.0,260.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,0.92,0.0,239.0
+Robi,ROBI-021,150 Mins,Minute,0.0,150.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.79,0.0,119.0
+Robi,ROBI-022,105 Mins,Minute,0.0,105.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.66,0.0,69.0
+Robi,ROBI-023,120 Min,Minute,0.0,120.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.82,0.0,99.0
+Robi,ROBI-024,150 Mins,Minute,0.0,150.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.73,0.0,109.0
+Robi,ROBI-025,125 Mins,Minute,0.0,125.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.63,0.0,79.0
+Robi,ROBI-026,250 Mins,Minute,0.0,250.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.64,0.0,159.0
+Robi,ROBI-027,1500 Mins,Minute,0.0,1500.0,0.0,150.0,Unknown,offers?tab=minutes,0.0,0.66,0.0,989.0
+Robi,ROBI-028,100 Mins,Cashback,0.0,100.0,0.0,3.0,Unknown,offers?tab=cashback-offer,0.0,0.65,0.0,65.0
+Grameenphone,GPD250251R-V2,1.5 GB,Data,1.5,0.0,0.0,1.0,Unknown,internet-packages,52.67,0.0,0.0,79.0
+Grameenphone,GPD250251R-V3,1 GB,Data,1.0,0.0,0.0,1.0,Unknown,internet-packages,59.0,0.0,0.0,59.0
+Grameenphone,GPD250251R-V4,0.6 GB,Data,0.6,0.0,0.0,1.0,Unknown,internet-packages,65.0,0.0,0.0,39.0
+Grameenphone,GPD250026R-V2,3 GB,Data,3.0,0.0,0.0,3.0,Unknown,internet-packages,86.0,0.0,0.0,258.0
+Grameenphone,GPD250026R-V3,1 GB,Data,1.0,0.0,0.0,3.0,Unknown,internet-packages,118.0,0.0,0.0,118.0
+Grameenphone,GPD250026R-V4,2.5 GB,Data,2.5,0.0,0.0,3.0,Unknown,internet-packages,87.2,0.0,0.0,218.0
+Grameenphone,GPD250077R-V2,4.5 GB,Data,4.5,0.0,0.0,3.0,Unknown,internet-packages,35.11,0.0,0.0,158.0
+Grameenphone,GPD250077R-V3,6 GB,Data,6.0,0.0,0.0,2.0,Unknown,internet-packages,31.33,0.0,0.0,188.0
+Grameenphone,GPD250077R-V4,4 GB,Data,4.0,0.0,0.0,2.0,Unknown,internet-packages,34.5,0.0,0.0,138.0
+Grameenphone,GPD250082R-V2,5 GB,Data,5.0,0.0,0.0,15.0,Unknown,internet-packages,77.6,0.0,0.0,388.0
+Grameenphone,GPD250082R-V3,1 GB,Data,1.0,0.0,0.0,7.0,Unknown,internet-packages,78.0,0.0,0.0,78.0
+Grameenphone,GPD250082R-V4,4 GB,Data,4.0,0.0,0.0,7.0,Unknown,internet-packages,67.0,0.0,0.0,268.0
+Grameenphone,GPD250021R-V2,5 GB,Data,5.0,0.0,0.0,7.0,Unknown,internet-packages,79.8,0.0,0.0,399.0
+Grameenphone,GPD250021R-V3,4 GB,Data,4.0,0.0,0.0,7.0,Unknown,internet-packages,79.75,0.0,0.0,319.0
+Grameenphone,GPD250021R-V4,3 GB,Data,3.0,0.0,0.0,15.0,Unknown,internet-packages,106.33,0.0,0.0,319.0
+Grameenphone,GPD250027R-V2,6.5 GB,Data,6.5,0.0,0.0,7.0,Unknown,internet-packages,78.15,0.0,0.0,508.0
+Grameenphone,GPD250027R-V3,3 GB,Data,3.0,0.0,0.0,7.0,Unknown,internet-packages,82.67,0.0,0.0,248.0
+Grameenphone,GPD250027R-V4,3.5 GB,Data,3.5,0.0,0.0,15.0,Unknown,internet-packages,99.43,0.0,0.0,348.0
+Grameenphone,GPD250032R-V2,7 GB,Data,7.0,0.0,0.0,7.0,Unknown,internet-packages,78.43,0.0,0.0,549.0
+Grameenphone,GPD250032R-V3,1 GB,Data,1.0,0.0,0.0,7.0,Unknown,internet-packages,119.0,0.0,0.0,119.0
+Grameenphone,GPD250032R-V4,3 GB,Data,3.0,0.0,0.0,7.0,Unknown,internet-packages,89.67,0.0,0.0,269.0
+Grameenphone,GPD250037R-V2,3.5 GB,Data,3.5,0.0,0.0,7.0,Unknown,internet-packages,96.86,0.0,0.0,339.0
+Grameenphone,GPD250037R-V3,3 GB,Data,3.0,0.0,0.0,3.0,Unknown,internet-packages,83.0,0.0,0.0,249.0
+Grameenphone,GPD250037R-V4,1 GB,Data,1.0,0.0,0.0,7.0,Unknown,internet-packages,149.0,0.0,0.0,149.0
+Grameenphone,GPD250027U-V2,Uninterrupted Weekly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,7.0,Unknown,internet-packages,0.0,0.0,0.0,230.0
+Grameenphone,GPD250027U-V3,Uninterrupted Weekly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,7.0,Unknown,internet-packages,0.0,0.0,0.0,290.0
+Grameenphone,GPD250027U-V4,Uninterrupted Weekly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,7.0,Unknown,internet-packages,0.0,0.0,0.0,315.0
+Grameenphone,GPC240051B-V2,0.2 GB + 20 Minutes,Combo,0.2,20.0,0.0,30.0,Unknown,internet-packages,2395.0,23.95,0.0,479.0
+Grameenphone,GPC240051B-V3,0.25 GB + 25 Minutes,Combo,0.25,25.0,0.0,30.0,Unknown,internet-packages,2396.0,23.96,0.0,599.0
+Grameenphone,GPC240051B-V4,0.15 GB + 15 Minutes,Combo,0.15,15.0,0.0,30.0,Unknown,internet-packages,2460.0,24.6,0.0,369.0
+Grameenphone,GPC250007R-V2,0.05 GB + 10 Minutes,Combo,0.05,10.0,0.0,28.0,Unknown,internet-packages,3180.0,15.9,0.0,159.0
+Grameenphone,GPC250007R-V3,0.05 GB + 10 Minutes,Combo,0.05,10.0,0.0,30.0,Unknown,internet-packages,4380.0,21.9,0.0,219.0
+Grameenphone,GPC250007R-V4,0.1 GB + 30 Minutes,Combo,0.1,30.0,0.0,7.0,Unknown,internet-packages,3590.0,11.97,0.0,359.0
+Grameenphone,GPD250016R-V2,4 GB,Data,4.0,0.0,0.0,90.0,Unknown,internet-packages,184.5,0.0,0.0,738.0
+Grameenphone,GPD250016R-V3,6 GB,Data,6.0,0.0,0.0,30.0,Unknown,internet-packages,133.0,0.0,0.0,798.0
+Grameenphone,GPD250016R-V4,3 GB,Data,3.0,0.0,0.0,30.0,Unknown,internet-packages,149.33,0.0,0.0,448.0
+Grameenphone,GPC250064R-V2,0.25 GB + 10 Minutes,Combo,0.25,10.0,0.0,90.0,Unknown,internet-packages,1152.0,28.8,0.0,288.0
+Grameenphone,GPC250064R-V3,0.6 GB + 25 Minutes,Combo,0.6,25.0,0.0,30.0,Unknown,internet-packages,813.33,19.52,0.0,488.0
+Grameenphone,GPC250064R-V4,0.4 GB + 15 Minutes,Combo,0.4,15.0,0.0,30.0,Unknown,internet-packages,795.0,21.2,0.0,318.0
+Grameenphone,GPD250067R-V2,0.5 GB,Data,0.5,0.0,0.0,15.0,Unknown,internet-packages,458.0,0.0,0.0,229.0
+Grameenphone,GPD250067R-V3,2.5 GB,Data,2.5,0.0,0.0,30.0,Unknown,internet-packages,447.6,0.0,0.0,1119.0
+Grameenphone,GPD250067R-V4,2 GB,Data,2.0,0.0,0.0,30.0,Unknown,internet-packages,444.5,0.0,0.0,889.0
+Grameenphone,GPD250250R-V2,90GB (3GB/Day),Data,90.0,0.0,0.0,30.0,Unknown,internet-packages,15.88,0.0,0.0,1429.0
+Grameenphone,GPD250250R-V3,60GB (2GB/Day),Data,60.0,0.0,0.0,30.0,Unknown,internet-packages,16.82,0.0,0.0,1009.0
+Grameenphone,GPD250250R-V4,45GB (1.5GB/Day),Data,45.0,0.0,0.0,30.0,Unknown,internet-packages,17.31,0.0,0.0,779.0
+Grameenphone,GPD250028R-V2,2.5 GB,Data,2.5,0.0,0.0,30.0,Unknown,internet-packages,191.6,0.0,0.0,479.0
+Grameenphone,GPD250028R-V3,5 GB,Data,5.0,0.0,0.0,30.0,Unknown,internet-packages,177.8,0.0,0.0,889.0
+Grameenphone,GPD250028R-V4,9 GB,Data,9.0,0.0,0.0,30.0,Unknown,internet-packages,149.89,0.0,0.0,1349.0
+Grameenphone,GPD250273R-V2,30GB (1GB/Day),Data,30.0,0.0,0.0,30.0,Unknown,internet-packages,11.63,0.0,0.0,349.0
+Grameenphone,GPD250273R-V3,75GB (2.5GB/Day),Data,75.0,0.0,0.0,30.0,Unknown,internet-packages,10.65,0.0,0.0,799.0
+Grameenphone,GPD250273R-V4,90GB (3GB/Day),Data,90.0,0.0,0.0,30.0,Unknown,internet-packages,10.21,0.0,0.0,919.0
+Grameenphone,GPD250272R-V2,9 GB,Data,9.0,0.0,0.0,90.0,Unknown,internet-packages,192.0,0.0,0.0,1728.0
+Grameenphone,GPD250272R-V3,5.5 GB,Data,5.5,0.0,0.0,30.0,Unknown,internet-packages,154.18,0.0,0.0,848.0
+Grameenphone,GPD250272R-V4,7 GB,Data,7.0,0.0,0.0,30.0,Unknown,internet-packages,138.29,0.0,0.0,968.0
+Grameenphone,GPD250274R-V2,75GB (2.5GB/Day),Data,75.0,0.0,0.0,30.0,Unknown,internet-packages,8.65,0.0,0.0,649.0
+Grameenphone,GPD250274R-V3,45GB (1.5GB/Day),Data,45.0,0.0,0.0,30.0,Unknown,internet-packages,9.09,0.0,0.0,409.0
+Grameenphone,GPD250038R-V2,2 GB,Data,2.0,0.0,0.0,30.0,Unknown,internet-packages,229.0,0.0,0.0,458.0
+Grameenphone,GPD250038R-V3,14 GB,Data,14.0,0.0,0.0,30.0,Unknown,internet-packages,140.57,0.0,0.0,1968.0
+Grameenphone,GPD250038R-V4,11 GB,Data,11.0,0.0,0.0,30.0,Unknown,internet-packages,162.55,0.0,0.0,1788.0
+Grameenphone,GPD250044R-V2,2.5 GB,Data,2.5,0.0,0.0,90.0,Unknown,internet-packages,259.2,0.0,0.0,648.0
+Grameenphone,GPD250044R-V3,4 GB,Data,4.0,0.0,0.0,30.0,Unknown,internet-packages,169.5,0.0,0.0,678.0
+Grameenphone,GPD250044R-V4,12 GB,Data,12.0,0.0,0.0,30.0,Unknown,internet-packages,162.33,0.0,0.0,1948.0
+Grameenphone,GPD250025U-V2,Uninterrupted Monthly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,1008.0
+Grameenphone,GPD250025U-V3,Uninterrupted Monthly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,887.0
+Grameenphone,GPD250025U-V4,Uninterrupted Monthly Data Package ( upto 10Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,927.0
+Grameenphone,GPD250026U-V2,Uninterrupted Monthly Data Package ( upto 15Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,989.0
+Grameenphone,GPD250026U-V3,Uninterrupted Monthly Data Package ( upto 15Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,719.0
+Grameenphone,GPD250026U-V4,Uninterrupted Monthly Data Package ( upto 15Mbps speed),Unlimited,0.0,0.0,0.0,30.0,Unknown,internet-packages,0.0,0.0,0.0,769.0
+Grameenphone,GPD250276R-V2,7.5 GB,Data,7.5,0.0,0.0,90.0,Unknown,internet-packages,182.4,0.0,0.0,1368.0
+Grameenphone,GPD250276R-V3,4 GB,Data,4.0,0.0,0.0,90.0,Unknown,internet-packages,197.0,0.0,0.0,788.0
+Grameenphone,GPD250276R-V4,6 GB,Data,6.0,0.0,0.0,90.0,Unknown,internet-packages,191.33,0.0,0.0,1148.0
+Grameenphone,GPD250045R-V2,38 GB,Data,38.0,0.0,0.0,730.0,Unknown,internet-packages,49.68,0.0,0.0,1888.0
+Grameenphone,GPD250045R-V3,75 GB,Data,75.0,0.0,0.0,365.0,Unknown,internet-packages,38.77,0.0,0.0,2908.0
+Grameenphone,GPD250045R-V4,90 GB,Data,90.0,0.0,0.0,365.0,Unknown,internet-packages,33.3,0.0,0.0,2997.0
+Grameenphone,GPD250031R-V2,0.6 GB,Data,0.6,0.0,0.0,3.0,Unknown,internet-packages,96.67,0.0,0.0,58.0
+Grameenphone,GPD250031R-V3,3.5 GB,Data,3.5,0.0,0.0,3.0,Unknown,internet-packages,79.43,0.0,0.0,278.0
+Grameenphone,GPD250031R-V4,0.9 GB,Data,0.9,0.0,0.0,3.0,Unknown,internet-packages,97.78,0.0,0.0,88.0
+Grameenphone,GPC250066R-V2,1 GB + 45 Minutes,Combo,1.0,45.0,0.0,30.0,Unknown,internet-packages,908.0,20.18,0.0,908.0
+Grameenphone,GPC250066R-V3,1.5 GB + 60 Minutes,Combo,1.5,60.0,0.0,30.0,Unknown,internet-packages,692.0,17.3,0.0,1038.0
+Grameenphone,GPC250066R-V4,0.45 GB + 15 Minutes,Combo,0.45,15.0,0.0,30.0,Unknown,internet-packages,862.22,25.87,0.0,388.0
+Grameenphone,GPD250009U-V2,60 GB,Data,60.0,0.0,0.0,730.0,Unknown,internet-packages,39.48,0.0,0.0,2369.0
+Grameenphone,GPD250009U-V3,75 GB,Data,75.0,0.0,0.0,730.0,Unknown,internet-packages,34.79,0.0,0.0,2609.0
+Grameenphone,GPD250009U-V4,50 GB,Data,50.0,0.0,0.0,730.0,Unknown,internet-packages,39.38,0.0,0.0,1969.0
+Grameenphone,GPD250010U-V2,90 GB,Data,90.0,0.0,0.0,365.0,Unknown,internet-packages,25.43,0.0,0.0,2289.0
+Grameenphone,GPD250010U-V3,25 GB,Data,25.0,0.0,0.0,365.0,Unknown,internet-packages,31.96,0.0,0.0,799.0
+Grameenphone,GPD250010U-V4,90 GB,Data,90.0,0.0,0.0,1.0,Unknown,internet-packages,4.99,0.0,0.0,449.0
+Grameenphone,GPD250011U-V2,38 GB,Data,38.0,0.0,0.0,365.0,Unknown,internet-packages,27.87,0.0,0.0,1059.0
+Grameenphone,GPD250011U-V3,90 GB,Data,90.0,0.0,0.0,730.0,Unknown,internet-packages,27.88,0.0,0.0,2509.0
+Grameenphone,GPD250011U-V4,90 GB,Data,90.0,0.0,0.0,365.0,Unknown,internet-packages,23.54,0.0,0.0,2119.0
+Grameenphone,GPD250046C-V2,0.15 GB,Data,0.15,0.0,0.0,2.0,Unknown,internet-packages,386.67,0.0,0.0,58.0
+Grameenphone,GPD250046C-V3,0.25 GB,Data,0.25,0.0,0.0,2.0,Unknown,internet-packages,352.0,0.0,0.0,88.0
+Grameenphone,GPD250046C-V4,0.10 GB,Data,0.1,0.0,0.0,1.0,Unknown,internet-packages,280.0,0.0,0.0,28.0
+Grameenphone,GPC250039R-V2,4GB+160Minutes+200SMS,Combo,4.0,160.0,200.0,7.0,Unknown,internet-packages,96.5,2.41,1.93,386.0
+Grameenphone,GPC250039R-V3,1.5GB+60Minutes+80SMS,Combo,1.5,60.0,80.0,7.0,Unknown,internet-packages,108.0,2.7,2.02,162.0
+Grameenphone,GPC250039R-V4,3GB+120Minutes+150SMS,Combo,3.0,120.0,150.0,28.0,Unknown,internet-packages,149.0,3.73,2.98,447.0
+Grameenphone,GPC250040R-V2,2GB+80Minutes+80SMS,Combo,2.0,80.0,80.0,7.0,Unknown,internet-packages,99.0,2.48,2.48,198.0
+Grameenphone,GPC250040R-V3,6GB+200Minutes+200SMS,Combo,6.0,200.0,200.0,7.0,Unknown,internet-packages,76.33,2.29,2.29,458.0
+Grameenphone,GPC250040R-V4,4.5GB+150Minutes+150SMS,Combo,4.5,150.0,150.0,7.0,Unknown,internet-packages,81.78,2.45,2.45,368.0
+Grameenphone,GPC250069R-V2,0.4GB+15Minutes,Combo,0.4,15.0,0.0,30.0,Unknown,internet-packages,845.0,22.53,0.0,338.0
+Grameenphone,GPC250069R-V3,2GB+80Minutes,Combo,2.0,80.0,0.0,90.0,Unknown,internet-packages,889.0,22.23,0.0,1778.0
+Grameenphone,GPC250069R-V4,1GB+40Minutes,Combo,1.0,40.0,0.0,30.0,Unknown,internet-packages,748.0,18.7,0.0,748.0
+Grameenphone,GPC250121R-V2,6GB + 160 Minute,Combo,6.0,160.0,0.0,90.0,Unknown,internet-packages,393.17,14.74,0.0,2359.0
+Grameenphone,GPC250121R-V3,4GB + 110 Minute,Combo,4.0,110.0,0.0,30.0,Unknown,internet-packages,304.75,11.08,0.0,1219.0
+Grameenphone,GPC250121R-V4,2.5GB + 70 Minute,Combo,2.5,70.0,0.0,30.0,Unknown,internet-packages,351.6,12.56,0.0,879.0
+Grameenphone,GPC250050R-V2,2GB+90Minutes,Combo,2.0,90.0,0.0,30.0,Unknown,internet-packages,574.0,12.76,0.0,1148.0
+Grameenphone,GPC250050R-V3,3GB+120Minutes,Combo,3.0,120.0,0.0,30.0,Unknown,internet-packages,489.33,12.23,0.0,1468.0
+Grameenphone,GPC250050R-V4,0.75GB+30Minutes,Combo,0.75,30.0,0.0,30.0,Unknown,internet-packages,584.0,14.6,0.0,438.0
+Grameenphone,GPC250051R-V2,1.5GB+60Minutes+80SMS,Combo,1.5,60.0,80.0,30.0,Unknown,internet-packages,519.33,12.98,9.74,779.0
+Grameenphone,GPC250051R-V3,2.5GB+100Minutes+100SMS,Combo,2.5,100.0,100.0,28.0,Unknown,internet-packages,471.6,11.79,11.79,1179.0
+Grameenphone,GPC250051R-V4,4GB+160Minutes+200SMS,Combo,4.0,160.0,200.0,30.0,Unknown,internet-packages,429.75,10.74,8.6,1719.0
+Grameenphone,GPC250052R-V2,2GB+70Minutes,Combo,2.0,70.0,0.0,30.0,Unknown,internet-packages,419.5,11.99,0.0,839.0
+Grameenphone,GPC250052R-V3,5GB+180Minutes,Combo,5.0,180.0,0.0,30.0,Unknown,internet-packages,397.8,11.05,0.0,1989.0
+Grameenphone,GPC250052R-V4,6GB+225Minutes,Combo,6.0,225.0,0.0,28.0,Unknown,internet-packages,409.83,10.93,0.0,2459.0
+Grameenphone,GPC250053R-V2,6GB+200Minutes+200SMS,Combo,6.0,200.0,200.0,30.0,Unknown,internet-packages,351.5,10.54,10.54,2109.0
+Grameenphone,GPC250053R-V3,1.5GB+50Minutes+50SMS,Combo,1.5,50.0,50.0,28.0,Unknown,internet-packages,446.0,13.38,13.38,669.0
+Grameenphone,GPC250053R-V4,7.5GB+250Minutes+250SMS,Combo,7.5,250.0,250.0,30.0,Unknown,internet-packages,366.53,11.0,11.0,2749.0
+Grameenphone,GPC250124R-V2,8GB + 400Minutes,Combo,8.0,400.0,0.0,90.0,Unknown,internet-packages,374.62,7.49,0.0,2997.0
+Grameenphone,GPC250124R-V3,5GB + 250Minutes,Combo,5.0,250.0,0.0,30.0,Unknown,internet-packages,366.6,7.33,0.0,1833.0
+Grameenphone,GPC250124R-V4,2GB + 100Minutes,Combo,2.0,100.0,0.0,30.0,Unknown,internet-packages,403.0,8.06,0.0,806.0
+Grameenphone,GPC250120R-V2,4GB + 190 Minutes,Combo,4.0,190.0,0.0,90.0,Unknown,internet-packages,435.25,9.16,0.0,1741.0
+Grameenphone,GPC250120R-V3,1.5GB + 80 Minutes,Combo,1.5,80.0,0.0,90.0,Unknown,internet-packages,555.33,10.41,0.0,833.0
+Grameenphone,GPC250120R-V4,6GB + 300 Minutes,Combo,6.0,300.0,0.0,90.0,Unknown,internet-packages,446.67,8.93,0.0,2680.0
+Grameenphone,GPC250054R-V2,1.5GB + 45 Minutes,Combo,1.5,45.0,0.0,365.0,Unknown,internet-packages,1505.33,50.18,0.0,2258.0
+Grameenphone,GPC250054R-V3,4GB + 120 Minutes,Combo,4.0,120.0,0.0,365.0,Unknown,internet-packages,749.25,24.98,0.0,2997.0
+Grameenphone,GPC250054R-V4,3GB + 90 Minutes,Combo,3.0,90.0,0.0,365.0,Unknown,internet-packages,999.0,33.3,0.0,2997.0
+Grameenphone,GPD250147R-V2,0.25 GB Streaming/Content,Data,0.25,0.0,0.0,7.0,Unknown,internet-packages,280.0,0.0,0.0,70.0
+Grameenphone,GPD250147R-V3,0.15 GB Streaming/Content,Data,0.15,0.0,0.0,3.0,Unknown,internet-packages,233.33,0.0,0.0,35.0
+Grameenphone,GPD250147R-V4,0.1 GB Streaming/Content,Data,0.1,0.0,0.0,7.0,Unknown,internet-packages,310.0,0.0,0.0,31.0
+Grameenphone,GPD250149R-V2,1.5 GB Streaming/Content,Data,1.5,0.0,0.0,15.0,Unknown,internet-packages,244.67,0.0,0.0,367.0
+Grameenphone,GPD250149R-V3,0.75 GB Streaming/Content,Data,0.75,0.0,0.0,30.0,Unknown,internet-packages,313.33,0.0,0.0,235.0
+Grameenphone,GPD250149R-V4,0.65 GB Streaming/Content,Data,0.65,0.0,0.0,30.0,Unknown,internet-packages,318.46,0.0,0.0,207.0
+Grameenphone,GPD250162R-V2,0.9 GB,Data,0.9,0.0,0.0,15.0,Unknown,internet-packages,294.44,0.0,0.0,265.0
+Grameenphone,GPD250162R-V3,0.35 GB,Data,0.35,0.0,0.0,7.0,Unknown,internet-packages,285.71,0.0,0.0,100.0
+Grameenphone,GPD250162R-V4,1.5 GB,Data,1.5,0.0,0.0,15.0,Unknown,internet-packages,277.33,0.0,0.0,416.0
+Grameenphone,GPD250168R-V2,4 GB,Data,4.0,0.0,0.0,15.0,Unknown,internet-packages,179.0,0.0,0.0,716.0
+Grameenphone,GPD250168R-V3,2.5 GB,Data,2.5,0.0,0.0,30.0,Unknown,internet-packages,218.4,0.0,0.0,546.0
+Grameenphone,GPD250168R-V4,2 GB,Data,2.0,0.0,0.0,15.0,Unknown,internet-packages,192.0,0.0,0.0,384.0
+Grameenphone,GPD250199R-V2,0.75 GB,Data,0.75,0.0,0.0,30.0,Unknown,internet-packages,305.33,0.0,0.0,229.0
+Grameenphone,GPD250199R-V3,0.4 GB,Data,0.4,0.0,0.0,30.0,Unknown,internet-packages,297.5,0.0,0.0,119.0
+Grameenphone,GPD250199R-V4,1 GB,Data,1.0,0.0,0.0,30.0,Unknown,internet-packages,295.0,0.0,0.0,295.0
+Grameenphone,GPD250153R-V2,0.8 GB Streaming/Content,Data,0.8,0.0,0.0,30.0,Unknown,internet-packages,583.75,0.0,0.0,467.0
+Grameenphone,GPD250153R-V3,0.5 GB Streaming/Content,Data,0.5,0.0,0.0,30.0,Unknown,internet-packages,652.0,0.0,0.0,326.0
+Grameenphone,GPD250153R-V4,1 GB Streaming/Content,Data,1.0,0.0,0.0,30.0,Unknown,internet-packages,595.0,0.0,0.0,595.0
+Grameenphone,GPD250155R-V2,0.45 GB Streaming/Content,Data,0.45,0.0,0.0,90.0,Unknown,internet-packages,851.11,0.0,0.0,383.0
+Grameenphone,GPD250155R-V3,0.3 GB Streaming/Content,Data,0.3,0.0,0.0,30.0,Unknown,internet-packages,666.67,0.0,0.0,200.0
+Grameenphone,GPD250155R-V4,1 GB Streaming/Content,Data,1.0,0.0,0.0,30.0,Unknown,internet-packages,652.0,0.0,0.0,652.0
+Grameenphone,GPD250201R-V2,3 GB Streaming/Content,Data,3.0,0.0,0.0,30.0,Unknown,internet-packages,343.67,0.0,0.0,1031.0
+Grameenphone,GPD250201R-V3,2 GB Streaming/Content,Data,2.0,0.0,0.0,30.0,Unknown,internet-packages,415.5,0.0,0.0,831.0
+Grameenphone,GPD250201R-V4,3.5 GB Streaming/Content,Data,3.5,0.0,0.0,30.0,Unknown,internet-packages,342.29,0.0,0.0,1198.0
+Grameenphone,GPD250164R-V2,3 GB,Data,3.0,0.0,0.0,7.0,Unknown,internet-packages,185.67,0.0,0.0,557.0
+Grameenphone,GPD250164R-V3,0.55 GB,Data,0.55,0.0,0.0,15.0,Unknown,internet-packages,300.0,0.0,0.0,165.0
+Grameenphone,GPD250164R-V4,0.8 GB,Data,0.8,0.0,0.0,7.0,Unknown,internet-packages,242.5,0.0,0.0,194.0
+Grameenphone,GPD250165R-V2,0.8 GB Streaming/Content,Data,0.8,0.0,0.0,30.0,Unknown,internet-packages,412.5,0.0,0.0,330.0
+Grameenphone,GPD250165R-V3,0.45 GB Streaming/Content,Data,0.45,0.0,0.0,15.0,Unknown,internet-packages,411.11,0.0,0.0,185.0
+Grameenphone,GPD250165R-V4,0.95 GB Streaming/Content,Data,0.95,0.0,0.0,15.0,Unknown,internet-packages,367.37,0.0,0.0,349.0
+Grameenphone,GPD250246R-V2,0.25 GB Streaming/Content,Data,0.25,0.0,0.0,30.0,Unknown,internet-packages,284.0,0.0,0.0,71.0
+Grameenphone,GPD250246R-V3,0.6 GB Streaming/Content,Data,0.6,0.0,0.0,90.0,Unknown,internet-packages,343.33,0.0,0.0,206.0
+Grameenphone,GPD250246R-V4,1.5 GB Streaming/Content,Data,1.5,0.0,0.0,90.0,Unknown,internet-packages,306.0,0.0,0.0,459.0
+Grameenphone,GPD250241R-V2,0.2 GB Internet,Data,0.2,0.0,0.0,30.0,Unknown,internet-packages,545.0,0.0,0.0,109.0
+Grameenphone,GPD250241R-V3,0.45 GB Internet,Data,0.45,0.0,0.0,30.0,Unknown,internet-packages,453.33,0.0,0.0,204.0
+Grameenphone,GPD250241R-V4,0.1 GB Internet,Data,0.1,0.0,0.0,30.0,Unknown,internet-packages,620.0,0.0,0.0,62.0
+Grameenphone,GPD250249R-V2,0.25 GB Internet,Data,0.25,0.0,0.0,15.0,Unknown,internet-packages,348.0,0.0,0.0,87.0
+Grameenphone,GPD250249R-V3,0.1 GB Internet,Data,0.1,0.0,0.0,7.0,Unknown,internet-packages,390.0,0.0,0.0,39.0
+Grameenphone,GPD250249R-V4,0.1 GB Internet,Data,0.1,0.0,0.0,15.0,Unknown,internet-packages,420.0,0.0,0.0,42.0
+Grameenphone,GPC250049R-V2,0.75 GB + 40 Minutes,Combo,0.75,40.0,0.0,30.0,Unknown,internet-packages,865.33,16.23,0.0,649.0
+Grameenphone,GPC250049R-V3,0.5 GB + 25 Minutes,Combo,0.5,25.0,0.0,90.0,Unknown,internet-packages,1158.0,23.16,0.0,579.0
+Grameenphone,GPC250049R-V4,3 GB + 150 Minutes,Combo,3.0,150.0,0.0,30.0,Unknown,internet-packages,713.0,14.26,0.0,2139.0
+Grameenphone,GPD260006R-V2,3GB Internet,Data,3.0,0.0,0.0,7.0,Unknown,internet-packages,123.0,0.0,0.0,369.0
+Grameenphone,GPD260006R-V3,4GB Internet,Data,4.0,0.0,0.0,7.0,Unknown,internet-packages,121.25,0.0,0.0,485.0
+Grameenphone,GPD260006R-V4,6GB Internet,Data,6.0,0.0,0.0,15.0,Unknown,internet-packages,131.17,0.0,0.0,787.0
+Grameenphone,GPD260027R-V2,205 MB Internet,Data,0.2,0.0,0.0,3.0,Unknown,internet-packages,235.0,0.0,0.0,47.0
+Grameenphone,GPD260027R-V3,461 MB Internet,Data,0.45,0.0,0.0,3.0,Unknown,internet-packages,177.78,0.0,0.0,80.0
+Grameenphone,GPD260027R-V4,358 MB Internet,Data,0.35,0.0,0.0,3.0,Unknown,internet-packages,205.71,0.0,0.0,72.0
+Grameenphone,GP-OFF-008-V2,90 Minutes,Minute,0.0,90.0,0.0,2.0,Unknown,bonus-minute-offer,0.0,0.66,0.0,59.0
+Grameenphone,GP-OFF-008-V3,60 Minutes,Minute,0.0,60.0,0.0,2.0,Unknown,bonus-minute-offer,0.0,0.65,0.0,39.0
+Grameenphone,GP-OFF-008-V4,225 Minutes,Minute,0.0,225.0,0.0,2.0,Unknown,bonus-minute-offer,0.0,0.62,0.0,139.0
+Grameenphone,GP-OFF-009-V2,600 Minutes,Minute,0.0,600.0,0.0,7.0,Unknown,bonus-minute-offer,0.0,0.6,0.0,359.0
+Grameenphone,GP-OFF-009-V3,250 Minutes,Minute,0.0,250.0,0.0,2.0,Unknown,bonus-minute-offer,0.0,0.52,0.0,129.0
+Grameenphone,GP-OFF-009-V4,150 Minutes,Minute,0.0,150.0,0.0,2.0,Unknown,bonus-minute-offer,0.0,0.59,0.0,89.0
+Grameenphone,GP-OFF-010-V2,190 Minutes,Minute,0.0,190.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.99,0.0,188.0
+Grameenphone,GP-OFF-010-V3,750 Minutes,Minute,0.0,750.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.77,0.0,578.0
+Grameenphone,GP-OFF-010-V4,500 Minutes,Minute,0.0,500.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.84,0.0,418.0
+Grameenphone,GP-OFF-011-V2,250 Minutes,Minute,0.0,250.0,0.0,7.0,Unknown,bonus-minute-offer,0.0,0.59,0.0,148.0
+Grameenphone,GP-OFF-011-V3,825 Minutes,Minute,0.0,825.0,0.0,7.0,Unknown,bonus-minute-offer,0.0,0.49,0.0,408.0
+Grameenphone,GP-OFF-011-V4,650 Minutes,Minute,0.0,650.0,0.0,7.0,Unknown,bonus-minute-offer,0.0,0.52,0.0,338.0
+Grameenphone,GP-OFF-012-V2,750 Minutes,Minute,0.0,750.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.64,0.0,479.0
+Grameenphone,GP-OFF-012-V3,375 Minutes,Minute,0.0,375.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.69,0.0,259.0
+Grameenphone,GP-OFF-012-V4,625 Minutes,Minute,0.0,625.0,0.0,30.0,Unknown,bonus-minute-offer,0.0,0.67,0.0,419.0
+Grameenphone,GP-OFF-013-V2,1165mins + 1TK/MIN + 1250SMS,Combo,0.0,1165.0,1250.0,90.0,Unknown,all-one-minute-pack,0.0,1.25,1.17,1459.0
+Grameenphone,GP-OFF-013-V3,400mins + 1TK/MIN + 250SMS,Combo,0.0,400.0,250.0,30.0,Unknown,all-one-minute-pack,0.0,0.7,1.12,279.0
+Grameenphone,GP-OFF-013-V4,1165mins + 1TK/MIN + 1000SMS,Combo,0.0,1165.0,1000.0,30.0,Unknown,all-one-minute-pack,0.0,0.79,0.92,919.0
+Grameenphone,GP-OFF-014-V2,500mins + 1TK/MIN + 1000SMS,Combo,0.0,500.0,1000.0,28.0,Unknown,all-one-minute-pack,0.0,0.7,0.35,349.0
+Grameenphone,GP-OFF-014-V3,1165mins + 1TK/MIN + 2000SMS,Combo,0.0,1165.0,2000.0,30.0,Unknown,all-one-minute-pack,0.0,1.18,0.69,1379.0
+Grameenphone,GP-OFF-014-V4,775mins + 1TK/MIN + 1500SMS,Combo,0.0,775.0,1500.0,30.0,Unknown,all-one-minute-pack,0.0,0.64,0.33,499.0
+Grameenphone,GP-OFF-015-V2,875mins + 1TK/MIN + 1500SMS,Combo,0.0,875.0,1500.0,30.0,Unknown,all-one-minute-pack,0.0,0.66,0.39,579.0
+Grameenphone,GP-OFF-015-V3,1165mins + 1TK/MIN + 2000SMS,Combo,0.0,1165.0,2000.0,30.0,Unknown,all-one-minute-pack,0.0,1.61,0.94,1879.0
+Grameenphone,GP-OFF-015-V4,1165mins + 1TK/MIN + 2000SMS,Combo,0.0,1165.0,2000.0,30.0,Unknown,all-one-minute-pack,0.0,1.41,0.82,1639.0
+Grameenphone,GP-OFF-016-V2,150 SMS 14TK (3 Day’s Validity Pack),SMS,0.0,0.0,150.0,0.0,Unknown,sms-packs,0.0,0.0,0.09,14.0
+Grameenphone,GP-OFF-016-V3,100 SMS 30TK (3 Day’s Validity Pack),SMS,0.0,0.0,100.0,3.0,Unknown,sms-packs,0.0,0.0,0.3,30.0
+Grameenphone,GP-OFF-016-V4,20 SMS 14TK (3 Day’s Validity Pack),SMS,0.0,0.0,20.0,3.0,Unknown,sms-packs,0.0,0.0,0.7,14.0
+Grameenphone,GP-OFF-017-V2,60 SMS 16 TK (3 Day’s Validity Pack),SMS,0.0,0.0,60.0,5.0,Unknown,sms-packs,0.0,0.0,0.27,16.0
+Grameenphone,GP-OFF-017-V3,80 SMS 20 TK (3 Day’s Validity Pack),SMS,0.0,0.0,80.0,3.0,Unknown,sms-packs,0.0,0.0,0.25,20.0
+Grameenphone,GP-OFF-017-V4,150 SMS 37 TK (3 Day’s Validity Pack),SMS,0.0,0.0,150.0,3.0,Unknown,sms-packs,0.0,0.0,0.25,37.0
+Grameenphone,GP-OFF-018-V2,300 SMS 73 TK (3 Day’s Validity Pack),SMS,0.0,0.0,300.0,5.0,Unknown,sms-packs,0.0,0.0,0.24,73.0
+Grameenphone,GP-OFF-018-V3,400 SMS 82 TK (3 Day’s Validity Pack),SMS,0.0,0.0,400.0,3.0,Unknown,sms-packs,0.0,0.0,0.2,82.0
+Grameenphone,GP-OFF-018-V4,250 SMS 55 TK (3 Day’s Validity Pack),SMS,0.0,0.0,250.0,3.0,Unknown,sms-packs,0.0,0.0,0.22,55.0
+Grameenphone,GP-OFF-019-V2,80 SMS 28 TK (7 Day’s Validity Pack),SMS,0.0,0.0,80.0,7.0,Unknown,sms-packs,0.0,0.0,0.35,28.0
+Grameenphone,GP-OFF-019-V3,250 SMS 58 TK (7 Day’s Validity Pack),SMS,0.0,0.0,250.0,7.0,Unknown,sms-packs,0.0,0.0,0.23,58.0
+Grameenphone,GP-OFF-019-V4,150 SMS 38 TK (7 Day’s Validity Pack),SMS,0.0,0.0,150.0,7.0,Unknown,sms-packs,0.0,0.0,0.25,38.0
+Grameenphone,GP-OFF-020-V2,100 SMS 29 TK (7 Day’s Validity Pack),SMS,0.0,0.0,100.0,7.0,Unknown,sms-packs,0.0,0.0,0.29,29.0
+Grameenphone,GP-OFF-020-V3,250 SMS 79 TK (7 Day’s Validity Pack),SMS,0.0,0.0,250.0,15.0,Unknown,sms-packs,0.0,0.0,0.32,79.0
+Grameenphone,GP-OFF-020-V4,300 SMS 69 TK (7 Day’s Validity Pack),SMS,0.0,0.0,300.0,5.0,Unknown,sms-packs,0.0,0.0,0.23,69.0
+Grameenphone,GP-OFF-021-V2,350 SMS 94 TK (Monthly SMS Pack),SMS,0.0,0.0,350.0,30.0,Unknown,sms-packs,0.0,0.0,0.27,94.0
+Grameenphone,GP-OFF-021-V3,150 SMS 46 TK (Monthly SMS Pack),SMS,0.0,0.0,150.0,30.0,Unknown,sms-packs,0.0,0.0,0.31,46.0
+Grameenphone,GP-OFF-021-V4,150 SMS 42 TK (Monthly SMS Pack),SMS,0.0,0.0,150.0,15.0,Unknown,sms-packs,0.0,0.0,0.28,42.0
+Grameenphone,GP-OFF-022-V2,250 SMS 70 TK (Monthly SMS Pack),SMS,0.0,0.0,250.0,15.0,Unknown,sms-packs,0.0,0.0,0.28,70.0
+Grameenphone,GP-OFF-022-V3,150 SMS 45 TK (Monthly SMS Pack),SMS,0.0,0.0,150.0,15.0,Unknown,sms-packs,0.0,0.0,0.3,45.0
+Grameenphone,GP-OFF-022-V4,650 SMS 170 TK (Monthly SMS Pack),SMS,0.0,0.0,650.0,30.0,Unknown,sms-packs,0.0,0.0,0.26,170.0
+Grameenphone,GP-OFF-023-V2,200 SMS 48 TK (Monthly SMS Pack),SMS,0.0,0.0,200.0,30.0,Unknown,sms-packs,0.0,0.0,0.24,48.0
+Grameenphone,GP-OFF-023-V3,700 SMS 155 TK (Monthly SMS Pack),SMS,0.0,0.0,700.0,30.0,Unknown,sms-packs,0.0,0.0,0.22,155.0
+Grameenphone,GP-OFF-023-V4,450 SMS 90 TK (Monthly SMS Pack),SMS,0.0,0.0,450.0,15.0,Unknown,sms-packs,0.0,0.0,0.2,90.0
+Grameenphone,GP-OFF-024-V2,400 SMS 71 TK (Monthly SMS Pack),SMS,0.0,0.0,400.0,30.0,Unknown,sms-packs,0.0,0.0,0.18,71.0
+Grameenphone,GP-OFF-024-V3,1500 SMS 227 TK (Monthly SMS Pack),SMS,0.0,0.0,1500.0,30.0,Unknown,sms-packs,0.0,0.0,0.15,227.0
+Grameenphone,GP-OFF-024-V4,1000 SMS 162 TK (Monthly SMS Pack),SMS,0.0,0.0,1000.0,30.0,Unknown,sms-packs,0.0,0.0,0.16,162.0
+Grameenphone,GP-OFF-025-V2,150 SMS 48 TK (Priyotoma Pack),SMS,0.0,0.0,150.0,0.0,Unknown,sms-packs,0.0,0.0,0.32,48.0
+Grameenphone,GP-OFF-025-V3,80 SMS 28 TK (Priyotoma Pack),SMS,0.0,0.0,80.0,0.0,Unknown,sms-packs,0.0,0.0,0.35,28.0
+Grameenphone,GP-OFF-025-V4,150 SMS 38 TK (Priyotoma Pack),SMS,0.0,0.0,150.0,0.0,Unknown,sms-packs,0.0,0.0,0.25,38.0
+Grameenphone,GP-OFF-038-V2,Play Pack Super + 500 SMS,Entertainment,0.0,0.0,500.0,30.0,Unknown,play-packs,0.0,0.0,0.35,199.0
+Grameenphone,GP-OFF-038-V3,Play Pack Super + 500 SMS,Entertainment,0.0,0.0,500.0,30.0,Unknown,play-packs,0.0,0.0,0.35,225.0
+Grameenphone,GP-OFF-038-V4,Play Pack Super + 500 SMS,Entertainment,0.0,0.0,500.0,30.0,Unknown,play-packs,0.0,0.0,0.35,164.0
+Grameenphone,GP-OFF-039-V2,Play Pack Sports + 335 SMS,Entertainment,0.0,0.0,335.0,30.0,Unknown,play-packs,0.0,0.0,0.33,117.0
+Grameenphone,GP-OFF-039-V3,Play Pack Sports + 335 SMS,Entertainment,0.0,0.0,335.0,30.0,Unknown,play-packs,0.0,0.0,0.33,139.0
+Grameenphone,GP-OFF-039-V4,Play Pack Sports + 335 SMS,Entertainment,0.0,0.0,335.0,30.0,Unknown,play-packs,0.0,0.0,0.33,94.0
+Grameenphone,GP-OFF-040-V2,3 Years Account Validity + 600 Minutes,Validity,0.0,600.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,947.0
+Grameenphone,GP-OFF-040-V3,3 Years Account Validity + 600 Minutes,Validity,0.0,600.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,1147.0
+Grameenphone,GP-OFF-040-V4,3 Years Account Validity + 600 Minutes,Validity,0.0,600.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,897.0
+Grameenphone,GP-OFF-041-V2,5 Years Account Validity + 900 Minutes,Validity,0.0,900.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,1878.0
+Grameenphone,GP-OFF-041-V3,5 Years Account Validity + 900 Minutes,Validity,0.0,900.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,1948.0
+Grameenphone,GP-OFF-041-V4,5 Years Account Validity + 900 Minutes,Validity,0.0,900.0,0.0,30.0,Unknown,account-validity-extender,0.0,1.66,0.0,1728.0
+Grameenphone,GP-OFF-042-V2,Main account validity extension (3 years),Validity,0.0,0.0,0.0,1095.0,Unknown,validity-pack,0.0,0.0,0.0,626.0
+Grameenphone,GP-OFF-042-V3,Main account validity extension (3 years),Validity,0.0,0.0,0.0,1095.0,Unknown,validity-pack,0.0,0.0,0.0,834.0
+Grameenphone,GP-OFF-042-V4,Main account validity extension (3 years),Validity,0.0,0.0,0.0,1095.0,Unknown,validity-pack,0.0,0.0,0.0,765.0
+Grameenphone,GP-OFF-043-V2,Main account validity extension (5 years),Validity,0.0,0.0,0.0,1825.0,Unknown,validity-pack,0.0,0.0,0.0,1294.0
+Grameenphone,GP-OFF-043-V3,Main account validity extension (5 years),Validity,0.0,0.0,0.0,1825.0,Unknown,validity-pack,0.0,0.0,0.0,846.0
+Grameenphone,GP-OFF-043-V4,Main account validity extension (5 years),Validity,0.0,0.0,0.0,1825.0,Unknown,validity-pack,0.0,0.0,0.0,1194.0
+Grameenphone,GP-OFF-044-V2,Shukhee 200 sms,SMS,0.0,0.0,200.0,5.0,Unknown,shukhee-packs-offer,0.0,0.0,0.32,64.0
+Grameenphone,GP-OFF-044-V3,Shukhee 100 sms,SMS,0.0,0.0,100.0,5.0,Unknown,shukhee-packs-offer,0.0,0.0,0.33,33.0
+Grameenphone,GP-OFF-044-V4,Shukhee 300 sms,SMS,0.0,0.0,300.0,5.0,Unknown,shukhee-packs-offer,0.0,0.0,0.3,90.0
+Grameenphone,GP-OFF-045-V2,Shukhee 800 sms,SMS,0.0,0.0,800.0,7.0,Unknown,shukhee-packs-offer,0.0,0.0,0.29,233.0
+Grameenphone,GP-OFF-045-V3,Shukhee 250 sms,SMS,0.0,0.0,250.0,7.0,Unknown,shukhee-packs-offer,0.0,0.0,0.35,88.0
+Grameenphone,GP-OFF-045-V4,Shukhee 400 sms,SMS,0.0,0.0,400.0,5.0,Unknown,shukhee-packs-offer,0.0,0.0,0.32,126.0
+Grameenphone,GP-OFF-046-V2,Shukhee 200 sms,SMS,0.0,0.0,200.0,7.0,Unknown,shukhee-packs-offer,0.0,0.0,0.34,68.0
+Grameenphone,GP-OFF-046-V3,Shukhee 500 sms,SMS,0.0,0.0,500.0,15.0,Unknown,shukhee-packs-offer,0.0,0.0,0.34,172.0
+Grameenphone,GP-OFF-046-V4,Shukhee 300 sms,SMS,0.0,0.0,300.0,15.0,Unknown,shukhee-packs-offer,0.0,0.0,0.36,109.0
+Grameenphone,GP-OFF-047-V2,Shukhee 60 minutes,Minute,0.0,60.0,0.0,30.0,Unknown,shukhee-packs-offer,0.0,1.62,0.0,97.0
+Grameenphone,GP-OFF-047-V3,Shukhee 250 minutes,Minute,0.0,250.0,0.0,30.0,Unknown,shukhee-packs-offer,0.0,1.34,0.0,334.0
+Grameenphone,GP-OFF-047-V4,Shukhee 300 minutes,Minute,0.0,300.0,0.0,7.0,Unknown,shukhee-packs-offer,0.0,0.88,0.0,263.0
+Grameenphone,GP-OFF-048-V2,Number One call rate recharge 29 TK,Call Rate,0.0,0.0,0.0,2.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,29.0
+Grameenphone,GP-OFF-048-V3,Number One call rate recharge 31 TK,Call Rate,0.0,0.0,0.0,2.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,31.0
+Grameenphone,GP-OFF-048-V4,Number One call rate recharge 42 TK,Call Rate,0.0,0.0,0.0,2.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,42.0
+Grameenphone,GP-OFF-049-V2,Number One call rate recharge 70 TK,Call Rate,0.0,0.0,0.0,3.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,70.0
+Grameenphone,GP-OFF-049-V3,Number One call rate recharge 80 TK,Call Rate,0.0,0.0,0.0,3.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,80.0
+Grameenphone,GP-OFF-049-V4,Number One call rate recharge 67 TK,Call Rate,0.0,0.0,0.0,3.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,67.0
+Grameenphone,GP-OFF-050-V2,Number One call rate recharge 108 TK,Call Rate,0.0,0.0,0.0,7.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,108.0
+Grameenphone,GP-OFF-050-V3,Number One call rate recharge 85 TK,Call Rate,0.0,0.0,0.0,7.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,85.0
+Grameenphone,GP-OFF-050-V4,Number One call rate recharge 103 TK,Call Rate,0.0,0.0,0.0,7.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,103.0
+Grameenphone,GP-OFF-051-V2,Number One call rate recharge 178 TK,Call Rate,0.0,0.0,0.0,30.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,178.0
+Grameenphone,GP-OFF-051-V3,Number One call rate recharge 188 TK,Call Rate,0.0,0.0,0.0,30.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,188.0
+Grameenphone,GP-OFF-051-V4,Number One call rate recharge 228 TK,Call Rate,0.0,0.0,0.0,30.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,228.0
+Grameenphone,GP-OFF-052-V2,Number One call rate recharge 279 TK,Call Rate,0.0,0.0,0.0,60.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,279.0
+Grameenphone,GP-OFF-052-V3,Number One call rate recharge 349 TK,Call Rate,0.0,0.0,0.0,60.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,349.0
+Grameenphone,GP-OFF-052-V4,Number One call rate recharge 379 TK,Call Rate,0.0,0.0,0.0,60.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,379.0
+Grameenphone,GP-OFF-053-V2,Number One call rate recharge 489 TK,Call Rate,0.0,0.0,0.0,90.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,489.0
+Grameenphone,GP-OFF-053-V3,Number One call rate recharge 639 TK,Call Rate,0.0,0.0,0.0,90.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,639.0
+Grameenphone,GP-OFF-053-V4,Number One call rate recharge 439 TK,Call Rate,0.0,0.0,0.0,90.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,439.0
+Grameenphone,GP-OFF-054-V2,Number One call rate recharge 849 TK,Call Rate,0.0,0.0,0.0,365.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,849.0
+Grameenphone,GP-OFF-054-V3,Number One call rate recharge 1039 TK,Call Rate,0.0,0.0,0.0,365.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,1039.0
+Grameenphone,GP-OFF-054-V4,Number One call rate recharge 949 TK,Call Rate,0.0,0.0,0.0,365.0,Unknown,number-one-call-rate-offer,0.0,0.6,0.0,949.0
+Banglalink,TK119DATAUSSD72HRR-V2,Banglalink Prepaid 7.5 gb at only Tk. 139 recharge!,Data,7.5,0.0,0.0,3.0,Unknown,offers/prepaid/internet,18.53,0.0,0.0,139.0
+Banglalink,TK119DATAUSSD72HRR-V3,Banglalink Prepaid 18 gb at only Tk. 289 recharge!,Data,18.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,16.06,0.0,0.0,289.0
+Banglalink,TK119DATAUSSD72HRR-V4,Banglalink Prepaid 3 gb at only Tk. 89 recharge!,Data,3.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,29.67,0.0,0.0,89.0
+Banglalink,TK348USSD260510R-V2,Banglalink Prepaid 9GB Tk. 338!,Data,9.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,37.56,0.0,0.0,338.0
+Banglalink,TK348USSD260510R-V3,Banglalink Prepaid 18GB Tk. 608!,Data,18.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,33.78,0.0,0.0,608.0
+Banglalink,TK348USSD260510R-V4,Banglalink Prepaid 15GB Tk. 798!,Data,15.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,53.2,0.0,0.0,798.0
+Banglalink,TK98USSDBLD260028A-V2,Banglalink Prepaid 4GB Tk. 78!,Data,4.0,0.0,0.0,1.0,Unknown,offers/prepaid/internet,19.5,0.0,0.0,78.0
+Banglalink,TK98USSDBLD260028A-V3,Banglalink Prepaid 10GB Tk. 168!,Data,10.0,0.0,0.0,1.0,Unknown,offers/prepaid/internet,16.8,0.0,0.0,168.0
+Banglalink,TK98USSDBLD260028A-V4,Banglalink Prepaid 7.5GB Tk. 138!,Data,7.5,0.0,0.0,1.0,Unknown,offers/prepaid/internet,18.4,0.0,0.0,138.0
+Banglalink,TK398USSD260010R-V2,Banglalink Prepaid 25GB Tk. 608!,Data,25.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,24.32,0.0,0.0,608.0
+Banglalink,TK398USSD260010R-V3,Banglalink Prepaid 15GB Tk. 738!,Data,15.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,49.2,0.0,0.0,738.0
+Banglalink,TK398USSD260010R-V4,Banglalink Prepaid 12GB Tk. 488!,Data,12.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,40.67,0.0,0.0,488.0
+Banglalink,TK498USSDBLD260023D-V2,Banglalink Prepaid 60GB Tk. 1388!,Data,60.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,23.13,0.0,0.0,1388.0
+Banglalink,TK498USSDBLD260023D-V3,Banglalink Prepaid 75GB Tk. 858!,Data,75.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,11.44,0.0,0.0,858.0
+Banglalink,TK498USSDBLD260023D-V4,Banglalink Prepaid 12GB Tk. 358!,Data,12.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,29.83,0.0,0.0,358.0
+Banglalink,TK598DATAUSSD30D-V2,Banglalink Prepaid 50GB Tk. 828!,Data,50.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,16.56,0.0,0.0,828.0
+Banglalink,TK598DATAUSSD30D-V3,Banglalink Prepaid 105GB Tk. 1478!,Data,105.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,14.08,0.0,0.0,1478.0
+Banglalink,TK598DATAUSSD30D-V4,Banglalink Prepaid 70GB Tk. 1108!,Data,70.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,15.83,0.0,0.0,1108.0
+Banglalink,TK698DATAUSSD-V2,Banglalink Prepaid 95GB Tk. 1158!,Data,95.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,12.19,0.0,0.0,1158.0
+Banglalink,TK698DATAUSSD-V3,Banglalink Prepaid 110GB Tk. 978!,Data,110.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,8.89,0.0,0.0,978.0
+Banglalink,TK698DATAUSSD-V4,Banglalink Prepaid 225GB Tk. 2358!,Data,225.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,10.48,0.0,0.0,2358.0
+Banglalink,TK798DATAUSSD-V2,Banglalink Prepaid 125GB Tk. 958!,Data,125.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,7.66,0.0,0.0,958.0
+Banglalink,TK798DATAUSSD-V3,Banglalink Prepaid 50GB Tk. 458!,Data,50.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,9.16,0.0,0.0,458.0
+Banglalink,TK798DATAUSSD-V4,Banglalink Prepaid 234GB Tk. 1648!,Data,234.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,7.04,0.0,0.0,1648.0
+Banglalink,TK898USSDBLD260066R-V2,Banglalink Prepaid 60GB Tk. 498!,Data,60.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,8.3,0.0,0.0,498.0
+Banglalink,TK898USSDBLD260066R-V3,Banglalink Prepaid 90GB Tk. 738!,Data,90.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,8.2,0.0,0.0,738.0
+Banglalink,TK898USSDBLD260066R-V4,Banglalink Prepaid 234GB Tk. 1588!,Data,234.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,6.79,0.0,0.0,1588.0
+Banglalink,TK158USSDBLD260019R-V2,Banglalink Prepaid 10GB Tk. 338!,Data,10.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,33.8,0.0,0.0,338.0
+Banglalink,TK158USSDBLD260019R-V3,Banglalink Prepaid 2GB Tk. 78!,Data,2.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,39.0,0.0,0.0,78.0
+Banglalink,TK158USSDBLD260019R-V4,Banglalink Prepaid 6GB Tk. 238!,Data,6.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,39.67,0.0,0.0,238.0
+Banglalink,TK999USSDBLD250066B-V2,Banglalink Prepaid 234GB Tk. 1459!,Data,234.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,6.24,0.0,0.0,1459.0
+Banglalink,TK999USSDBLD250066B-V3,Banglalink Prepaid 234GB Tk. 1019!,Data,234.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,4.35,0.0,0.0,1019.0
+Banglalink,TK999USSDBLD250066B-V4,Banglalink Prepaid 234GB Tk. 439!,Data,234.0,0.0,0.0,1.0,Unknown,offers/prepaid/internet,1.88,0.0,0.0,439.0
+Banglalink,TK149USSDBLD260028A-V2,Banglalink Prepaid 38 GB Tk. 219!,Data,38.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,5.76,0.0,0.0,219.0
+Banglalink,TK149USSDBLD260028A-V3,Banglalink Prepaid 31 GB Tk. 189!,Data,31.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,6.1,0.0,0.0,189.0
+Banglalink,TK149USSDBLD260028A-V4,Banglalink Prepaid 60 GB Tk. 339!,Data,60.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,5.65,0.0,0.0,339.0
+Banglalink,TK99USSDBLD240028A-V2,Banglalink 7.5GB only Tk. 159!,Data,7.5,0.0,0.0,1.0,Unknown,offers/prepaid/internet,21.2,0.0,0.0,159.0
+Banglalink,TK99USSDBLD240028A-V3,Banglalink 4GB only Tk. 119!,Data,4.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,29.75,0.0,0.0,119.0
+Banglalink,TK99USSDBLD240028A-V4,Banglalink 4.5GB only Tk. 149!,Data,4.5,0.0,0.0,3.0,Unknown,offers/prepaid/internet,33.11,0.0,0.0,149.0
+Banglalink,TK229USSDBLD260004R-V2,Banglalink Prepaid 75GB Tk. 529!,Data,75.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,7.05,0.0,0.0,529.0
+Banglalink,TK229USSDBLD260004R-V3,Banglalink Prepaid 15GB Tk. 139!,Data,15.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,9.27,0.0,0.0,139.0
+Banglalink,TK229USSDBLD260004R-V4,Banglalink Prepaid 90GB Tk. 479!,Data,90.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,5.32,0.0,0.0,479.0
+Banglalink,TK249DATAUSSD7D-V2,Banglalink Prepaid 25GB Tk. 209!,Data,25.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,8.36,0.0,0.0,209.0
+Banglalink,TK249DATAUSSD7D-V3,Banglalink Prepaid 60GB Tk. 249!,Data,60.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,4.15,0.0,0.0,249.0
+Banglalink,TK249DATAUSSD7D-V4,Banglalink Prepaid 100GB Tk. 659!,Data,100.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,6.59,0.0,0.0,659.0
+Banglalink,TK988DATAUSSD90D-V2,Banglalink 60 GB only Tk. 1238!,Data,60.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,20.63,0.0,0.0,1238.0
+Banglalink,TK988DATAUSSD90D-V3,Banglalink 100 GB only Tk. 1818!,Data,100.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,18.18,0.0,0.0,1818.0
+Banglalink,TK988DATAUSSD90D-V4,Banglalink 125 GB only Tk. 2128!,Data,125.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,17.02,0.0,0.0,2128.0
+Banglalink,TK1494DATAUSSD30D-V2,Banglalink Prepaid 115GB only Tk. 1573!,Data,115.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,13.68,0.0,0.0,1573.0
+Banglalink,TK1494DATAUSSD30D-V3,Banglalink Prepaid 234GB only Tk. 2997!,Data,234.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,12.81,0.0,0.0,2997.0
+Banglalink,TK1494DATAUSSD30D-V4,Banglalink Prepaid 100GB only Tk. 1753!,Data,100.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,17.53,0.0,0.0,1753.0
+Banglalink,TK1794DATAUSSD30D-V2,Banglalink Prepaid 145GB only Tk. 2246!,Data,145.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,15.49,0.0,0.0,2246.0
+Banglalink,TK1794DATAUSSD30D-V3,Banglalink Prepaid 60GB only Tk. 1000!,Data,60.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,16.67,0.0,0.0,1000.0
+Banglalink,TK1794DATAUSSD30D-V4,Banglalink Prepaid 234GB only Tk. 2997!,Data,234.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,12.81,0.0,0.0,2997.0
+Banglalink,TK2094DATAUSSD30D-V2,Banglalink Prepaid 234GB only Tk. 2972!,Data,234.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,12.7,0.0,0.0,2972.0
+Banglalink,TK2094DATAUSSD30D-V3,Banglalink Prepaid 115GB only Tk. 1139!,Data,115.0,0.0,0.0,90.0,Unknown,offers/prepaid/internet,9.9,0.0,0.0,1139.0
+Banglalink,TK2094DATAUSSD30D-V4,Banglalink Prepaid 234GB only Tk. 680!,Data,234.0,0.0,0.0,1.0,Unknown,offers/prepaid/internet,2.91,0.0,0.0,680.0
+Banglalink,TK1988DATAUSSD365D-V2,Banglalink 125 GB only Tk. 2428!,Data,125.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,19.42,0.0,0.0,2428.0
+Banglalink,TK1988DATAUSSD365D-V3,Banglalink 75 GB only Tk. 1558!,Data,75.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,20.77,0.0,0.0,1558.0
+Banglalink,TK1988DATAUSSD365D-V4,Banglalink 150 GB only Tk. 2868!,Data,150.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,19.12,0.0,0.0,2868.0
+Banglalink,TK2498USSDBLU230002X-V2,Banglalink 25 GB only Tk. 1388!,Data,25.0,0.0,0.0,3650.0,Unknown,offers/prepaid/internet,55.52,0.0,0.0,1388.0
+Banglalink,TK2498USSDBLU230002X-V3,Banglalink 38 GB only Tk. 1938!,Data,38.0,0.0,0.0,3650.0,Unknown,offers/prepaid/internet,51.0,0.0,0.0,1938.0
+Banglalink,TK2498USSDBLU230002X-V4,Banglalink 75 GB only Tk. 1918!,Data,75.0,0.0,0.0,365.0,Unknown,offers/prepaid/internet,25.57,0.0,0.0,1918.0
+Banglalink,TK129DATAUSSD72HR-V2,Banglalink Prepaid 19GB Tk. 169!,Data,19.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,8.89,0.0,0.0,169.0
+Banglalink,TK129DATAUSSD72HR-V3,Banglalink Prepaid 30GB Tk. 239!,Data,30.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,7.97,0.0,0.0,239.0
+Banglalink,TK129DATAUSSD72HR-V4,Banglalink Prepaid 22GB Tk. 179!,Data,22.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,8.14,0.0,0.0,179.0
+Banglalink,TK179USSDBLD250019R-V2,Banglalink 4 GB only Tk.89!,Data,4.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,22.25,0.0,0.0,89.0
+Banglalink,TK179USSDBLD250019R-V3,Banglalink 10 GB only Tk.209!,Data,10.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,20.9,0.0,0.0,209.0
+Banglalink,TK179USSDBLD250019R-V4,Banglalink 20 GB only Tk.399!,Data,20.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,19.95,0.0,0.0,399.0
+Banglalink,TK199USSDBLD220072B-V2,Banglalink 11 GB only Tk. 169!,Data,11.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,15.36,0.0,0.0,169.0
+Banglalink,TK199USSDBLD220072B-V3,Banglalink 19 GB only Tk. 259!,Data,19.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,13.63,0.0,0.0,259.0
+Banglalink,TK199USSDBLD220072B-V4,Banglalink 22 GB only Tk. 299!,Data,22.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,13.59,0.0,0.0,299.0
+Banglalink,TK36USSD3DGCAL-V2,Banglalink 9GB (2.5GB Toffee included) only Tk. 167!,Data,9.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,18.56,0.0,0.0,167.0
+Banglalink,TK36USSD3DGCAL-V3,Banglalink 4.5GB (2.5GB Toffee included) only Tk. 112!,Data,4.5,0.0,0.0,7.0,Unknown,offers/prepaid/internet,24.89,0.0,0.0,112.0
+Banglalink,TK36USSD3DGCAL-V4,Banglalink 2GB (2.5GB Toffee included) only Tk. 54!,Data,2.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,27.0,0.0,0.0,54.0
+Banglalink,TK100USSD30DGCAL-V2,Banglalink 2GB: imo + BiP + Telegram only Tk. 57!,Data,2.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,28.5,0.0,0.0,57.0
+Banglalink,TK100USSD30DGCAL-V3,Banglalink 10GB: imo + BiP + Telegram only Tk. 219!,Data,10.0,0.0,0.0,30.0,Unknown,offers/prepaid/internet,21.9,0.0,0.0,219.0
+Banglalink,TK100USSD30DGCAL-V4,Banglalink 3GB: imo + BiP + Telegram only Tk. 53!,Data,3.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,17.67,0.0,0.0,53.0
+Banglalink,TK60USSD7DGCAL-V2,Banglalink 6GB: imo + BiP + Telegram only Tk. 146!,Data,6.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,24.33,0.0,0.0,146.0
+Banglalink,TK60USSD7DGCAL-V3,Banglalink 2.5GB: imo + BiP + Telegram only Tk. 75!,Data,2.5,0.0,0.0,7.0,Unknown,offers/prepaid/internet,30.0,0.0,0.0,75.0
+Banglalink,TK60USSD7DGCAL-V4,Banglalink 1.5GB: imo + BiP + Telegram only Tk. 48!,Data,1.5,0.0,0.0,7.0,Unknown,offers/prepaid/internet,32.0,0.0,0.0,48.0
+Banglalink,TK20USSD3DGSOC-V2,Banglalink 4GB: Facebook + WhatsApp + Instagram + Snapchat + BiP only Tk. 68!,Data,4.0,0.0,0.0,1.0,Unknown,offers/prepaid/internet,17.0,0.0,0.0,68.0
+Banglalink,TK20USSD3DGSOC-V3,Banglalink 1GB: Facebook + WhatsApp + Instagram + Snapchat + BiP only Tk. 29!,Data,1.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,29.0,0.0,0.0,29.0
+Banglalink,TK20USSD3DGSOC-V4,Banglalink 2.5GB: Facebook + WhatsApp + Instagram + Snapchat + BiP only Tk. 46!,Data,2.5,0.0,0.0,1.0,Unknown,offers/prepaid/internet,18.4,0.0,0.0,46.0
+Banglalink,TK60USSD3DGVID-V2,22 GB,Data,22.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,2.77,0.0,0.0,61.0
+Banglalink,TK60USSD3DGVID-V3,90 GB,Data,90.0,0.0,0.0,7.0,Unknown,offers/prepaid/internet,2.1,0.0,0.0,189.0
+Banglalink,TK60USSD3DGVID-V4,15 GB,Data,15.0,0.0,0.0,3.0,Unknown,offers/prepaid/internet,2.2,0.0,0.0,33.0
+Banglalink,TK49USSD50MIN72H-V2,200 Minutes,Minute,0.0,200.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.59,0.0,119.0
+Banglalink,TK49USSD50MIN72H-V3,100 Minutes,Minute,0.0,100.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.69,0.0,69.0
+Banglalink,TK49USSD50MIN72H-V4,50 Minutes,Minute,0.0,50.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.78,0.0,39.0
+Banglalink,TK319USSD450MIN30D-V2,675 Minutes,Minute,0.0,675.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.64,0.0,429.0
+Banglalink,TK319USSD450MIN30D-V3,1125 Minutes,Minute,0.0,1125.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.62,0.0,699.0
+Banglalink,TK319USSD450MIN30D-V4,900 Minutes,Minute,0.0,900.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.64,0.0,579.0
+Banglalink,TK269USSD300MIN30D-V2,500 Minutes,Minute,0.0,500.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.76,0.0,379.0
+Banglalink,TK269USSD300MIN30D-V3,250 Minutes,Minute,0.0,250.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.84,0.0,209.0
+Banglalink,TK269USSD300MIN30D-V4,400 Minutes,Minute,0.0,400.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.82,0.0,329.0
+Banglalink,TK29USSD46MIN24H-V2,70 Minutes,Minute,0.0,70.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.7,0.0,49.0
+Banglalink,TK29USSD46MIN24H-V3,110 Minutes,Minute,0.0,110.0,0.0,1.0,Unknown,offers/prepaid/voice,0.0,0.54,0.0,59.0
+Banglalink,TK29USSD46MIN24H-V4,90 Minutes,Minute,0.0,90.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.66,0.0,59.0
+Banglalink,TK137USSD200MIN7D-V2,500 Minutes,Minute,0.0,500.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.6,0.0,301.0
+Banglalink,TK137USSD200MIN7D-V3,600 Minutes,Minute,0.0,600.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.57,0.0,341.0
+Banglalink,TK137USSD200MIN7D-V4,150 Minutes,Minute,0.0,150.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.71,0.0,107.0
+Banglalink,TK227USSD250MIN30D-V2,500 Minutes,Minute,0.0,500.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.79,0.0,397.0
+Banglalink,TK227USSD250MIN30D-V3,120 Minutes,Minute,0.0,120.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,1.1,0.0,132.0
+Banglalink,TK227USSD250MIN30D-V4,625 Minutes,Minute,0.0,625.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.82,0.0,514.0
+Banglalink,TK77USSD120MIN72H-V2,60 Minutes,Minute,0.0,60.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.73,0.0,44.0
+Banglalink,TK77USSD120MIN72H-V3,350 Minutes,Minute,0.0,350.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.57,0.0,201.0
+Banglalink,TK77USSD120MIN72H-V4,150 Minutes,Minute,0.0,150.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.64,0.0,96.0
+Banglalink,TK39USSD60MIN24H-V2,150 Minutes,Minute,0.0,150.0,0.0,1.0,Unknown,offers/prepaid/voice,0.0,0.66,0.0,99.0
+Banglalink,TK39USSD60MIN24H-V3,80 Minutes,Minute,0.0,80.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.86,0.0,69.0
+Banglalink,TK39USSD60MIN24H-V4,120 Minutes,Minute,0.0,120.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.82,0.0,99.0
+Banglalink,TK357USSD500MIN30D-V2,250 Minutes,Minute,0.0,250.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.77,0.0,192.0
+Banglalink,TK357USSD500MIN30D-V3,1000 Minutes,Minute,0.0,1000.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.66,0.0,656.0
+Banglalink,TK357USSD500MIN30D-V4,375 Minutes,Minute,0.0,375.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.77,0.0,287.0
+Banglalink,TK109USSD150MIN5D-V2,300 Minutes,Minute,0.0,300.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.7,0.0,209.0
+Banglalink,TK109USSD150MIN5D-V3,450 Minutes,Minute,0.0,450.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.64,0.0,289.0
+Banglalink,TK109USSD150MIN5D-V4,375 Minutes,Minute,0.0,375.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.56,0.0,209.0
+Banglalink,TK67USSD100MIN72HRS-V2,250 Minutes,Minute,0.0,250.0,0.0,1.0,Unknown,offers/prepaid/voice,0.0,0.51,0.0,128.0
+Banglalink,TK67USSD100MIN72HRS-V3,80 Minutes,Minute,0.0,80.0,0.0,1.0,Unknown,offers/prepaid/voice,0.0,0.54,0.0,43.0
+Banglalink,TK67USSD100MIN72HRS-V4,120 Minutes,Minute,0.0,120.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.68,0.0,82.0
+Banglalink,TK157USSD240MIN7D-V2,725 Minutes,Minute,0.0,725.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.55,0.0,399.0
+Banglalink,TK157USSD240MIN7D-V3,120 Minutes,Minute,0.0,120.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.74,0.0,89.0
+Banglalink,TK157USSD240MIN7D-V4,350 Minutes,Minute,0.0,350.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.61,0.0,213.0
+Banglalink,TK127USSD200MIN7D-V2,275 Minutes,Minute,0.0,275.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.6,0.0,165.0
+Banglalink,TK127USSD200MIN7D-V3,450 Minutes,Minute,0.0,450.0,0.0,1.0,Unknown,offers/prepaid/voice,0.0,0.43,0.0,193.0
+Banglalink,TK127USSD200MIN7D-V4,350 Minutes,Minute,0.0,350.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.68,0.0,238.0
+Banglalink,TK97USSD110MIN5D-V2,250 Minutes,Minute,0.0,250.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.6,0.0,151.0
+Banglalink,TK97USSD110MIN5D-V3,90 Minutes,Minute,0.0,90.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.83,0.0,75.0
+Banglalink,TK97USSD110MIN5D-V4,300 Minutes,Minute,0.0,300.0,0.0,5.0,Unknown,offers/prepaid/voice,0.0,0.7,0.0,210.0
+Banglalink,TK57USSD80MIN48HRS-V2,160 Minutes,Minute,0.0,160.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.62,0.0,100.0
+Banglalink,TK57USSD80MIN48HRS-V3,60 Minutes,Minute,0.0,60.0,0.0,3.0,Unknown,offers/prepaid/voice,0.0,0.87,0.0,52.0
+Banglalink,TK57USSD80MIN48HRS-V4,250 Minutes,Minute,0.0,250.0,0.0,2.0,Unknown,offers/prepaid/voice,0.0,0.55,0.0,138.0
+Banglalink,TK447USSD700MIN30D-V2,875 Minutes,Minute,0.0,875.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.61,0.0,533.0
+Banglalink,TK447USSD700MIN30D-V3,1400 Minutes,Minute,0.0,1400.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.59,0.0,821.0
+Banglalink,TK447USSD700MIN30D-V4,525 Minutes,Minute,0.0,525.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.69,0.0,361.0
+Banglalink,TK507USSD840MIN30D-V2,500 Minutes,Minute,0.0,500.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.74,0.0,369.0
+Banglalink,TK507USSD840MIN30D-V3,1500 Minutes,Minute,0.0,1500.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.61,0.0,909.0
+Banglalink,TK507USSD840MIN30D-V4,750 Minutes,Minute,0.0,750.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.69,0.0,519.0
+Banglalink,TK419USSD650MIN30D-V2,1250 Minutes,Minute,0.0,1250.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.6,0.0,749.0
+Banglalink,TK419USSD650MIN30D-V3,300 Minutes,Minute,0.0,300.0,0.0,7.0,Unknown,offers/prepaid/voice,0.0,0.56,0.0,169.0
+Banglalink,TK419USSD650MIN30D-V4,1550 Minutes,Minute,0.0,1550.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.61,0.0,939.0
+Banglalink,TK327USSD450MIN30D-V2,600 Minutes,Minute,0.0,600.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.74,0.0,446.0
+Banglalink,TK327USSD450MIN30D-V3,500 Minutes,Minute,0.0,500.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.76,0.0,378.0
+Banglalink,TK327USSD450MIN30D-V4,300 Minutes,Minute,0.0,300.0,0.0,365.0,Unknown,offers/prepaid/voice,0.0,1.54,0.0,462.0
+Banglalink,TK729USSD1165MIN30D-V2,1750 Minutes,Minute,0.0,1750.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.61,0.0,1069.0
+Banglalink,TK729USSD1165MIN30D-V3,1800 Minutes,Minute,0.0,1800.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.86,0.0,1539.0
+Banglalink,TK729USSD1165MIN30D-V4,575 Minutes,Minute,0.0,575.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.68,0.0,389.0
+Banglalink,TK1197USSD1200MIN365D-V2,600 Minutes,Minute,0.0,600.0,0.0,365.0,Unknown,offers/prepaid/voice,0.0,1.09,0.0,657.0
+Banglalink,TK1197USSD1200MIN365D-V3,1800 Minutes,Minute,0.0,1800.0,0.0,30.0,Unknown,offers/prepaid/voice,0.0,0.91,0.0,1643.0
+Banglalink,TK1197USSD1200MIN365D-V4,1800 Minutes,Minute,0.0,1800.0,0.0,365.0,Unknown,offers/prepaid/voice,0.0,0.89,0.0,1610.0
+Banglalink,TK493USSDMA2Y-V2,Main Account Validity,Validity,0.0,0.0,0.0,730.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,567.0
+Banglalink,TK493USSDMA2Y-V3,Main Account Validity,Validity,0.0,0.0,0.0,730.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,592.0
+Banglalink,TK493USSDMA2Y-V4,Main Account Validity,Validity,0.0,0.0,0.0,730.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,616.0
+Banglalink,TK693USSDMA3Y-V2,Main Account Validity,Validity,0.0,0.0,0.0,1095.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,797.0
+Banglalink,TK693USSDMA3Y-V3,Main Account Validity,Validity,0.0,0.0,0.0,1095.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,554.0
+Banglalink,TK693USSDMA3Y-V4,Main Account Validity,Validity,0.0,0.0,0.0,1095.0,Unknown,offers/prepaid/voice,0.0,0.0,0.0,866.0
+Banglalink,TK649USSDBLC260015R-V2,Banglalink Prepaid 45GB+600Min Tk. 639!,Combo,45.0,600.0,0.0,7.0,Unknown,offers/prepaid/bundles,14.2,1.06,0.0,639.0
+Banglalink,TK649USSDBLC260015R-V3,Banglalink Prepaid 15GB+200Min Tk. 269!,Combo,15.0,200.0,0.0,7.0,Unknown,offers/prepaid/bundles,17.93,1.34,0.0,269.0
+Banglalink,TK649USSDBLC260015R-V4,Banglalink Prepaid 90GB+1200Min Tk. 1679!,Combo,90.0,1200.0,0.0,30.0,Unknown,offers/prepaid/bundles,18.66,1.4,0.0,1679.0
+Banglalink,TK749USSDBLC-V2,Banglalink Prepaid 100GB+1800Min (20 GB Extra On Repurchase) only Tk. 1589!,Combo,100.0,1800.0,0.0,30.0,Unknown,offers/prepaid/bundles,15.89,0.88,0.0,1589.0
+Banglalink,TK749USSDBLC-V3,Banglalink Prepaid 80GB+1600Min (20 GB Extra On Repurchase) only Tk. 1359!,Combo,80.0,1600.0,0.0,30.0,Unknown,offers/prepaid/bundles,16.99,0.85,0.0,1359.0
+Banglalink,TK749USSDBLC-V4,Banglalink Prepaid 30GB+600Min (20 GB Extra On Repurchase) only Tk. 569!,Combo,30.0,600.0,0.0,30.0,Unknown,offers/prepaid/bundles,18.97,0.95,0.0,569.0
+Banglalink,TK549USSDBLC-V2,Banglalink Prepaid 19GB + 500Min Tk. 639!,Combo,19.0,500.0,0.0,30.0,Unknown,offers/prepaid/bundles,33.63,1.28,0.0,639.0
+Banglalink,TK549USSDBLC-V3,Banglalink Prepaid 11GB + 300Min Tk. 449!,Combo,11.0,300.0,0.0,30.0,Unknown,offers/prepaid/bundles,40.82,1.5,0.0,449.0
+Banglalink,TK549USSDBLC-V4,Banglalink Prepaid 7.5GB + 200Min Tk. 319!,Combo,7.5,200.0,0.0,30.0,Unknown,offers/prepaid/bundles,42.53,1.59,0.0,319.0
+Banglalink,TK998USSDBLC230015D-V2,Banglalink Prepaid 25 GB+750 Min only Tk. 548!,Combo,25.0,750.0,0.0,30.0,Unknown,offers/prepaid/bundles,21.92,0.73,0.0,548.0
+Banglalink,TK998USSDBLC230015D-V3,Banglalink Prepaid 75 GB+1800 Min only Tk. 1378!,Combo,75.0,1800.0,0.0,30.0,Unknown,offers/prepaid/bundles,18.37,0.77,0.0,1378.0
+Banglalink,TK998USSDBLC230015D-V4,Banglalink Prepaid 100 GB+1800 Min only Tk. 1738!,Combo,100.0,1800.0,0.0,30.0,Unknown,offers/prepaid/bundles,17.38,0.97,0.0,1738.0
+Banglalink,TK399MXBUSSD-V2,Banglalink Prepaid 2.5GB+80Min only Tk. 229!,Combo,2.5,80.0,0.0,30.0,Unknown,offers/prepaid/bundles,91.6,2.86,0.0,229.0
+Banglalink,TK399MXBUSSD-V3,Banglalink Prepaid 12GB+375Min only Tk. 859!,Combo,12.0,375.0,0.0,30.0,Unknown,offers/prepaid/bundles,71.58,2.29,0.0,859.0
+Banglalink,TK399MXBUSSD-V4,Banglalink Prepaid 10GB+300Min only Tk. 709!,Combo,10.0,300.0,0.0,30.0,Unknown,offers/prepaid/bundles,70.9,2.36,0.0,709.0
+Banglalink,TK499USSDBLC250002D-V2,Banglalink Prepaid 20GB + 400min Tk. 889!,Combo,20.0,400.0,0.0,30.0,Unknown,offers/prepaid/bundles,44.45,2.22,0.0,889.0
+Banglalink,TK499USSDBLC250002D-V3,Banglalink Prepaid 5GB + 100min Tk. 349!,Combo,5.0,100.0,0.0,90.0,Unknown,offers/prepaid/bundles,69.8,3.49,0.0,349.0
+Banglalink,TK499USSDBLC250002D-V4,Banglalink Prepaid 15GB + 300min Tk. 709!,Combo,15.0,300.0,0.0,30.0,Unknown,offers/prepaid/bundles,47.27,2.36,0.0,709.0
+Banglalink,TK1199USSDMXB30D-V2,Banglalink Prepaid 234GB+1800M Tk. 1759!,Combo,234.0,1800.0,0.0,30.0,Unknown,offers/prepaid/bundles,7.52,0.98,0.0,1759.0
+Banglalink,TK1199USSDMXB30D-V3,Banglalink Prepaid 225GB+1800M Tk. 2259!,Combo,225.0,1800.0,0.0,90.0,Unknown,offers/prepaid/bundles,10.04,1.25,0.0,2259.0
+Banglalink,TK1199USSDMXB30D-V4,Banglalink Prepaid 110GB+1350M Tk. 939!,Combo,110.0,1350.0,0.0,30.0,Unknown,offers/prepaid/bundles,8.54,0.7,0.0,939.0
+Banglalink,TK1497USSDBLC250002D-V2,Banglalink Prepaid 44GB+450Min only Tk. 1228!,Combo,44.0,450.0,0.0,90.0,Unknown,offers/prepaid/bundles,27.91,2.73,0.0,1228.0
+Banglalink,TK1497USSDBLC250002D-V3,Banglalink Prepaid 175GB+1800Min only Tk. 2997!,Combo,175.0,1800.0,0.0,90.0,Unknown,offers/prepaid/bundles,17.13,1.67,0.0,2997.0
+Banglalink,TK1497USSDBLC250002D-V4,Banglalink Prepaid 90GB+900Min only Tk. 2114!,Combo,90.0,900.0,0.0,90.0,Unknown,offers/prepaid/bundles,23.49,2.35,0.0,2114.0
+Banglalink,TK1797USSDBLC250002D-V2,Banglalink Prepaid 39GB+450Min only Tk. 1027!,Combo,39.0,450.0,0.0,90.0,Unknown,offers/prepaid/bundles,26.33,2.28,0.0,1027.0
+Banglalink,TK1797USSDBLC250002D-V3,Banglalink Prepaid 195GB+1800Min only Tk. 2997!,Combo,195.0,1800.0,0.0,90.0,Unknown,offers/prepaid/bundles,15.37,1.66,0.0,2997.0
+Banglalink,TK1797USSDBLC250002D-V4,Banglalink Prepaid 155GB+1800Min only Tk. 2997!,Combo,155.0,1800.0,0.0,365.0,Unknown,offers/prepaid/bundles,19.34,1.67,0.0,2997.0
+Banglalink,TK2097USSDBLC250002D-V2,Banglalink Prepaid 195GB+1800Min only Tk. 1597!,Combo,195.0,1800.0,0.0,3.0,Unknown,offers/prepaid/bundles,8.19,0.89,0.0,1597.0
+Banglalink,TK2097USSDBLC250002D-V3,Banglalink Prepaid 145GB+1800Min only Tk. 2146!,Combo,145.0,1800.0,0.0,30.0,Unknown,offers/prepaid/bundles,14.8,1.19,0.0,2146.0
+Banglalink,TK2097USSDBLC250002D-V4,Banglalink Prepaid 49GB+750Min only Tk. 1218!,Combo,49.0,750.0,0.0,90.0,Unknown,offers/prepaid/bundles,24.86,1.62,0.0,1218.0
+Banglalink,TK2997USSDMXB30D-V2,Banglalink 30 GB+ 600 minute only Tk.1219!,Combo,30.0,600.0,0.0,90.0,Unknown,offers/prepaid/bundles,40.63,2.03,0.0,1219.0
+Banglalink,TK2997USSDMXB30D-V3,Banglalink 45 GB+ 900 minute only Tk.2436!,Combo,45.0,900.0,0.0,365.0,Unknown,offers/prepaid/bundles,54.13,2.71,0.0,2436.0
+Banglalink,TK2997USSDMXB30D-V4,Banglalink 120 GB+ 1800 minute only Tk.2997!,Combo,120.0,1800.0,0.0,90.0,Unknown,offers/prepaid/bundles,24.98,1.66,0.0,2997.0
+Banglalink,TK86USSD30DSMSSUB-V2,"Banglalink Prepaid Hoichoi, Bongo Subscription + 200 SMS at only Tk. 129!",Combo,0.0,0.0,200.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.65,129.0
+Banglalink,TK86USSD30DSMSSUB-V3,"Banglalink Prepaid Hoichoi, Bongo Subscription + 400 SMS at only Tk. 235!",Combo,0.0,0.0,400.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.59,235.0
+Banglalink,TK86USSD30DSMSSUB-V4,"Banglalink Prepaid Hoichoi, Bongo Subscription + 100 SMS at only Tk. 74!",Combo,0.0,0.0,100.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.74,74.0
+Banglalink,TK66USSD30DSMSSUB-V2,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 200 SMS at only Tk. 122!",Combo,0.0,0.0,200.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.61,122.0
+Banglalink,TK66USSD30DSMSSUB-V3,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 300 SMS at only Tk. 170!",Combo,0.0,0.0,300.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.57,170.0
+Banglalink,TK66USSD30DSMSSUB-V4,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 80 SMS at only Tk. 53!",Combo,0.0,0.0,80.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.66,53.0
+Banglalink,TK33USSD7DSMSSUB-V2,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 20 SMS at only Tk. 29!",Combo,0.0,0.0,20.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,1.45,29.0
+Banglalink,TK33USSD7DSMSSUB-V3,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 80 SMS at only Tk. 47!",Combo,0.0,0.0,80.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.59,47.0
+Banglalink,TK33USSD7DSMSSUB-V4,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 60 SMS at only Tk. 39!",Combo,0.0,0.0,60.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.65,39.0
+Banglalink,TK156USSD30DSMSSUB-V2,"Banglalink Prepaid Hoichoi, Bongo, DeeptoPlay, iScreen Subscription + 400 SMS at only Tk. 351!",Combo,0.0,0.0,400.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.88,351.0
+Banglalink,TK156USSD30DSMSSUB-V3,"Banglalink Prepaid Hoichoi, Bongo, DeeptoPlay, iScreen Subscription + 200 SMS at only Tk. 228!",Combo,0.0,0.0,200.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,1.14,228.0
+Banglalink,TK156USSD30DSMSSUB-V4,"Banglalink Prepaid Hoichoi, Bongo, DeeptoPlay, iScreen Subscription + 300 SMS at only Tk. 277!",Combo,0.0,0.0,300.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.92,277.0
+Banglalink,TK60SMSBUNDLE3-V2,Banglalink 250 SMS Bundle only at Tk. 112!,Combo,0.0,0.0,250.0,90.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.45,112.0
+Banglalink,TK60SMSBUNDLE3-V3,Banglalink 500 SMS Bundle only at Tk. 368!,Combo,0.0,0.0,500.0,90.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.74,368.0
+Banglalink,TK60SMSBUNDLE3-V4,Banglalink 500 SMS Bundle only at Tk. 192!,Combo,0.0,0.0,500.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.38,192.0
+Banglalink,TK20SMSBUNDLE1-V2,Banglalink 60 SMS Bundle only at Tk. 29!,Combo,0.0,0.0,60.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.48,29.0
+Banglalink,TK20SMSBUNDLE1-V3,Banglalink 200 SMS Bundle only at Tk. 49!,Combo,0.0,0.0,200.0,3.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.24,49.0
+Banglalink,TK20SMSBUNDLE1-V4,Banglalink 350 SMS Bundle only at Tk. 169!,Combo,0.0,0.0,350.0,30.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.48,169.0
+Banglalink,TK10SMSBUNDLE-V2,Banglalink 150 SMS Bundle only at Tk. 78!,Combo,0.0,0.0,150.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.52,78.0
+Banglalink,TK10SMSBUNDLE-V3,Banglalink 100 SMS Bundle only at Tk. 53!,Combo,0.0,0.0,100.0,3.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.53,53.0
+Banglalink,TK10SMSBUNDLE-V4,Banglalink 200 SMS Bundle only at Tk. 96!,Combo,0.0,0.0,200.0,7.0,Unknown,offers/prepaid/bundles,0.0,0.0,0.48,96.0
+Banglalink,TK48PP89P3DREG10SEC-V2,89 paisa/minute with Tk. 58recharge,Call Rate,0.0,0.0,0.0,3.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,58.0
+Banglalink,TK48PP89P3DREG10SEC-V3,89 paisa/minute with Tk. 38recharge,Call Rate,0.0,0.0,0.0,3.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,38.0
+Banglalink,TK48PP89P3DREG10SEC-V4,89 paisa/minute with Tk. 68recharge,Call Rate,0.0,0.0,0.0,3.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,68.0
+Banglalink,TK188PP1P30D1SEC-V2,1 paisa/sec with Tk. 168 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,168.0
+Banglalink,TK188PP1P30D1SEC-V3,1 paisa/sec with Tk. 178 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,178.0
+Banglalink,TK188PP1P30D1SEC-V4,1 paisa/sec with Tk. 198 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,198.0
+Banglalink,TK309PP1P90D1SEC-V2,1 paisa/sec with Tk. 269 recharge,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,269.0
+Banglalink,TK309PP1P90D1SEC-V3,1 paisa/sec with Tk. 279 recharge,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,279.0
+Banglalink,TK309PP1P90D1SEC-V4,1 paisa/sec with Tk. 249 recharge,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers/prepaid/call-rate,0.0,0.6,0.0,249.0
+Banglalink,TK159PP89P30D10SEC-V2,89 paisa/Min with Tk. 179 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,179.0
+Banglalink,TK159PP89P30D10SEC-V3,89 paisa/Min with Tk. 129 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,129.0
+Banglalink,TK159PP89P30D10SEC-V4,89 paisa/Min with Tk. 169 recharge,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers/prepaid/call-rate,0.0,0.89,0.0,169.0
+Banglalink,NEWSIMOFFER2-V2,Banglalink New Prepaid SIM offer,New SIM,4.0,40.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,42.5,4.25,0.0,204.0
+Banglalink,NEWSIMOFFER2-V3,Banglalink New Prepaid SIM offer,New SIM,4.0,40.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,42.5,4.25,0.0,144.0
+Banglalink,NEWSIMOFFER2-V4,Banglalink New Prepaid SIM offer,New SIM,4.0,40.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,42.5,4.25,0.0,178.0
+Banglalink,NEWSIMOFFER1-V2,Banglalink New Prepaid SIM offer,New SIM,40.0,300.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,10.0,1.33,0.0,440.0
+Banglalink,NEWSIMOFFER1-V3,Banglalink New Prepaid SIM offer,New SIM,40.0,300.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,10.0,1.33,0.0,360.0
+Banglalink,NEWSIMOFFER1-V4,Banglalink New Prepaid SIM offer,New SIM,40.0,300.0,0.0,30.0,Unknown,offers/prepaid/new-sim-offer,10.0,1.33,0.0,520.0
+Banglalink,TK99USSDREACT4GB7D-V2,Banglalink Special Reactivation Pack 6 GB Internet at only Tk. 119!,Bondho SIM,6.0,0.0,0.0,7.0,Unknown,offers/prepaid/bondho-sim,16.5,0.0,0.0,119.0
+Banglalink,TK99USSDREACT4GB7D-V3,Banglalink Special Reactivation Pack 6 GB Internet at only Tk. 89!,Bondho SIM,6.0,0.0,0.0,7.0,Unknown,offers/prepaid/bondho-sim,16.5,0.0,0.0,89.0
+Banglalink,TK99USSDREACT4GB7D-V4,Banglalink Special Reactivation Pack 6 GB Internet at only Tk. 79!,Bondho SIM,6.0,0.0,0.0,7.0,Unknown,offers/prepaid/bondho-sim,16.5,0.0,0.0,79.0
+Banglalink,TK127USSDREACTBTL30D-V2,Banglalink Special Reactivation Pack 200 Minutes at only Tk. 159!,Bondho SIM,0.0,200.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,0.0,0.64,0.0,159.0
+Banglalink,TK127USSDREACTBTL30D-V3,Banglalink Special Reactivation Pack 200 Minutes at only Tk. 165!,Bondho SIM,0.0,200.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,0.0,0.64,0.0,165.0
+Banglalink,TK127USSDREACTBTL30D-V4,Banglalink Special Reactivation Pack 200 Minutes at only Tk. 152!,Bondho SIM,0.0,200.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,0.0,0.64,0.0,152.0
+Banglalink,TK229USSDREACTBTL30D-V2,Banglalink Special Reactivation Pack 25GB Internet at only Tk. 289!,Bondho SIM,25.0,0.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.16,0.0,0.0,289.0
+Banglalink,TK229USSDREACTBTL30D-V3,Banglalink Special Reactivation Pack 25GB Internet at only Tk. 189!,Bondho SIM,25.0,0.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.16,0.0,0.0,189.0
+Banglalink,TK229USSDREACTBTL30D-V4,Banglalink Special Reactivation Pack 25GB Internet at only Tk. 299!,Bondho SIM,25.0,0.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.16,0.0,0.0,299.0
+Banglalink,TK298USSDREACTMIX30D-V2,Banglalink Special Reactivation Bundle 30GB + 300 Minutes at only Tk. 258!,Bondho SIM,30.0,300.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.93,0.99,0.0,258.0
+Banglalink,TK298USSDREACTMIX30D-V3,Banglalink Special Reactivation Bundle 30GB + 300 Minutes at only Tk. 388!,Bondho SIM,30.0,300.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.93,0.99,0.0,388.0
+Banglalink,TK298USSDREACTMIX30D-V4,Banglalink Special Reactivation Bundle 30GB + 300 Minutes at only Tk. 238!,Bondho SIM,30.0,300.0,0.0,30.0,Unknown,offers/prepaid/bondho-sim,9.93,0.99,0.0,238.0
+Teletalk,TT-097,51 MB,Data,0.05,0.0,0.0,7.0,Unknown,Internet-offers,180.0,0.0,0.0,9.0
+Teletalk,TT-098,307 MB,Data,0.3,0.0,0.0,7.0,Unknown,Internet-offers,90.0,0.0,0.0,27.0
+Teletalk,TT-099,154 MB,Data,0.15,0.0,0.0,7.0,Unknown,Internet-offers,106.67,0.0,0.0,16.0
+Teletalk,TT-100,1024 MB,Data,1.0,0.0,0.0,7.0,Unknown,Internet-offers,38.0,0.0,0.0,38.0
+Teletalk,TT-101,256 MB,Data,0.25,0.0,0.0,7.0,Unknown,Internet-offers,72.0,0.0,0.0,18.0
+Teletalk,TT-102,768 MB,Data,0.75,0.0,0.0,7.0,Unknown,Internet-offers,37.33,0.0,0.0,28.0
+Teletalk,TT-103,3 GB,Data,3.0,0.0,0.0,7.0,Unknown,Internet-offers,19.33,0.0,0.0,58.0
+Teletalk,TT-104,0.75 GB,Data,0.75,0.0,0.0,30.0,Unknown,Internet-offers,32.0,0.0,0.0,24.0
+Teletalk,TT-105,2.5 GB,Data,2.5,0.0,0.0,7.0,Unknown,Internet-offers,18.8,0.0,0.0,47.0
+Teletalk,TT-106,2.5 GB,Data,2.5,0.0,0.0,7.0,Unknown,Internet-offers,19.2,0.0,0.0,48.0
+Teletalk,TT-107,1.5 GB,Data,1.5,0.0,0.0,7.0,Unknown,Internet-offers,25.33,0.0,0.0,38.0
+Teletalk,TT-108,5 GB,Data,5.0,0.0,0.0,30.0,Unknown,Internet-offers,23.6,0.0,0.0,118.0
+Teletalk,TT-109,2.5 GB,Data,2.5,0.0,0.0,7.0,Unknown,Internet-offers,14.0,0.0,0.0,35.0
+Teletalk,TT-110,8 GB,Data,8.0,0.0,0.0,7.0,Unknown,Internet-offers,12.25,0.0,0.0,98.0
+Teletalk,TT-111,9.5 GB,Data,9.5,0.0,0.0,7.0,Unknown,Internet-offers,12.84,0.0,0.0,122.0
+Teletalk,TT-112,13 GB,Data,13.0,0.0,0.0,7.0,Unknown,Internet-offers,10.69,0.0,0.0,139.0
+Teletalk,TT-113,2 GB,Data,2.0,0.0,0.0,7.0,Unknown,Internet-offers,15.0,0.0,0.0,30.0
+Teletalk,TT-114,8.5 GB,Data,8.5,0.0,0.0,7.0,Unknown,Internet-offers,12.0,0.0,0.0,102.0
+Teletalk,TT-115,2.5 GB,Data,2.5,0.0,0.0,7.0,Unknown,Internet-offers,14.4,0.0,0.0,36.0
+Teletalk,TT-116,16 GB,Data,16.0,0.0,0.0,7.0,Unknown,Internet-offers,10.38,0.0,0.0,166.0
+Teletalk,TT-117,4 GB,Data,4.0,0.0,0.0,7.0,Unknown,Internet-offers,13.5,0.0,0.0,54.0
+Teletalk,TT-118,20 GB,Data,20.0,0.0,0.0,7.0,Unknown,Internet-offers,9.55,0.0,0.0,191.0
+Teletalk,TT-119,15 GB,Data,15.0,0.0,0.0,7.0,Unknown,Internet-offers,9.67,0.0,0.0,145.0
+Teletalk,TT-120,5 GB,Data,5.0,0.0,0.0,30.0,Unknown,Internet-offers,16.0,0.0,0.0,80.0
+Teletalk,TT-121,20 GB,Data,20.0,0.0,0.0,7.0,Unknown,Internet-offers,8.0,0.0,0.0,160.0
+Teletalk,TT-122,32 GB,Data,32.0,0.0,0.0,3.0,Unknown,Internet-offers,6.25,0.0,0.0,200.0
+Teletalk,TT-123,24 GB,Data,24.0,0.0,0.0,7.0,Unknown,Internet-offers,8.0,0.0,0.0,192.0
+Teletalk,TT-124,256 MB,Data,0.25,0.0,0.0,30.0,Unknown,Internet-offers,196.0,0.0,0.0,49.0
+Teletalk,TT-125,102 MB,Data,0.1,0.0,0.0,30.0,Unknown,Internet-offers,280.0,0.0,0.0,28.0
+Teletalk,TT-126,51 MB,Data,0.05,0.0,0.0,30.0,Unknown,Internet-offers,260.0,0.0,0.0,13.0
+Teletalk,TT-127,1024 MB,Data,1.0,0.0,0.0,730.0,Unknown,Internet-offers,183.0,0.0,0.0,183.0
+Teletalk,TT-128,358 MB,Data,0.35,0.0,0.0,30.0,Unknown,Internet-offers,82.86,0.0,0.0,29.0
+Teletalk,TT-129,614 MB,Data,0.6,0.0,0.0,7.0,Unknown,Internet-offers,51.67,0.0,0.0,31.0
+Teletalk,TT-130,2.5 GB,Data,2.5,0.0,0.0,730.0,Unknown,Internet-offers,112.4,0.0,0.0,281.0
+Teletalk,TT-131,1 GB,Data,1.0,0.0,0.0,30.0,Unknown,Internet-offers,69.0,0.0,0.0,69.0
+Teletalk,TT-132,2 GB,Data,2.0,0.0,0.0,30.0,Unknown,Internet-offers,49.0,0.0,0.0,98.0
+Teletalk,TT-133,6 GB,Data,6.0,0.0,0.0,30.0,Unknown,Internet-offers,39.67,0.0,0.0,238.0
+Teletalk,TT-134,4 GB,Data,4.0,0.0,0.0,7.0,Unknown,Internet-offers,29.5,0.0,0.0,118.0
+Teletalk,TT-135,1.5 GB,Data,1.5,0.0,0.0,30.0,Unknown,Internet-offers,52.0,0.0,0.0,78.0
+Teletalk,TT-136,9 GB,Data,9.0,0.0,0.0,7.0,Unknown,Internet-offers,25.56,0.0,0.0,230.0
+Teletalk,TT-137,7.5 GB,Data,7.5,0.0,0.0,30.0,Unknown,Internet-offers,38.67,0.0,0.0,290.0
+Teletalk,TT-138,4.5 GB,Data,4.5,0.0,0.0,730.0,Unknown,Internet-offers,91.33,0.0,0.0,411.0
+Teletalk,TT-139,2 GB,Data,2.0,0.0,0.0,30.0,Unknown,Internet-offers,48.0,0.0,0.0,96.0
+Teletalk,TT-140,5 GB,Data,5.0,0.0,0.0,30.0,Unknown,Internet-offers,42.2,0.0,0.0,211.0
+Teletalk,TT-141,6 GB,Data,6.0,0.0,0.0,7.0,Unknown,Internet-offers,26.5,0.0,0.0,159.0
+Teletalk,TT-142,7.5 GB,Data,7.5,0.0,0.0,30.0,Unknown,Internet-offers,35.73,0.0,0.0,268.0
+Teletalk,TT-143,4 GB,Data,4.0,0.0,0.0,30.0,Unknown,Internet-offers,38.5,0.0,0.0,154.0
+Teletalk,TT-144,2.5 GB,Data,2.5,0.0,0.0,30.0,Unknown,Internet-offers,43.6,0.0,0.0,109.0
+Teletalk,TT-145,25 GB,Data,25.0,0.0,0.0,7.0,Unknown,Internet-offers,13.24,0.0,0.0,331.0
+Teletalk,TT-146,20 GB,Data,20.0,0.0,0.0,30.0,Unknown,Internet-offers,19.4,0.0,0.0,388.0
+Teletalk,TT-147,7.5 GB,Data,7.5,0.0,0.0,30.0,Unknown,Internet-offers,23.73,0.0,0.0,178.0
+Teletalk,TT-148,30 GB,Data,30.0,0.0,0.0,730.0,Unknown,Internet-offers,25.03,0.0,0.0,751.0
+Teletalk,TT-149,38 GB,Data,38.0,0.0,0.0,30.0,Unknown,Internet-offers,14.45,0.0,0.0,549.0
+Teletalk,TT-150,11 GB,Data,11.0,0.0,0.0,30.0,Unknown,Internet-offers,18.09,0.0,0.0,199.0
+Teletalk,TT-151,45 GB,Data,45.0,0.0,0.0,30.0,Unknown,Internet-offers,11.76,0.0,0.0,529.0
+Teletalk,TT-152,75 GB,Data,75.0,0.0,0.0,0.0,Unknown,Internet-offers,0.09,0.0,0.0,7.0
+Teletalk,TT-153,22 GB,Data,22.0,0.0,0.0,30.0,Unknown,Internet-offers,12.68,0.0,0.0,279.0
+Teletalk,TT-154,75 GB,Data,75.0,0.0,0.0,30.0,Unknown,Internet-offers,8.65,0.0,0.0,649.0
+Teletalk,TT-155,70 GB,Data,70.0,0.0,0.0,30.0,Unknown,Internet-offers,8.84,0.0,0.0,619.0
+Teletalk,TT-156,75 GB,Data,75.0,0.0,0.0,1.0,Unknown,Internet-offers,3.72,0.0,0.0,279.0
+Teletalk,TT-157,1 GB,Data,1.0,0.0,0.0,1.0,Unknown,Internet-offers,18.0,0.0,0.0,18.0
+Teletalk,TT-158,0.75 GB,Data,0.75,0.0,0.0,0.0,Unknown,Internet-offers,9.33,0.0,0.0,7.0
+Teletalk,TT-159,3 GB,Data,3.0,0.0,0.0,1.0,Unknown,Internet-offers,13.33,0.0,0.0,40.0
+Teletalk,TT-160,4 GB,Data,4.0,0.0,0.0,0.0,Unknown,Internet-offers,1.75,0.0,0.0,7.0
+Teletalk,TT-161,3 GB,Data,3.0,0.0,0.0,1.0,Unknown,Internet-offers,12.67,0.0,0.0,38.0
+Teletalk,TT-162,5 GB,Data,5.0,0.0,0.0,1.0,Unknown,Internet-offers,13.6,0.0,0.0,68.0
+Teletalk,TT-163,2.5 GB,Data,2.5,0.0,0.0,3.0,Unknown,Internet-offers,12.8,0.0,0.0,32.0
+Teletalk,TT-164,6.5 GB,Data,6.5,0.0,0.0,1.0,Unknown,Internet-offers,8.92,0.0,0.0,58.0
+Teletalk,TT-165,1.5 GB,Data,1.5,0.0,0.0,3.0,Unknown,Internet-offers,16.0,0.0,0.0,24.0
+Teletalk,TT-166,38 GB (unlimited validity),Data,38.0,0.0,0.0,730.0,Unknown,Internet-offers,10.5,0.0,0.0,399.0
+Teletalk,TT-167,50 GB (unlimited validity),Data,50.0,0.0,0.0,730.0,Unknown,Internet-offers,9.68,0.0,0.0,484.0
+Teletalk,TT-168,60 GB (unlimited validity),Data,60.0,0.0,0.0,730.0,Unknown,Internet-offers,10.27,0.0,0.0,616.0
+Teletalk,TT-169,75 GB (unlimited validity),Data,75.0,0.0,0.0,1.0,Unknown,Internet-offers,2.04,0.0,0.0,153.0
+Teletalk,TT-170,75 GB (unlimited validity),Data,75.0,0.0,0.0,3.0,Unknown,Internet-offers,2.68,0.0,0.0,201.0
+Teletalk,TT-171,25 GB (unlimited validity),Data,25.0,0.0,0.0,730.0,Unknown,Internet-offers,12.12,0.0,0.0,303.0
+Teletalk,TT-172,75 GB (unlimited validity),Data,75.0,0.0,0.0,30.0,Unknown,Internet-offers,4.51,0.0,0.0,338.0
+Teletalk,TT-173,75 GB (unlimited validity),Data,75.0,0.0,0.0,1.0,Unknown,Internet-offers,0.87,0.0,0.0,65.0
+Teletalk,TT-174,55 GB (unlimited validity),Data,55.0,0.0,0.0,30.0,Unknown,Internet-offers,4.62,0.0,0.0,254.0
+Teletalk,TT-175,2 GB,Data,2.0,0.0,0.0,0.0,Unknown,Internet-offers,11.5,0.0,0.0,23.0
+Teletalk,TT-176,0.75 GB,Data,0.75,0.0,0.0,1.0,Unknown,Internet-offers,14.67,0.0,0.0,11.0
+Teletalk,TT-177,Weekend Offer,Data,1.0,0.0,0.0,0.0,Unknown,Internet-offers,16.0,0.0,0.0,16.0
+Teletalk,TT-178,"Uninterrupted Data Offer (0.5GB Per Day, 15GB in 30 Days)",Data,15.0,0.0,0.0,30.0,Unknown,Internet-offers,10.53,0.0,0.0,158.0
+Teletalk,TT-179,"Uninterrupted Data Offer (2GB Per Day, 60GB in 30 Days)",Data,60.0,0.0,0.0,30.0,Unknown,Internet-offers,8.5,0.0,0.0,510.0
+Teletalk,TT-180,"Uninterrupted Data Offer (1.5GB Per Day, 45GB in 30 Days)",Data,45.0,0.0,0.0,30.0,Unknown,Internet-offers,8.91,0.0,0.0,401.0
+Teletalk,TT-181,Unlimited Volume (24h),Unlimited,0.0,0.0,0.0,1.0,Unknown,Internet-offers,0.0,0.0,0.0,95.0
+Teletalk,TT-182,Unlimited Volume (24h),Unlimited,0.0,0.0,0.0,1.0,Unknown,Internet-offers,0.0,0.0,0.0,80.0
+Teletalk,TT-183,Unlimited Volume (24h),Unlimited,0.0,0.0,0.0,1.0,Unknown,Internet-offers,0.0,0.0,0.0,91.0
+Teletalk,TT-184,Unlimited Volume (2h),Unlimited,0.0,0.0,0.0,0.0833,Unknown,Internet-offers,0.0,0.0,0.0,29.0
+Teletalk,TT-185,3 GB+80 minute+30 SMS,Combo,3.0,80.0,30.0,7.0,Unknown,Internet-offers,36.33,1.36,3.63,109.0
+Teletalk,TT-186,1 GB+30 minute+10 SMS,Combo,1.0,30.0,10.0,7.0,Unknown,Internet-offers,49.0,1.63,4.9,49.0
+Teletalk,TT-187,0.75 GB+20 minute+10 SMS,Combo,0.75,20.0,10.0,7.0,Unknown,Internet-offers,38.67,1.45,2.9,29.0
+Teletalk,TT-188,3 GB+80 minute+30 SMS,Combo,3.0,80.0,30.0,30.0,Unknown,Internet-offers,41.67,1.56,4.17,125.0
+Teletalk,TT-189,2.5 GB+60 minute+20 SMS,Combo,2.5,60.0,20.0,30.0,Unknown,Internet-offers,42.0,1.75,5.25,105.0
+Teletalk,TT-190,0.5 GB+10 minute+10 SMS,Combo,0.5,10.0,10.0,30.0,Unknown,Internet-offers,54.0,2.7,2.7,27.0
+Teletalk,TT-191,2.5 GB+140 minute+100 SMS,Combo,2.5,140.0,100.0,7.0,Unknown,Internet-offers,44.4,0.79,1.11,111.0
+Teletalk,TT-192,2 GB+110 minute+100 SMS,Combo,2.0,110.0,100.0,7.0,Unknown,Internet-offers,49.0,0.89,0.98,98.0
+Teletalk,TT-193,1.5 GB+80 minute+80 SMS,Combo,1.5,80.0,80.0,30.0,Unknown,Internet-offers,73.33,1.38,1.38,110.0
+Teletalk,TT-194,3 GB+160 minute+150 SMS,Combo,3.0,160.0,150.0,7.0,Unknown,Internet-offers,37.33,0.7,0.75,112.0
+Teletalk,TT-195,1.5 GB+80 minute+80 SMS,Combo,1.5,80.0,80.0,30.0,Unknown,Internet-offers,60.0,1.12,1.12,90.0
+Teletalk,TT-196,2 GB+110 minute+100 SMS,Combo,2.0,110.0,100.0,30.0,Unknown,Internet-offers,56.5,1.03,1.13,113.0
+Teletalk,TT-197,2 GB+225 minute+200 SMS,Combo,2.0,225.0,200.0,7.0,Unknown,Internet-offers,68.5,0.61,0.69,137.0
+Teletalk,TT-198,0.6 GB+80 minute+60 SMS,Combo,0.6,80.0,60.0,7.0,Unknown,Internet-offers,96.67,0.72,0.97,58.0
+Teletalk,TT-199,1.5 GB+190 minute+150 SMS,Combo,1.5,190.0,150.0,7.0,Unknown,Internet-offers,78.67,0.62,0.79,118.0
+Teletalk,TT-200,1.5 GB+190 minute+150 SMS,Combo,1.5,190.0,150.0,30.0,Unknown,Internet-offers,83.33,0.66,0.83,125.0
+Teletalk,TT-201,3.5 GB+450 minute+350 SMS,Combo,3.5,450.0,350.0,30.0,Unknown,Internet-offers,76.29,0.59,0.76,267.0
+Teletalk,TT-202,0.9 GB+110 minute+90 SMS,Combo,0.9,110.0,90.0,365.0,Unknown,Internet-offers,171.11,1.4,1.71,154.0
+Teletalk,TT-203,12 GB+625 minute+100 SMS,Combo,12.0,625.0,100.0,7.0,Unknown,Internet-offers,30.92,0.59,3.71,371.0
+Teletalk,TT-204,10 GB+500 minute+100 SMS,Combo,10.0,500.0,100.0,30.0,Unknown,Internet-offers,43.6,0.87,4.36,436.0
+Teletalk,TT-205,2.5 GB+120 minute+20 SMS,Combo,2.5,120.0,20.0,7.0,Unknown,Internet-offers,38.0,0.79,4.75,95.0
+Teletalk,TT-206,4 GB+190 minute+200 SMS,Combo,4.0,190.0,200.0,30.0,Unknown,Internet-offers,42.0,0.88,0.84,168.0
+Teletalk,TT-207,15 GB+750 minute+500 SMS,Combo,15.0,750.0,500.0,365.0,Unknown,Internet-offers,50.07,1.0,1.5,751.0
+Teletalk,TT-208,2.5 GB+120 minute+150 SMS,Combo,2.5,120.0,150.0,30.0,Unknown,Internet-offers,47.2,0.98,0.79,118.0
+Teletalk,TT-209,5 GB+50 minute+20 SMS,Combo,5.0,50.0,20.0,365.0,Unknown,Internet-offers,45.6,4.56,11.4,228.0
+Teletalk,TT-210,12 GB+120 minute+60 SMS,Combo,12.0,120.0,60.0,30.0,Unknown,Internet-offers,21.5,2.15,4.3,258.0
+Teletalk,TT-211,25 GB+250 minute+100 SMS,Combo,25.0,250.0,100.0,30.0,Unknown,Internet-offers,18.72,1.87,4.68,468.0
+Teletalk,TT-212,6 GB+1000 minute+60 SMS,Combo,6.0,1000.0,60.0,30.0,Unknown,Internet-offers,125.17,0.75,12.52,751.0
+Teletalk,TT-213,1.5 GB+250 minute+20 SMS,Combo,1.5,250.0,20.0,7.0,Unknown,Internet-offers,120.0,0.72,9.0,180.0
+Teletalk,TT-214,3 GB+525 minute+30 SMS,Combo,3.0,525.0,30.0,30.0,Unknown,Internet-offers,160.0,0.91,16.0,480.0
+Teletalk,TT-215,2.5 GB+450 minute+20 SMS,Combo,2.5,450.0,20.0,30.0,Unknown,Internet-offers,116.4,0.65,14.55,291.0
+Teletalk,TT-216,1.5 GB+250 minute+20 SMS,Combo,1.5,250.0,20.0,30.0,Unknown,Internet-offers,118.67,0.71,8.9,178.0
+Teletalk,TT-217,6 GB+1000 minute+60 SMS,Combo,6.0,1000.0,60.0,30.0,Unknown,Internet-offers,101.5,0.61,10.15,609.0
+Teletalk,TT-218,5 GB+180 minute+50 SMS,Combo,5.0,180.0,50.0,7.0,Unknown,Internet-offers,23.6,0.66,2.36,118.0
+Teletalk,TT-219,15 GB+525 minute+150 SMS,Combo,15.0,525.0,150.0,30.0,Unknown,Internet-offers,29.73,0.85,2.97,446.0
+Teletalk,TT-220,30 GB+1000 minute+300 SMS,Combo,30.0,1000.0,300.0,30.0,Unknown,Internet-offers,25.03,0.75,2.5,751.0
+Teletalk,TT-221,15 GB+1000 minute+150 SMS,Combo,15.0,1000.0,150.0,7.0,Unknown,Internet-offers,49.2,0.74,4.92,738.0
+Teletalk,TT-222,12 GB+1000 minute+100 SMS,Combo,12.0,1000.0,100.0,7.0,Unknown,Internet-offers,55.67,0.67,6.68,668.0
+Teletalk,TT-223,4 GB+350 minute+40 SMS,Combo,4.0,350.0,40.0,7.0,Unknown,Internet-offers,59.5,0.68,5.95,238.0
+Teletalk,TT-224,2.5 GB+225 minute+20 SMS,Combo,2.5,225.0,20.0,365.0,Unknown,Internet-offers,128.4,1.43,16.05,321.0
+Teletalk,TT-225,6 GB+550 minute+60 SMS,Combo,6.0,550.0,60.0,30.0,Unknown,Internet-offers,63.0,0.69,6.3,378.0
+Teletalk,TT-226,10 GB+900 minute+100 SMS,Combo,10.0,900.0,100.0,30.0,Unknown,Internet-offers,56.9,0.63,5.69,569.0
+Teletalk,TT-227,9 GB+375 minute+250 SMS,Combo,9.0,375.0,250.0,30.0,Unknown,Internet-offers,36.11,0.87,1.3,325.0
+Teletalk,TT-228,18 GB+750 minute+500 SMS,Combo,18.0,750.0,500.0,30.0,Unknown,Internet-offers,31.83,0.76,1.15,573.0
+Teletalk,TT-229,36 GB+1000 minute+500 SMS,Combo,36.0,1000.0,500.0,30.0,Unknown,Internet-offers,20.86,0.75,1.5,751.0
+Teletalk,TT-230,18 GB+400 minute+50SMS,Combo,18.0,400.0,50.0,30.0,Unknown,Internet-offers,17.78,0.8,6.4,320.0
+Teletalk,TT-231,50 GB+1000 minute+150SMS,Combo,50.0,1000.0,150.0,30.0,Unknown,Internet-offers,15.02,0.75,5.01,751.0
+Teletalk,TT-232,70 GB+1000 minute+200SMS,Combo,70.0,1000.0,200.0,30.0,Unknown,Internet-offers,10.73,0.75,3.75,751.0
+Teletalk,TT-233,75GB+1000 minute+250SMS,Combo,75.0,1000.0,250.0,30.0,Unknown,Internet-offers,10.01,0.75,3.0,751.0
+Teletalk,TT-234,75GB+1000 minute+300SMS,Combo,75.0,1000.0,300.0,30.0,Unknown,Internet-offers,10.01,0.75,2.5,751.0
+Teletalk,TT-235,50GB+1000 minute+100SMS,Combo,50.0,1000.0,100.0,30.0,Unknown,Internet-offers,15.02,0.75,7.51,751.0
+Teletalk,TT-236,75GB+1000 minute,Combo,75.0,1000.0,0.0,365.0,Unknown,Internet-offers,10.01,0.75,0.0,751.0
+Teletalk,TT-237,60GB+1000 minute,Combo,60.0,1000.0,0.0,365.0,Unknown,Internet-offers,12.52,0.75,0.0,751.0
+Teletalk,TT-238,25GB+500 minute,Combo,25.0,500.0,0.0,30.0,Unknown,Internet-offers,14.32,0.72,0.0,358.0
+Teletalk,TT-239,Minute_Bundle_10 Min,Minute,0.0,10.0,0.0,3.0,Unknown,Internet-offers,0.0,0.8,0.0,8.0
+Teletalk,TT-240,Minute_Bundle_70 Min,Minute,0.0,70.0,0.0,5.0,Unknown,Internet-offers,0.0,0.6,0.0,42.0
+Teletalk,TT-241,Minute_Bundle_45 Min,Minute,0.0,45.0,0.0,5.0,Unknown,Internet-offers,0.0,0.67,0.0,30.0
+Teletalk,TT-242,Minute_Bundle_130 Min,Minute,0.0,130.0,0.0,3.0,Unknown,Internet-offers,0.0,0.55,0.0,71.0
+Teletalk,TT-243,Minute_Bundle_40 Min,Minute,0.0,40.0,0.0,5.0,Unknown,Internet-offers,0.0,0.78,0.0,31.0
+Teletalk,TT-244,Minute_Bundle_110 Min,Minute,0.0,110.0,0.0,3.0,Unknown,Internet-offers,0.0,0.54,0.0,59.0
+Teletalk,TT-245,Minute_Bundle_225 Min,Minute,0.0,225.0,0.0,3.0,Unknown,Internet-offers,0.0,0.53,0.0,119.0
+Teletalk,TT-246,Minute_Bundle_60 Min,Minute,0.0,60.0,0.0,3.0,Unknown,Internet-offers,0.0,0.65,0.0,39.0
+Teletalk,TT-247,Minute_Bundle_110 Min,Minute,0.0,110.0,0.0,5.0,Unknown,Internet-offers,0.0,0.72,0.0,79.0
+Teletalk,TT-248,Minute_Bundle_110 Min,Minute,0.0,110.0,0.0,7.0,Unknown,Internet-offers,0.0,0.67,0.0,74.0
+Teletalk,TT-249,Minute_Bundle_180 Min,Minute,0.0,180.0,0.0,7.0,Unknown,Internet-offers,0.0,0.63,0.0,113.0
+Teletalk,TT-250,Minute_Bundle_70 Min,Minute,0.0,70.0,0.0,10.0,Unknown,Internet-offers,0.0,0.81,0.0,57.0
+Teletalk,TT-251,Minute_Bundle_250 Min,Minute,0.0,250.0,0.0,10.0,Unknown,Internet-offers,0.0,0.48,0.0,121.0
+Teletalk,TT-252,Minute_Bundle_725 Min,Minute,0.0,725.0,0.0,30.0,Unknown,Internet-offers,0.0,0.6,0.0,434.0
+Teletalk,TT-253,Minute_Bundle_350 Min,Minute,0.0,350.0,0.0,30.0,Unknown,Internet-offers,0.0,0.7,0.0,244.0
+Teletalk,TT-254,Minute_Bundle_50 Min,Minute,0.0,50.0,0.0,7.0,Unknown,Internet-offers,0.0,0.78,0.0,39.0
+Teletalk,TT-255,Minute_Bundle_225 Min,Minute,0.0,225.0,0.0,5.0,Unknown,Internet-offers,0.0,0.53,0.0,119.0
+Teletalk,TT-256,Minute_Bundle_325 Min,Minute,0.0,325.0,0.0,10.0,Unknown,Internet-offers,0.0,0.61,0.0,199.0
+Teletalk,TT-257,Minute_Bundle_225 Min,Minute,0.0,225.0,0.0,7.0,Unknown,Internet-offers,0.0,0.56,0.0,126.0
+Teletalk,TT-258,Minute_Bundle_140 Min,Minute,0.0,140.0,0.0,10.0,Unknown,Internet-offers,0.0,0.65,0.0,91.0
+Teletalk,TT-259,Minute_Bundle_60 Min,Minute,0.0,60.0,0.0,10.0,Unknown,Internet-offers,0.0,0.72,0.0,43.0
+Teletalk,TT-260,Minute_Bundle_325 Min,Minute,0.0,325.0,0.0,10.0,Unknown,Internet-offers,0.0,0.46,0.0,149.0
+Teletalk,TT-261,Minute_Bundle_500 Min,Minute,0.0,500.0,0.0,10.0,Unknown,Internet-offers,0.0,0.44,0.0,219.0
+Teletalk,TT-262,Minute_Bundle_80 Min,Minute,0.0,80.0,0.0,30.0,Unknown,Internet-offers,0.0,0.74,0.0,59.0
+Teletalk,TT-263,Minute_Bundle_525 Min,Minute,0.0,525.0,0.0,10.0,Unknown,Internet-offers,0.0,0.46,0.0,239.0
+Teletalk,TT-264,Minute_Bundle_650 Min,Minute,0.0,650.0,0.0,30.0,Unknown,Internet-offers,0.0,0.55,0.0,359.0
+Teletalk,TT-265,Minute_Bundle_425 Min,Minute,0.0,425.0,0.0,30.0,Unknown,Internet-offers,0.0,0.63,0.0,269.0
+Teletalk,TT-266,SMS_Bundle_Pack250,SMS,0.0,0.0,250.0,7.0,Unknown,Internet-offers,0.0,0.0,0.09,23.0
+Teletalk,TT-267,SMS_Bundle_Pack500,SMS,0.0,0.0,500.0,30.0,Unknown,Internet-offers,0.0,0.0,0.3,149.0
+Teletalk,TT-268,SMS_Bundle_Pack500,SMS,0.0,0.0,500.0,30.0,Unknown,Internet-offers,0.0,0.0,0.22,112.0
+Teletalk,TT-269,SMS_Bundle_Pack100,SMS,0.0,0.0,100.0,7.0,Unknown,Internet-offers,0.0,0.0,0.17,17.0
+Teletalk,TT-270,SMS_Bundle_Pack50,SMS,0.0,0.0,50.0,7.0,Unknown,Internet-offers,0.0,0.0,0.16,8.0
+Teletalk,TT-271,SMS_Bundle_Pack250,SMS,0.0,0.0,250.0,7.0,Unknown,Internet-offers,0.0,0.0,0.12,30.0
+Teletalk,TT-272,SMS_Bundle_Pack80,SMS,0.0,0.0,80.0,3.0,Unknown,Internet-offers,0.0,0.0,0.12,10.0
+Teletalk,TT-273,SMS_Bundle_Pack100,SMS,0.0,0.0,100.0,7.0,Unknown,Internet-offers,0.0,0.0,0.15,15.0
+Teletalk,TT-274,SMS_Bundle_Pack100,SMS,0.0,0.0,100.0,3.0,Unknown,Internet-offers,0.0,0.0,0.16,16.0
+Teletalk,TT-275,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,39.0
+Teletalk,TT-276,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,89.0
+Teletalk,TT-277,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,79.0
+Teletalk,TT-278,Shadheen rate cutter: 60 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.6,0.0,129.0
+Teletalk,TT-279,Youth rate cutter: 65 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.65,0.0,109.0
+Teletalk,TT-280,Youth rate cutter: 65 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.65,0.0,119.0
+Teletalk,TT-281,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,3.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,31.0
+Teletalk,TT-282,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,3.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,26.0
+Teletalk,TT-283,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,3.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,19.0
+Teletalk,TT-284,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,51.0
+Teletalk,TT-285,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,55.0
+Teletalk,TT-286,Shotoborsho rate cutter: 47 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,7.0,Unknown,voice/rate-cutter-offers,0.0,0.47,0.0,37.0
+Teletalk,TT-287,Agami rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,10.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,26.0
+Teletalk,TT-288,Agami rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,10.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,38.0
+Teletalk,TT-289,Agami rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,10.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,35.0
+Teletalk,TT-290,Bornomala rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,88.0
+Teletalk,TT-291,Bornomala rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,121.0
+Teletalk,TT-292,Bornomala rate cutter: 45 Paisa/Min in any local number,Call Rate,0.0,0.0,0.0,30.0,Unknown,voice/rate-cutter-offers,0.0,0.45,0.0,102.0
+Teletalk,TT-293,9GB + 19 Minutes,Bondho SIM,9.0,19.0,0.0,30.0,Unknown,voice/attractive-close-sim-offer,2.11,1.0,0.0,29.0
+Teletalk,TT-294,29GB + 99 Minutes,Bondho SIM,29.0,99.0,0.0,30.0,Unknown,voice/attractive-close-sim-offer,3.41,1.0,0.0,79.0
+Teletalk,TT-295,29GB + 99 Minutes,Bondho SIM,29.0,99.0,0.0,30.0,Unknown,voice/attractive-close-sim-offer,3.41,1.0,0.0,89.0
+Teletalk,TT-296,29GB + 99 Minutes,Bondho SIM,29.0,99.0,0.0,30.0,Unknown,voice/attractive-close-sim-offer,3.41,1.0,0.0,119.0
+Teletalk,TT-297,19 GB,Data,19.0,0.0,0.0,730.0,Unknown,voice/prepaid/gen-z,11.42,0.0,0.0,217.0
+Teletalk,TT-298,75 GB,Data,75.0,0.0,0.0,730.0,Unknown,voice/prepaid/gen-z,9.33,0.0,0.0,700.0
+Teletalk,TT-299,60 GB,Data,60.0,0.0,0.0,30.0,Unknown,voice/prepaid/gen-z,4.7,0.0,0.0,282.0
+Teletalk,TT-300,60 minutes + 20 SMS,Combo,0.0,60.0,20.0,365.0,Unknown,voice/prepaid/gen-z,0.0,0.63,1.9,38.0
+Teletalk,TT-301,20 minutes + 10 SMS,Combo,0.0,20.0,10.0,30.0,Unknown,voice/prepaid/gen-z,0.0,0.4,0.8,8.0
+Teletalk,TT-302,50 minutes + 20 SMS,Combo,0.0,50.0,20.0,365.0,Unknown,voice/prepaid/gen-z,0.0,0.76,1.9,38.0
+Teletalk,TT-303,6GB,Data,6.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,7.17,0.0,0.0,43.0
+Teletalk,TT-304,1GB,Data,1.0,0.0,0.0,30.0,Unknown,voice/prepaid/gen-z,13.0,0.0,0.0,13.0
+Teletalk,TT-305,5GB,Data,5.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,7.0,0.0,0.0,35.0
+Teletalk,TT-306,0.5GB,Data,0.5,0.0,0.0,730.0,Unknown,voice/prepaid/gen-z,54.0,0.0,0.0,27.0
+Teletalk,TT-307,1.5GB,Data,1.5,0.0,0.0,30.0,Unknown,voice/prepaid/gen-z,19.33,0.0,0.0,29.0
+Teletalk,TT-308,0.75GB,Data,0.75,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,14.67,0.0,0.0,11.0
+Teletalk,TT-309,10GB,Data,10.0,0.0,0.0,30.0,Unknown,voice/prepaid/gen-z,12.6,0.0,0.0,126.0
+Teletalk,TT-310,12GB,Data,12.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,8.67,0.0,0.0,104.0
+Teletalk,TT-311,2.5GB,Data,2.5,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,10.8,0.0,0.0,27.0
+Teletalk,TT-312,25GB,Data,25.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,5.88,0.0,0.0,147.0
+Teletalk,TT-313,5GB,Data,5.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,8.2,0.0,0.0,41.0
+Teletalk,TT-314,12GB,Data,12.0,0.0,0.0,7.0,Unknown,voice/prepaid/gen-z,7.08,0.0,0.0,85.0
+Teletalk,TT-315,2.5 GB*,Data,2.5,0.0,0.0,30.0,Unknown,voice/prepaid/shadheen,12.0,0.0,0.0,30.0
+Teletalk,TT-316,6 GB*,Data,6.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,7.5,0.0,0.0,45.0
+Teletalk,TT-317,1.5 GB*,Data,1.5,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,9.33,0.0,0.0,14.0
+Teletalk,TT-318,12 GB,Data,12.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,10.75,0.0,0.0,129.0
+Teletalk,TT-319,16 GB,Data,16.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,10.56,0.0,0.0,169.0
+Teletalk,TT-320,10 GB,Data,10.0,0.0,0.0,7.0,Unknown,voice/prepaid/shadheen,10.9,0.0,0.0,109.0
+Teletalk,TT-321,150 Min + 5 GB,Combo,5.0,150.0,0.0,30.0,Unknown,voice/prepaid/shadheen,33.0,1.1,0.0,165.0
+Teletalk,TT-322,450 Min + 15 GB,Combo,15.0,450.0,0.0,365.0,Unknown,voice/prepaid/shadheen,50.07,1.67,0.0,751.0
+Teletalk,TT-323,375 Min + 12 GB,Combo,12.0,375.0,0.0,30.0,Unknown,voice/prepaid/shadheen,29.25,0.94,0.0,351.0
+Teletalk,TT-324,11 GB,Data,11.0,0.0,0.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,14.55,0.0,0.0,160.0
+Teletalk,TT-325,19 GB,Data,19.0,0.0,0.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,9.21,0.0,0.0,175.0
+Teletalk,TT-326,22 GB,Data,22.0,0.0,0.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,8.95,0.0,0.0,197.0
+Teletalk,TT-327,26 GB,Data,26.0,0.0,0.0,730.0,Unknown,voice/prepaid/teletalk-professional-package,23.04,0.0,0.0,599.0
+Teletalk,TT-328,75 GB,Data,75.0,0.0,0.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,9.23,0.0,0.0,692.0
+Teletalk,TT-329,44 GB,Data,44.0,0.0,0.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,10.2,0.0,0.0,449.0
+Teletalk,TT-330,75 GB,Data,75.0,0.0,0.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,6.79,0.0,0.0,509.0
+Teletalk,TT-331,75 GB,Data,75.0,0.0,0.0,1.0,Unknown,voice/prepaid/teletalk-professional-package,2.92,0.0,0.0,219.0
+Teletalk,TT-332,75 GB,Data,75.0,0.0,0.0,1.0,Unknown,voice/prepaid/teletalk-professional-package,6.52,0.0,0.0,489.0
+Teletalk,TT-333,375 Min + 250 SMS + 6 GB,Combo,6.0,375.0,250.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,34.83,0.56,0.84,209.0
+Teletalk,TT-334,750 Min + 500 SMS + 12 GB,Combo,12.0,750.0,500.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,47.42,0.76,1.14,569.0
+Teletalk,TT-335,450 Min + 300 SMS + 7.5 GB,Combo,7.5,450.0,300.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,49.2,0.82,1.23,369.0
+Teletalk,TT-336,750 Min + 400 SMS + 15 GB,Combo,15.0,750.0,400.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,37.93,0.76,1.42,569.0
+Teletalk,TT-337,250 Min + 100 SMS + 5 GB,Combo,5.0,250.0,100.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,43.8,0.88,2.19,219.0
+Teletalk,TT-338,1000 Min + 500 SMS + 20 GB,Combo,20.0,1000.0,500.0,365.0,Unknown,voice/prepaid/teletalk-professional-package,37.55,0.75,1.5,751.0
+Teletalk,TT-339,1000 Min + 500 SMS + 75 GB,Combo,75.0,1000.0,500.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,10.01,0.75,1.5,751.0
+Teletalk,TT-340,1000 Min + 450 SMS + 45 GB,Combo,45.0,1000.0,450.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,16.69,0.75,1.67,751.0
+Teletalk,TT-341,1000 Min + 400 SMS + 38 GB,Combo,38.0,1000.0,400.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,12.87,0.49,1.22,489.0
+Teletalk,TT-342,1000 Min + 250 SMS + 75 GB,Combo,75.0,1000.0,250.0,7.0,Unknown,voice/prepaid/teletalk-professional-package,9.19,0.69,2.76,689.0
+Teletalk,TT-343,1000 Min + 200 SMS + 75 GB,Combo,75.0,1000.0,200.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,10.01,0.75,3.75,751.0
+Teletalk,TT-344,750 Min + 80 SMS + 38 GB,Combo,38.0,750.0,80.0,30.0,Unknown,voice/prepaid/teletalk-professional-package,14.97,0.76,7.11,569.0
+Robi,ROBI-029,6 GB,Data,6.0,0.0,0.0,3.0,Unknown,offers?tab=internet,29.67,0.0,0.0,178.0
+Robi,ROBI-030,1.5 GB,Data,1.5,0.0,0.0,3.0,Unknown,offers?tab=internet,38.67,0.0,0.0,58.0
+Robi,ROBI-031,7.5 GB,Data,7.5,0.0,0.0,30.0,Unknown,offers?tab=internet,51.73,0.0,0.0,388.0
+Robi,ROBI-032,75 GB,Data,75.0,0.0,0.0,3.0,Unknown,offers?tab=internet,4.91,0.0,0.0,368.0
+Robi,ROBI-033,50 GB,Data,50.0,0.0,0.0,30.0,Unknown,offers?tab=internet,8.96,0.0,0.0,448.0
+Robi,ROBI-034,100 GB,Data,100.0,0.0,0.0,3.0,Unknown,offers?tab=internet,4.48,0.0,0.0,448.0
+Robi,ROBI-035,Unlimited Internet,Unlimited,0.0,0.0,0.0,7.0,Unknown,offers?tab=internet,0.0,0.0,0.0,309.0
+Robi,ROBI-036,Unlimited Internet,Unlimited,0.0,0.0,0.0,7.0,Unknown,offers?tab=internet,0.0,0.0,0.0,259.0
+Robi,ROBI-037,Unlimited Internet,Unlimited,0.0,0.0,0.0,7.0,Unknown,offers?tab=internet,0.0,0.0,0.0,321.0
+Robi,ROBI-038,44 GB + 750 Mins,Combo,44.0,750.0,0.0,30.0,Unknown,offers?tab=bundles,22.25,1.31,0.0,979.0
+Robi,ROBI-039,70 GB + 1200 Mins,Combo,70.0,1200.0,0.0,30.0,Unknown,offers?tab=bundles,19.84,1.16,0.0,1389.0
+Robi,ROBI-040,26 GB + 450 Mins,Combo,26.0,450.0,0.0,30.0,Unknown,offers?tab=bundles,23.81,1.38,0.0,619.0
+Robi,ROBI-041,50 GB + 1000 Mins,Combo,50.0,1000.0,0.0,30.0,Unknown,offers?tab=bundles,26.18,1.31,0.0,1309.0
+Robi,ROBI-042,38 GB + 750 Mins,Combo,38.0,750.0,0.0,30.0,Unknown,offers?tab=bundles,24.71,1.25,0.0,939.0
+Robi,ROBI-043,31 GB + 625 Mins,Combo,31.0,625.0,0.0,30.0,Unknown,offers?tab=bundles,26.74,1.33,0.0,829.0
+Robi,ROBI-044,22 GB + 525 Mins,Combo,22.0,525.0,0.0,30.0,Unknown,offers?tab=bundles,37.68,1.58,0.0,829.0
+Robi,ROBI-045,38 GB + 875 Mins,Combo,38.0,875.0,0.0,30.0,Unknown,offers?tab=bundles,35.5,1.54,0.0,1349.0
+Robi,ROBI-046,11 GB + 250 Mins,Combo,11.0,250.0,0.0,30.0,Unknown,offers?tab=bundles,43.55,1.92,0.0,479.0
+Robi,ROBI-047,7.5 GB + 250 Mins,Combo,7.5,250.0,0.0,30.0,Unknown,offers?tab=bundles,90.53,2.72,0.0,679.0
+Robi,ROBI-048,1.5 GB + 50 Mins,Combo,1.5,50.0,0.0,30.0,Unknown,offers?tab=bundles,112.67,3.38,0.0,169.0
+Robi,ROBI-049,2 GB + 80 Mins,Combo,2.0,80.0,0.0,30.0,Unknown,offers?tab=bundles,129.5,3.24,0.0,259.0
+Robi,ROBI-050,100 GB + 1500 Mins,Combo,100.0,1500.0,0.0,30.0,Unknown,offers?tab=bundles,12.69,0.85,0.0,1269.0
+Robi,ROBI-051,55 GB + 1125 Mins,Combo,55.0,1125.0,0.0,30.0,Unknown,offers?tab=bundles,13.65,0.67,0.0,751.0
+Robi,ROBI-052,38 GB + 750 Mins,Combo,38.0,750.0,0.0,30.0,Unknown,offers?tab=bundles,14.26,0.72,0.0,542.0
+Robi,ROBI-053,22 GB + 300 Mins,Combo,22.0,300.0,0.0,30.0,Unknown,offers?tab=bundles,20.14,1.48,0.0,443.0
+Robi,ROBI-054,45 GB + 600 Mins,Combo,45.0,600.0,0.0,30.0,Unknown,offers?tab=bundles,18.78,1.41,0.0,845.0
+Robi,ROBI-055,60 GB + 800 Mins,Combo,60.0,800.0,0.0,30.0,Unknown,offers?tab=bundles,18.32,1.37,0.0,1099.0
+Robi,ROBI-056,45 GB + 600 Mins,Combo,45.0,600.0,0.0,30.0,Unknown,offers?tab=bundles,22.33,1.68,0.0,1005.0
+Robi,ROBI-057,22 GB + 300 Mins,Combo,22.0,300.0,0.0,30.0,Unknown,offers?tab=bundles,25.95,1.9,0.0,571.0
+Robi,ROBI-058,19 GB + 250 Mins,Combo,19.0,250.0,0.0,30.0,Unknown,offers?tab=bundles,24.63,1.87,0.0,468.0
+Robi,ROBI-059,5 Year Shodesh Pack,Validity,0.0,0.0,0.0,1825.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1255.0
+Robi,ROBI-060,5 Year Shodesh Pack,Validity,0.0,0.0,0.0,1825.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1324.0
+Robi,ROBI-061,5 Year Shodesh Pack,Validity,0.0,0.0,0.0,1825.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1185.0
+Robi,ROBI-062,3 Year Shodesh Pack,Validity,0.0,0.0,0.0,1095.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,715.0
+Robi,ROBI-063,3 Year Shodesh Pack,Validity,0.0,0.0,0.0,1095.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1118.0
+Robi,ROBI-064,3 Year Shodesh Pack,Validity,0.0,0.0,0.0,1095.0,Unknown,offers?tab=bundles,0.0,0.0,0.0,1162.0
+Robi,ROBI-065,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,68.0
+Robi,ROBI-066,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,62.0
+Robi,ROBI-067,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,65.0
+Robi,ROBI-068,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,137.0
+Robi,ROBI-069,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,158.0
+Robi,ROBI-070,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,30.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,187.0
+Robi,ROBI-071,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,83.0
+Robi,ROBI-072,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,58.0
+Robi,ROBI-073,89 Paisa/Min + Tax,Call Rate,0.0,0.0,0.0,5.0,Unknown,offers?tab=rate-cutters,0.0,0.89,0.0,74.0
+Robi,ROBI-074,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,173.0
+Robi,ROBI-075,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,163.0
+Robi,ROBI-076,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,60.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,224.0
+Robi,ROBI-077,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,7.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,103.0
+Robi,ROBI-078,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,7.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,80.0
+Robi,ROBI-079,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,7.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,75.0
+Robi,ROBI-080,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,90.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,319.0
+Robi,ROBI-081,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,90.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,395.0
+Robi,ROBI-082,1 Paisa/Sec + Tax,Call Rate,0.0,0.0,0.0,90.0,Unknown,offers?tab=rate-cutters,0.0,0.6,0.0,365.0
+Robi,ROBI-083,475 Mins,Minute,0.0,475.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.63,0.0,299.0
+Robi,ROBI-084,100 Mins,Minute,0.0,100.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,1.19,0.0,119.0
+Robi,ROBI-085,250 Mins,Minute,0.0,250.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,1.04,0.0,259.0
+Robi,ROBI-086,130 Mins,Minute,0.0,130.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,1.07,0.0,139.0
+Robi,ROBI-087,400 Mins,Minute,0.0,400.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,0.85,0.0,339.0
+Robi,ROBI-088,525 Mins,Minute,0.0,525.0,0.0,150.0,Unknown,offers?tab=minutes,0.0,1.29,0.0,679.0
+Robi,ROBI-089,110 Mins,Minute,0.0,110.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.81,0.0,89.0
+Robi,ROBI-090,375 Mins,Minute,0.0,375.0,0.0,30.0,Unknown,offers?tab=minutes,0.0,0.98,0.0,369.0
+Robi,ROBI-091,450 Mins,Minute,0.0,450.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.71,0.0,319.0
+Robi,ROBI-092,160 Mins,Minute,0.0,160.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.62,0.0,99.0
+Robi,ROBI-093,130 Mins,Minute,0.0,130.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.68,0.0,89.0
+Robi,ROBI-094,200 Mins,Minute,0.0,200.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.74,0.0,149.0
+Robi,ROBI-095,250 Min,Minute,0.0,250.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.76,0.0,189.0
+Robi,ROBI-096,90 Min,Minute,0.0,90.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.99,0.0,89.0
+Robi,ROBI-097,350 Min,Minute,0.0,350.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.74,0.0,259.0
+Robi,ROBI-098,80 Mins,Minute,0.0,80.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.74,0.0,59.0
+Robi,ROBI-099,375 Mins,Minute,0.0,375.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.69,0.0,259.0
+Robi,ROBI-100,450 Mins,Minute,0.0,450.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.62,0.0,279.0
+Robi,ROBI-101,90 Mins,Minute,0.0,90.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.77,0.0,69.0
+Robi,ROBI-102,60 Mins,Minute,0.0,60.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.98,0.0,59.0
+Robi,ROBI-103,190 Mins,Minute,0.0,190.0,0.0,3.0,Unknown,offers?tab=minutes,0.0,0.63,0.0,119.0
+Robi,ROBI-104,300 Mins,Minute,0.0,300.0,0.0,5.0,Unknown,offers?tab=minutes,0.0,0.56,0.0,169.0
+Robi,ROBI-105,750 Mins,Minute,0.0,750.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.53,0.0,399.0
+Robi,ROBI-106,120 Mins,Minute,0.0,120.0,0.0,7.0,Unknown,offers?tab=minutes,0.0,0.74,0.0,89.0
+Robi,ROBI-107,1500 Mins,Minute,0.0,1500.0,0.0,150.0,Unknown,offers?tab=minutes,0.0,0.93,0.0,1394.0
+Robi,ROBI-108,1500 Mins,Minute,0.0,1500.0,0.0,150.0,Unknown,offers?tab=minutes,0.0,0.84,0.0,1259.0
+Robi,ROBI-109,750 Mins,Minute,0.0,750.0,0.0,150.0,Unknown,offers?tab=minutes,0.0,0.72,0.0,539.0
+Robi,ROBI-110,100 Mins,Cashback,0.0,100.0,0.0,3.0,Unknown,offers?tab=cashback-offer,0.0,0.65,0.0,84.0
+Robi,ROBI-111,100 Mins,Cashback,0.0,100.0,0.0,3.0,Unknown,offers?tab=cashback-offer,0.0,0.65,0.0,62.0
+Robi,ROBI-112,100 Mins,Cashback,0.0,100.0,0.0,3.0,Unknown,offers?tab=cashback-offer,0.0,0.65,0.0,78.0

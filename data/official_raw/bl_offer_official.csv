@@ -1,0 +1,98 @@
+operator,offer_id,offer_name,category,data_gb,minutes,sms,validity_days,speed_cap_mbps,roaming,ussd_code,auto_renewal,source_page,price_per_gb,price_per_minute,price_per_sms,price_bdt
+Banglalink,TK119DATAUSSD72HRR,Banglalink Prepaid 6 gb at only Tk. 119 recharge!,Data,6.0,0.0,0.0,3.0,0.0,No,*121*119#,Unknown,offers/prepaid/internet,19.83,0,0,119.0
+Banglalink,TK348USSD260510R,Banglalink Prepaid 6GB Tk. 348!,Data,6.0,0.0,0.0,30.0,0.0,No,*121*348#,Unknown,offers/prepaid/internet,58.0,0,0,348.0
+Banglalink,TK98USSDBLD260028A,Banglalink Prepaid 5GB Tk. 98!,Data,5.0,0.0,0.0,1.0,0.0,No,*121*98#,Unknown,offers/prepaid/internet,19.6,0,0,98.0
+Banglalink,TK398USSD260010R,Banglalink Prepaid 10GB Tk. 398!,Data,10.0,0.0,0.0,30.0,0.0,No,*121*398#,Unknown,offers/prepaid/internet,39.8,0,0,398.0
+Banglalink,TK498USSDBLD260023D,Banglalink Prepaid 25GB Tk. 498!,Data,25.0,0.0,0.0,30.0,0.0,No,*121*498#,Unknown,offers/prepaid/internet,19.92,0,0,498.0
+Banglalink,TK598DATAUSSD30D,Banglalink Prepaid 35GB Tk. 598!,Data,35.0,0.0,0.0,30.0,0.0,No,*121*598#,Unknown,offers/prepaid/internet,17.09,0,0,598.0
+Banglalink,TK698DATAUSSD,Banglalink Prepaid 75GB Tk. 698!,Data,75.0,0.0,0.0,30.0,0.0,No,*121*698#,Unknown,offers/prepaid/internet,9.31,0,0,698.0
+Banglalink,TK798DATAUSSD,Banglalink Prepaid 100GB Tk. 798!,Data,100.0,0.0,0.0,30.0,0.0,No,*121*798#,Unknown,offers/prepaid/internet,7.98,0,0,798.0
+Banglalink,TK898USSDBLD260066R,Banglalink Prepaid 120GB Tk. 898!,Data,120.0,0.0,0.0,30.0,0.0,No,*121*898#,Unknown,offers/prepaid/internet,7.48,0,0,898.0
+Banglalink,TK158USSDBLD260019R,Banglalink Prepaid 4GB Tk. 158!,Data,4.0,0.0,0.0,7.0,0.0,No,*121*158#,Unknown,offers/prepaid/internet,39.5,0,0,158.0
+Banglalink,TK999USSDBLD250066B,Banglalink Prepaid 150GB Tk. 999!,Data,150.0,0.0,0.0,30.0,0.0,No,*121*999#,Unknown,offers/prepaid/internet,6.66,0,0,999.0
+Banglalink,TK149USSDBLD260028A,Banglalink Prepaid 25 GB Tk. 149!,Data,25.0,0.0,0.0,3.0,0.0,No,*121*149#,Unknown,offers/prepaid/internet,5.96,0,0,149.0
+Banglalink,TK99USSDBLD240028A,Banglalink 3GB only Tk. 99!,Data,3.0,0.0,0.0,3.0,0.0,No,*121*99#,Unknown,offers/prepaid/internet,33.0,0,0,99.0
+Banglalink,TK229USSDBLD260004R,Banglalink Prepaid 30GB Tk. 229!,Data,30.0,0.0,0.0,7.0,0.0,No,*121*229#,Unknown,offers/prepaid/internet,7.63,0,0,229.0
+Banglalink,TK249DATAUSSD7D,Banglalink Prepaid 50GB Tk. 249!,Data,50.0,0.0,0.0,7.0,0.0,No,*121*249#,Unknown,offers/prepaid/internet,4.98,0,0,249.0
+Banglalink,TK988DATAUSSD90D,Banglalink 50 GB only Tk. 988!,Data,50.0,0.0,0.0,90.0,0.0,No,*121*988#,Unknown,offers/prepaid/internet,19.76,0,0,988.0
+Banglalink,TK1494DATAUSSD30D,Banglalink Prepaid 78GB only Tk. 1494!,Data,78.0,0.0,0.0,90.0,0.0,No,*121*1494#,Unknown,offers/prepaid/internet,19.15,0,0,1494.0
+Banglalink,TK1794DATAUSSD30D,Banglalink Prepaid 117GB only Tk. 1794!,Data,117.0,0.0,0.0,90.0,0.0,No,*121*1794#,Unknown,offers/prepaid/internet,15.33,0,0,1794.0
+Banglalink,TK2094DATAUSSD30D,Banglalink Prepaid 234GB only Tk. 2094!,Data,234.0,0.0,0.0,90.0,0.0,No,*121*2094#,Unknown,offers/prepaid/internet,8.95,0,0,2094.0
+Banglalink,TK1988DATAUSSD365D,Banglalink 100 GB only Tk. 1988!,Data,100.0,0.0,0.0,365.0,0.0,No,*121*988#,Unknown,offers/prepaid/internet,19.88,0,0,1988.0
+Banglalink,TK2498USSDBLU230002X,Banglalink 50 GB only Tk. 2498!,Data,50.0,0.0,0.0,3650.0,0.0,No,*121*2498#,Unknown,offers/prepaid/internet,49.96,0,0,2498.0
+Banglalink,TK129DATAUSSD72HR,Banglalink Prepaid 15GB Tk. 129!,Data,15.0,0.0,0.0,3.0,0.0,No,*121*129#,Unknown,offers/prepaid/internet,8.6,0,0,129.0
+Banglalink,TK179USSDBLD250019R,Banglalink 8 GB only Tk.179!,Data,8.0,0.0,0.0,7.0,0.0,No,*121*179#,Unknown,offers/prepaid/internet,22.38,0,0,179.0
+Banglalink,TK199USSDBLD220072B,Banglalink 15 GB only Tk. 199!,Data,15.0,0.0,0.0,7.0,0.0,No,*121*199#,Unknown,offers/prepaid/internet,13.27,0,0,199.0
+Banglalink,TK36USSD3DGCAL,Banglalink 3GB (2.5GB Toffee included) only Tk. 66!,Data,3.0,0.0,0.0,3.0,0.0,No,*121*66#,Unknown,offers/prepaid/internet,22.0,0,0,66.0
+Banglalink,TK100USSD30DGCAL,Banglalink 4GB: imo + BiP + Telegram only Tk. 100!,Data,4.0,0.0,0.0,30.0,0.0,No,*121*1016#,Unknown,offers/prepaid/internet,25.0,0,0,100.0
+Banglalink,TK60USSD7DGCAL,Banglalink 2GB: imo + BiP + Telegram only Tk. 60!,Data,2.0,0.0,0.0,7.0,0.0,No,*121*1044#,Unknown,offers/prepaid/internet,30.0,0,0,60.0
+Banglalink,TK20USSD3DGSOC,Banglalink 2GB: Facebook + WhatsApp + Instagram + Snapchat + BiP only Tk. 50!,Data,2.0,0.0,0.0,3.0,0.0,No,*121*1057#,Unknown,offers/prepaid/internet,25.0,0,0,50.0
+Banglalink,TK60USSD3DGVID,Banglalink 3GB: YouTube + TikTok only Tk. 60!,Data,30.0,0.0,0.0,3.0,0.0,No,*121*1072#,Unknown,offers/prepaid/internet,2.0,0,0,60.0
+Banglalink,TK49USSD50MIN72H,Minute Pack @Tk.49,Minute,0.0,70.0,0.0,3.0,0.0,No,*121*49#,Unknown,offers/prepaid/voice,0,0.7,0,49.0
+Banglalink,TK319USSD450MIN30D,Minute Pack @Tk.319!,Minute,0.0,450.0,0.0,30.0,0.0,No,*121*319#,Unknown,offers/prepaid/voice,0,0.71,0,319.0
+Banglalink,TK269USSD300MIN30D,Minute Pack @Tk.269,Minute,0.0,330.0,0.0,30.0,0.0,No,*121*269#,Unknown,offers/prepaid/voice,0,0.82,0,269.0
+Banglalink,TK29USSD46MIN24H,Minute Pack @Tk.29,Minute,0.0,45.0,0.0,2.0,0.0,No,*121*29#,Unknown,offers/prepaid/voice,0,0.64,0,29.0
+Banglalink,TK137USSD200MIN7D,Minute Pack @Tk.137,Minute,0.0,200.0,0.0,7.0,0.0,No,*121*137#,Unknown,offers/prepaid/voice,0,0.69,0,137.0
+Banglalink,TK227USSD250MIN30D,Minute Pack @ Tk. 227,Minute,0.0,250.0,0.0,30.0,0.0,No,*121*227#,Unknown,offers/prepaid/voice,0,0.91,0,227.0
+Banglalink,TK77USSD120MIN72H,Minute Pack @Tk.77,Minute,0.0,120.0,0.0,3.0,0.0,No,*121*77#,Unknown,offers/prepaid/voice,0,0.64,0,77.0
+Banglalink,TK39USSD60MIN24H,Minute Pack @Tk.39,Minute,0.0,50.0,0.0,1.0,0.0,No,*121*39#,Unknown,offers/prepaid/voice,0,0.78,0,39.0
+Banglalink,TK357USSD500MIN30D,Minute Pack @Tk.357,Minute,0.0,500.0,0.0,30.0,0.0,No,*121*357#,Unknown,offers/prepaid/voice,0,0.71,0,357.0
+Banglalink,TK109USSD150MIN5D,Minute Pack @Tk.109,Minute,0.0,150.0,0.0,5.0,0.0,No,Unknown,Unknown,offers/prepaid/voice,0,0.73,0,109.0
+Banglalink,TK67USSD100MIN72HRS,Minute Pack @Tk.67,Minute,0.0,100.0,0.0,2.0,0.0,No,*121*67#,Unknown,offers/prepaid/voice,0,0.67,0,67.0
+Banglalink,TK157USSD240MIN7D,Minute Pack @Tk. 157,Minute,0.0,240.0,0.0,7.0,0.0,No,Unknown,Unknown,offers/prepaid/voice,0,0.65,0,157.0
+Banglalink,TK127USSD200MIN7D,Minute Pack @ Tk. 127,Minute,0.0,180.0,0.0,5.0,0.0,No,*121*127#,Unknown,offers/prepaid/voice,0,0.71,0,127.0
+Banglalink,TK97USSD110MIN5D,Minute Pack @Tk.97,Minute,0.0,120.0,0.0,5.0,0.0,No,*121*97#,Unknown,offers/prepaid/voice,0,0.81,0,97.0
+Banglalink,TK57USSD80MIN48HRS,Minute Pack @Tk.57,Minute,0.0,80.0,0.0,2.0,0.0,No,*121*57#,Unknown,offers/prepaid/voice,0,0.71,0,57.0
+Banglalink,TK447USSD700MIN30D,Minute Pack @Tk.447,Minute,0.0,700.0,0.0,30.0,0.0,No,*121*447#,Unknown,offers/prepaid/voice,0,0.64,0,447.0
+Banglalink,TK507USSD840MIN30D,Minute Pack @Tk.639,Minute,0.0,1000.0,0.0,30.0,0.0,No,*121*639#,Unknown,offers/prepaid/voice,0,0.64,0,639.0
+Banglalink,TK419USSD650MIN30D,Minute Pack @Tk.419,Minute,0.0,620.0,0.0,30.0,0.0,No,*121*419#,Unknown,offers/prepaid/voice,0,0.68,0,419.0
+Banglalink,TK327USSD450MIN30D,Minute Pack @Tk.327,Minute,0.0,400.0,0.0,30.0,0.0,No,*121*327#,Unknown,offers/prepaid/voice,0,0.82,0,327.0
+Banglalink,TK729USSD1165MIN30D,Minute Pack @Tk. 729,Minute,0.0,1165.0,0.0,30.0,0.0,No,*121*729#,Unknown,offers/prepaid/voice,0,0.63,0,729.0
+Banglalink,TK1197USSD1200MIN365D,Minute Pack @Tk.1197,Minute,0.0,1200.0,0.0,365.0,0.0,No,*121*1197#,Unknown,offers/prepaid/voice,0,1.0,0,1197.0
+Banglalink,TK493USSDMA2Y,Main Account Validity,Minute,0.0,0.0,0.0,730.0,0.0,No,*121*493#,Unknown,offers/prepaid/voice,0,0,0,493.0
+Banglalink,TK693USSDMA3Y,Main Account Validity,Minute,0.0,0.0,0.0,1095.0,0.0,No,*121*693#,Unknown,offers/prepaid/voice,0,0,0,693.0
+Banglalink,TK649USSDBLC260015R,Banglalink Prepaid 30GB+400Min Tk. 649!,Combo,30.0,400.0,0.0,30.0,0.0,No,*121*649#,Unknown,offers/prepaid/bundles,21.63,1.62,0,649.0
+Banglalink,TK749USSDBLC,Banglalink Prepaid 40GB+800Min (20 GB Extra On Repurchase) only Tk. 749!,Combo,40.0,800.0,0.0,30.0,0.0,No,*121*749#,Unknown,offers/prepaid/bundles,18.73,0.94,0,749.0
+Banglalink,TK549USSDBLC,Banglalink Prepaid 15GB + 400Min Tk. 549!,Combo,15.0,400.0,0.0,30.0,0.0,No,*121*549#,Unknown,offers/prepaid/bundles,36.6,1.37,0,549.0
+Banglalink,TK998USSDBLC230015D,Banglalink Prepaid 50 GB+1500 Min only Tk. 998!,Combo,50.0,1500.0,0.0,30.0,0.0,No,*121*998#,Unknown,offers/prepaid/bundles,19.96,0.67,0,998.0
+Banglalink,TK399MXBUSSD,Banglalink Prepaid 5GB+150Min only Tk. 399!,Combo,5.0,150.0,0.0,30.0,0.0,No,*121*399#,Unknown,offers/prepaid/bundles,79.8,2.66,0,399.0
+Banglalink,TK499USSDBLC250002D,Banglalink Prepaid 10GB + 200min Tk. 499!,Combo,10.0,200.0,0.0,30.0,0.0,No,*121*499#,Unknown,offers/prepaid/bundles,49.9,2.5,0,499.0
+Banglalink,TK1199USSDMXB30D,Banglalink Prepaid 150GB+1800M Tk. 1199!,Combo,150.0,1800.0,0.0,30.0,0.0,No,*121*1199#,Unknown,offers/prepaid/bundles,7.99,0.67,0,1199.0
+Banglalink,TK1497USSDBLC250002D,Banglalink Prepaid 59GB+600Min only Tk. 1497!,Combo,59.0,600.0,0.0,90.0,0.0,No,*121*1497#,Unknown,offers/prepaid/bundles,25.37,2.5,0,1497.0
+Banglalink,TK1797USSDBLC250002D,Banglalink Prepaid 78GB+900Min only Tk. 1797!,Combo,78.0,900.0,0.0,90.0,0.0,No,*121*1797#,Unknown,offers/prepaid/bundles,23.04,2.0,0,1797.0
+Banglalink,TK2097USSDBLC250002D,Banglalink Prepaid 98GB+1500Min only Tk. 2097!,Combo,98.0,1500.0,0.0,90.0,0.0,No,*121*2097#,Unknown,offers/prepaid/bundles,21.4,1.4,0,2097.0
+Banglalink,TK2997USSDMXB30D,Banglalink 60 GB+ 1200 minute only Tk.2997!,Combo,60.0,1200.0,0.0,365.0,0.0,No,*121*2997#,Unknown,offers/prepaid/bundles,49.95,2.5,0,2997.0
+Banglalink,TK86USSD30DSMSSUB,"Banglalink Prepaid Hoichoi, Bongo Subscription + 130 SMS at only Tk. 96!",Combo,0.0,0.0,130.0,30.0,0.0,No,*121*1086#,Unknown,offers/prepaid/bundles,0,0,0.74,96.0
+Banglalink,TK66USSD30DSMSSUB,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 100 SMS at only Tk. 66!",Combo,0.0,0.0,100.0,30.0,0.0,No,*121*1040#,Unknown,offers/prepaid/bundles,0,0,0.66,66.0
+Banglalink,TK33USSD7DSMSSUB,"Banglalink Prepaid DeeptoPlay, iScreen Subscription + 50 SMS at only Tk. 33!",Combo,0.0,0.0,50.0,7.0,0.0,No,*121*1033#,Unknown,offers/prepaid/bundles,0,0,0.66,33.0
+Banglalink,TK156USSD30DSMSSUB,"Banglalink Prepaid Hoichoi, Bongo, DeeptoPlay, iScreen Subscription + 150 SMS at only Tk. 156!",Combo,0.0,0.0,150.0,30.0,0.0,No,*121*1156#,Unknown,offers/prepaid/bundles,0,0,1.04,156.0
+Banglalink,TK60SMSBUNDLE3,Banglalink 500 SMS Bundle only at Tk. 160!,Combo,0.0,0.0,500.0,30.0,0.0,No,*121*2*8#,Unknown,offers/prepaid/bundles,0,0,0.32,160.0
+Banglalink,TK20SMSBUNDLE1,Banglalink 120 SMS Bundle only at Tk. 45!,Combo,0.0,0.0,120.0,7.0,0.0,No,*121*2*8#,Unknown,offers/prepaid/bundles,0,0,0.38,45.0
+Banglalink,TK10SMSBUNDLE,Banglalink 60 SMS Bundle only at Tk. 30!,Combo,0.0,0.0,60.0,3.0,0.0,No,*121*2*8#,Unknown,offers/prepaid/bundles,0,0,0.5,30.0
+Banglalink,TK48PP89P3DREG10SEC,89 paisa/minute with Tk. 48recharge,Call Rate,0.0,0.0,0.0,3.0,0.0,No,Unknown,Unknown,offers/prepaid/call-rate,0,0.89,0,48.0
+Banglalink,TK188PP1P30D1SEC,1 paisa/sec with Tk. 188 recharge,Call Rate,0.0,0.0,0.0,30.0,0.0,No,Unknown,Unknown,offers/prepaid/call-rate,0,0.6,0,188.0
+Banglalink,TK309PP1P90D1SEC,1 paisa/sec with Tk. 309 recharge,Call Rate,0.0,0.0,0.0,60.0,0.0,No,Unknown,Unknown,offers/prepaid/call-rate,0,0.6,0,309.0
+Banglalink,TK159PP89P30D10SEC,89 paisa/Min with Tk. 159 recharge,Call Rate,0.0,0.0,0.0,30.0,0.0,No,Unknown,Unknown,offers/prepaid/call-rate,0,0.89,0,159.0
+Banglalink,NEWSIMOFFER2,Banglalink New Prepaid SIM offer,New SIM,4.0,40.0,0.0,30.0,0.0,No,Unknown,Unknown,offers/prepaid/new-sim-offer,42.5,4.25,0,170.0
+Banglalink,NEWSIMOFFER1,Banglalink New Prepaid SIM offer,New SIM,40.0,300.0,0.0,30.0,0.0,No,Unknown,Unknown,offers/prepaid/new-sim-offer,10.0,1.33,0,400.0
+Banglalink,TK99USSDREACT4GB7D,Banglalink Special Reactivation Pack 6 GB Internet at only Tk. 99!,Bondho SIM,6.0,0.0,0.0,7.0,0.0,No,*121*200#,Unknown,offers/prepaid/bondho-sim,16.5,0,0,99.0
+Banglalink,TK127USSDREACTBTL30D,Banglalink Special Reactivation Pack 200 Minutes at only Tk. 127!,Bondho SIM,0.0,200.0,0.0,30.0,0.0,No,*121*200#,Unknown,offers/prepaid/bondho-sim,0,0.64,0,127.0
+Banglalink,TK229USSDREACTBTL30D,Banglalink Special Reactivation Pack 25GB Internet at only Tk. 229!,Bondho SIM,25.0,0.0,0.0,30.0,0.0,No,*121*200#,Unknown,offers/prepaid/bondho-sim,9.16,0,0,229.0
+Banglalink,TK298USSDREACTMIX30D,Banglalink Special Reactivation Bundle 30GB + 300 Minutes at only Tk. 298!,Bondho SIM,30.0,300.0,0.0,30.0,0.0,No,*121*200#,Unknown,offers/prepaid/bondho-sim,9.93,0.99,0,298.0
+Banglalink,EMERGENCYBALANCE,Banglalink Emergency Main Balance,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,GIFTPACK,Gift Internet Packs to loved ones easily through your Main Account Balance,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,BANGLALINKESIM,eSIM,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,BL4CORE,Banglalink is now a family of 4 crore people!,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,BALANCE_LAPSE,Main Account Balance Lapse Period,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,SCRATCHCARD,Minute Scratch Cards,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,4GINSTALMENT,Get 4G Smartphone on INSTALMENT without Credit Card From Banglalink Centers,Others,0.0,0.0,0.0,0.0,0.0,No,Unknown,Unknown,offers/prepaid/others,0,0,0,0.0
+Banglalink,BL-ROAM-001,Roaming pack 300MB (1 days),Roaming,0.293,0.0,0.0,1.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,662.12,0,0,194.0
+Banglalink,BL-ROAM-002,Roaming pack 1GB + 10 min (1 days),Roaming,1.0,10.0,0.0,1.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,834.0,83.4,0,834.0
+Banglalink,BL-ROAM-003,Roaming pack 5 min (3 days),Roaming,0.0,5.0,0.0,3.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,0,40.8,0,204.0
+Banglalink,BL-ROAM-004,Roaming pack 2GB + 10 min (3 days),Roaming,2.0,10.0,0.0,3.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,492.0,98.4,0,984.0
+Banglalink,BL-ROAM-005,Roaming pack 4GB + 20 min (7 days),Roaming,4.0,20.0,0.0,7.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,496.0,99.2,0,1984.0
+Banglalink,BL-ROAM-006,Roaming pack 5GB + 50 min (15 days),Roaming,5.0,50.0,0.0,15.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,496.8,49.68,0,2484.0
+Banglalink,BL-ROAM-007,Roaming pack 10GB + 50 min (30 days),Roaming,10.0,50.0,0.0,30.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,399.4,79.88,0,3994.0
+Banglalink,BL-ROAM-008,Roaming pack 15GB + 100 min (30 days),Roaming,15.0,100.0,0.0,30.0,0.0,Yes,Unknown,Unknown,roaming-offers/prepaid-postpaid-roaming,666.27,99.94,0,9994.0
+Banglalink,BL-ROAM-009,Roaming pack 5GB + 10 min (7 days),Roaming,5.0,10.0,0.0,7.0,0.0,Yes,Unknown,Unknown,roaming-offers/holiday-roaming,238.8,119.4,0,1194.0
+Banglalink,BL-ROAM-010,Roaming pack 10GB + 10 min (10 days),Roaming,10.0,10.0,0.0,10.0,0.0,Yes,Unknown,Unknown,roaming-offers/holiday-roaming,169.4,169.4,0,1694.0
