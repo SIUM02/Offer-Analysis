@@ -126,7 +126,6 @@ PAGE = """<!doctype html>
 <body>
 <main>
   <h1>SIM offer recommender</h1>
-  <p class="sub">MATCHER_LINE</p>
   <form method="get" action="/">
     FORM_FIELDS
   </form>
