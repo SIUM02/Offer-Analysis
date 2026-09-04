@@ -24,9 +24,9 @@ RESTRICTED_PATTERN = (
 
 
 MISS_PENALTY = 1e6
-SHORTFALL_PENALTY = 5.0  
-WASTE_PENALTY = 0.15   
-VALIDITY_PENALTY = 0.40   
+SHORTFALL_PENALTY = 5.0
+WASTE_PENALTY = 0.15
+VALIDITY_PENALTY = 0.40
 SMS_TOPUP_BDT = 1.00
 
 OPERATOR_ALIASES = {
@@ -51,7 +51,6 @@ def number(value, default=0.0):
 
 
 def load_catalogue():
-    """The buyable packs, one dict per pack."""
     if not os.path.exists(CATALOGUE):
         raise SystemExit(f"Catalogue not found: {CATALOGUE}")
 
@@ -71,8 +70,6 @@ def load_catalogue():
                            "price_per_sms"):
                 offer[column] = number(raw.get(column))
 
-            # A pack with no published validity cannot be matched on renewal
-            # cycle; treat it as monthly, the commonest cycle, not dropped.
             if offer["validity_days"] <= 0:
                 offer["validity_days"] = 30.0
 
@@ -87,7 +84,6 @@ def load_catalogue():
 
 
 def quartile(values):
-    """The 25th percentile, interpolated the way pandas' quantile is."""
     ordered = sorted(values)
     if not ordered:
         return None
@@ -98,22 +94,6 @@ def quartile(values):
 
 
 def reference_rates(catalogue):
-    """What one more GB / minute / SMS costs, per operator.
-
-    Used to price a shortfall, so it must reflect what topping up actually
-    costs. Two things would otherwise wreck it:
-
-      - Mixed packs. A combo like "0.05 GB + 15 minutes" has a per-GB price
-        of thousands, because its price is really buying the minutes. Only
-        single-purpose packs are used, so each rate prices one resource.
-      - Micro packs. Grameenphone lists many small content packs, which drags
-        its median to ~BDT 95/GB against a real bulk rate near BDT 10-40. The
-        25th percentile of a decent-sized pack approximates the good-value
-        rate a customer would actually top up at.
-
-    Robi and Banglalink publish no standalone SMS packs, so their SMS rate
-    falls back to the all-operator figure.
-    """
     def rate(offers, quantity, price, others, minimum):
         pure = [o[price] for o in offers
                 if o[quantity] >= minimum
@@ -138,24 +118,6 @@ def reference_rates(catalogue):
 
 
 def score_offer(offer, wants, rates, hard=True):
-    """Cost of covering one request with one pack. Lowest wins.
-
-    Everything is costed over the period the customer asked for, which is
-    what makes short and long packs comparable. A 3-day pack asked to cover
-    30 days has to be bought ten times, so it is priced ten times -- and it
-    delivers ten times the quota, which is why a cheap short pack can still
-    win when it is genuinely good value.
-
-    On top of that period price:
-      - a shortfall has to be topped up separately, at a premium;
-      - a large surplus is money spent on quota that was not asked for;
-      - a pack outlasting the request ties up money for longer than needed.
-
-    With `hard` on, any pack that leaves the customer short ranks behind
-    every pack that does not, whatever the price difference. Turn it off for
-    the cost in ordinary money terms -- what the match percentage compares,
-    so the ranking constant does not swamp it.
-    """
     data_want, minute_want, sms_want, validity = wants
     gb_rate, min_rate, sms_rate = rates
     validity = max(validity, 1)
@@ -176,8 +138,6 @@ def score_offer(offer, wants, rates, hard=True):
     if hard and (short_gb > 0 or short_min > 0 or short_sms > 0):
         shortfall += MISS_PENALTY
 
-    # Surplus is capped at the pack's own price, so an unlimited pack is not
-    # penalised out of all proportion for being large.
     waste = WASTE_PENALTY * min(
         max(gb - data_want, 0.0) * gb_rate
         + max(minutes - minute_want, 0.0) * min_rate
@@ -185,8 +145,6 @@ def score_offer(offer, wants, rates, hard=True):
         price,
     )
 
-    # Only over-long packs are penalised here; under-long ones already paid
-    # for it through repeats.
     excess = max(offer["validity_days"] / validity - 1, 0.0)
     validity_cost = VALIDITY_PENALTY * math.log1p(excess) * price
 
@@ -194,24 +152,10 @@ def score_offer(offer, wants, rates, hard=True):
 
 
 def repeats_needed(offer, validity_want):
-    """How many times the pack has to be bought to cover the period.
-
-    Pack validity is never clamped: an hourly pack really does have to be
-    bought hundreds of times to cover a month, and costing it as anything
-    cheaper would float two-hour packs to the top of a 30-day request.
-    load_catalogue() has already replaced any missing validity with 30, so
-    the divisor is always positive.
-    """
     return max(1, math.ceil(max(validity_want, 1) / offer["validity_days"]))
 
 
 def shortfall(offer, wants):
-    """How much data / minutes / SMS the pack leaves the customer short.
-
-    Measured over the whole period, so a short pack bought repeatedly is
-    credited with everything those repeats deliver. Unlimited packs never
-    fall short on data.
-    """
     data_want, minute_want, sms_want, validity_want = wants
     repeats = repeats_needed(offer, validity_want)
     return (max(data_want - offer["effective_gb"] * repeats, 0.0),
@@ -224,18 +168,10 @@ def covers(offer, wants):
 
 
 def period_price(offer, validity_want):
-    """What the pack costs over the whole period, repeats included."""
     return offer["price_bdt"] * repeats_needed(offer, validity_want)
 
 
 def cheapest_filling(packs, column, amount, validity_want):
-    """The cheapest pack that delivers `amount` of one resource on its own.
-
-    This is what a top-up really costs: to cover a 4 GB gap you go and buy a
-    pack with 4 GB in it, at the price the operator charges, not at some
-    average per-GB rate. Returns (pack, price), or None when the operator
-    sells nothing that big.
-    """
     affordable = [(period_price(o, validity_want), o) for o in packs
                   if o[column] * repeats_needed(o, validity_want) >= amount]
     if not affordable:
@@ -248,17 +184,6 @@ TopUp = collections.namedtuple("TopUp", "what price how pack_id")
 
 
 def topup(offer, wants, packs, rates):
-    """Buying separately whatever the pack leaves out.
-
-    Returns one TopUp per gap: what is missing, what filling it costs, how
-    it gets filled, and the id of the pack that fills it (None when nothing
-    the operator sells is big enough and it is bought by the unit).
-    A gap is filled with the cheapest pack the operator sells that covers it.
-    Only when it sells nothing that does does this fall back to a per-unit
-    price -- which is the ordinary case for SMS, since no operator but
-    Teletalk publishes SMS packs, and there the per-unit price is the
-    pay-as-you-go tariff SMS_TOPUP_BDT.
-    """
     gb_rate, minute_rate, sms_rate = rates
     sms_rate = max(sms_rate, SMS_TOPUP_BDT)
     validity_want = wants[3]
@@ -283,14 +208,6 @@ def topup(offer, wants, packs, rates):
 
 
 def plan(offer, wants, packs, rates):
-    """Everything the customer ends up buying: this pack, plus every pack
-    that fills one of its gaps.
-
-    Two offers can describe the same purchase from either end -- a minute
-    pack topped up with a data pack is the same BDT 366 as that data pack
-    topped up with the minute pack. Offering both spends two slots on one
-    answer, so the ranking keeps one of each plan.
-    """
     return frozenset({offer["offer_id"]}
                      | {line.pack_id
                         for line in topup(offer, wants, packs, rates)
@@ -298,33 +215,11 @@ def plan(offer, wants, packs, rates):
 
 
 def allin_cost(offer, wants, packs, rates):
-    """Everything the request costs with this pack: the pack, bought as often
-    as the period needs, plus the price of filling whatever it misses."""
     return (period_price(offer, wants[3])
             + sum(line.price for line in topup(offer, wants, packs, rates)))
 
 
 def recommend(catalogue, rates, operator, wants, top=3, strict=False):
-    """The `top` best-matching packs -- purely the cost model, no model file.
-
-    Packs are compared on what the request really costs with each one: the
-    pack over the period asked for, plus the price of filling whatever it
-    leaves out, at what the operator charges for filling it. So a pack that
-    meets the request wins only when it is cheaper than a smaller pack plus
-    the top-up -- ask for 50 SMS on an operator that sells no SMS pack and a
-    pack short by all 50 is judged as costing BDT 50 more than its price, no
-    worse, so it can still be the pick. `value` reports the ratio between
-    those totals, best in the list at 100%.
-
-    Pricing a gap at the pack that would fill it is what keeps this honest.
-    A per-unit average would make a minute pack look like a fine answer to a
-    6 GB request, because Banglalink data averages BDT 7.52/GB -- but nobody
-    sells 6 GB for BDT 46, and the cheapest pack that really covers the gap
-    prices it at BDT 348.
-
-    `strict` goes back to the hard rule: nothing is offered that does not
-    meet the request in full, whatever a top-up would have cost.
-    """
     sellable = [o for o in catalogue if o["operator"] == operator]
     if not sellable:
         return []
@@ -341,7 +236,7 @@ def recommend(catalogue, rates, operator, wants, top=3, strict=False):
         for offer in ordered:
             key = plan(offer, wants, sellable, rate)
             if key in seen:
-                continue      # the same purchase, entered from the other pack
+                continue
             seen.add(key)
             ranked.append(offer)
             if len(ranked) == top:
@@ -369,8 +264,6 @@ def show(row, value, wants, packs, rates, heading, nothing_covers=False):
     print(f"    USSD       : {row['ussd_code']}")
     print(f"    Value      : {value:.0%}")
 
-    # A pack shorter than the period asked for is meant to be re-bought; the
-    # matcher scored it that way, so report the totals over the whole period.
     repeats = repeats_needed(row, validity_want)
     if repeats > 1:
         total_data = "Unlimited" if unlimited else f"{row['data_gb'] * repeats:g} GB"
@@ -379,8 +272,6 @@ def show(row, value, wants, packs, rates, heading, nothing_covers=False):
               f"{row['sms'] * repeats:g} SMS, "
               f"BDT {row['price_bdt'] * repeats:g} total")
 
-    # What the pack misses and what filling it costs: the two numbers the
-    # ranking compared, so the arithmetic behind the pick is on the page.
     missing = topup(row, wants, packs, rates)
     if missing:
         label = "    Top up     : "
@@ -414,7 +305,6 @@ def report(catalogue, rates, operator, wants, strict=False):
 
 
 def ask(prompt, default=0.0):
-    """One numeric answer. Blank keeps the default; 'q' quits."""
     while True:
         raw = input(prompt).strip()
         if raw.lower() in QUIT:
@@ -494,8 +384,6 @@ def main():
             sms = ask("  SMS wanted           : ")
             validity = ask("  Validity (days) [30] : ", default=30.0)
         except EOFError:
-            # No keyboard at all -- an IDE "Run" button gives an output pane
-            # and nothing to type into. Say how to ask without typing.
             if asked == 0:
                 raise SystemExit(
                     "\nNothing to read from -- this run has no keyboard.\n"

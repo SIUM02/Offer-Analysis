@@ -1,20 +1,3 @@
-"""One web page for the matcher: a form, and the packs it recommends.
-
-    python3 scripts/web.py          # opens http://127.0.0.1:8000
-
-Same five inputs as user_test.py, same three results, same arithmetic --
-this only draws them. Every number on the page comes from user_test.py's
-functions, so there is one matching algorithm in this project, not two, and
-the page cannot drift away from the command line.
-
-Standard library only, like the matcher: http.server, no Flask, no pip.
-The page is rendered on the server and posted back as a plain form, so it
-needs no JavaScript either. It listens on 127.0.0.1, so nothing outside
-this machine can reach it.
-
-    python3 scripts/web.py --port 8080 --no-open
-"""
-
 import argparse
 import html
 import os
@@ -30,15 +13,9 @@ from user_test import (SMS_TOPUP_BDT, allin_cost, covers, load_catalogue,
                        period_price, recommend, reference_rates,
                        repeats_needed, topup)
 
-# Three packs get a card each. MORE is how many further packs are listed in
-# a table under them, ranked the same way; 0 turns that table off, which is
-# how the page currently stands. Raise it to bring the table back.
 CARDS = 3
 MORE = 0
 
-# The models the page can rank with, best first, so the first is the default.
-# The cost matcher still answers when no model can be loaded -- it is what
-# the page falls back to, not something to choose.
 MODEL_ORDER = ["Random forest", "Decision tree", "Polynomial regression"]
 
 PAGE = """<!doctype html>
@@ -161,7 +138,6 @@ def form_fields(operators, form):
         f'{esc(op)}</option>' for op in operators)
 
     def field(name, label, value, step="any"):
-        # :g so the box reads 10 and 30, not 10.0 and 30.0.
         return (f'<div><label for="{name}">{label}</label>'
                 f'<input id="{name}" name="{name}" type="number" min="0" '
                 f'step="{step}" value="{esc(format(value, "g"))}"></div>')
@@ -192,9 +168,6 @@ def render_pack(row, value, wants, packs, rates, rank, nothing_covers,
     unlimited = row["category"] == "Unlimited"
     data = "Unlimited" if unlimited else f"{row['data_gb']:g} GB"
     heading = "Recommended" if rank == 0 else f"Alternative {rank}"
-    # Cards are ordered by price, so the model's own favourite is not
-    # necessarily the first one. Say which it was, or a 54% sitting under a
-    # 16% reads as a bug.
     if top_pick:
         heading += " &middot; the model's top pick"
 
@@ -242,9 +215,6 @@ def render_pack(row, value, wants, packs, rates, rank, nothing_covers,
 
 
 def render_row(row, value, wants, packs, rates):
-    """One line of the table under the cards."""
-    """One line of the table under the cards: what it gives, what it all
-    costs, and what it would take to fill whatever it misses."""
     unlimited = row["category"] == "Unlimited"
     validity_want = wants[3]
     repeats = repeats_needed(row, validity_want)
@@ -271,9 +241,6 @@ def render_more(results, wants, packs, rates, strict, value_label="Value"):
     rows = "".join(render_row(row, value, wants, packs, rates)
                    for row, value in results)
 
-    # In strict mode the order comes from the hard rule -- coverage first,
-    # then the cost model -- so the all-in and value columns are genuinely
-    # not in order, and the note should not pretend they are.
     if value_label != "Value":
         order = ("Ordered by the model, like the three above. All in is what "
                  "the matcher says each pack really costs, which the model "
@@ -312,27 +279,17 @@ def render_results(catalogue, rates, form):
                  f" &middot; {esc(asked)} is not available in this "
                  "interpreter, so the cost matcher answered")
     else:
-        # The model ranks; the matcher's numbers still describe each pack it
-        # returns, because those are facts about the pack, not opinions.
         by_id = {offer["offer_id"]: offer for offer in packs}
         try:
             picked, value_label = ml.rank(form["source"], operator, wants,
                                           set(by_id), top=CARDS + MORE)
         except Exception as exc:
-            # A model that will not answer must not take the page down with
-            # it: say what happened, and let the matcher still be one click
-            # away in the selector above.
             return (f'<p class="empty">{esc(form["source"])} could not answer '
                     f"this request: {esc(exc)}.<br>Retrain with "
                     "<code>python3 scripts/train_model.py</code>, or pick "
                     "the cost matcher above.</p>")
         results = [(by_id[offer_id], score) for offer_id, score in picked]
 
-        # The model chooses which packs are worth showing; price decides the
-        # order they are shown in, cheapest first. Cheapest means what the
-        # request really costs with that pack -- repeat purchases and any
-        # top-up included -- so a BDT 52 pack that has to be bought five
-        # times does not lead a BDT 208 one that lasts the month.
         results.sort(key=lambda pair: (allin_cost(pair[0], wants, packs,
                                                   rates[operator]),
                                        pair[0]["price_bdt"]))
@@ -376,22 +333,17 @@ def read_form(query, operators, models):
         "models": models,
         "source": (source if source in models
                    else (models[0] if models else ml.MATCHER)),
-        # What was asked for, so a fallback to the matcher can be admitted
-        # rather than passed off as the model's answer.
         "asked_for": source,
         "operator": operator if operator in operators else operators[0],
         "data": number("data"),
         "minutes": number("minutes"),
         "sms": number("sms"),
         "validity": number("validity", 30.0) or 30.0,
-        # A matcher-only setting, kept for the command line and for the
-        # fallback below; the page no longer offers it.
         "strict": False,
     }
 
 
 def source_line(models, problem):
-    """One line saying what is doing the ranking, with what each scored."""
     if not models:
         return (f"No trained model can be loaded here ({esc(problem)}), so "
                 "the cost matcher is answering.")
@@ -406,17 +358,11 @@ def source_line(models, problem):
 
 
 def render_page(catalogue, rates, operators, query):
-    """The whole page for one request, as UTF-8 bytes.
-
-    Kept apart from the server so anything that can answer an HTTP GET can
-    serve it: the local server below, and api/index.py on Vercel, which gets
-    one invocation per request and no server to run.
-    """
     models, problem = ml.available()
     models = ([name for name in MODEL_ORDER if name in models]
               + [name for name in models if name not in MODEL_ORDER])
     form = read_form(query, operators, models)
-    matcher_line = (f"303 buyable packs across "
+    matcher_line = (f"287 buyable packs across "
                     f"{len(operators)} operators. "
                     + source_line(models, problem))
     return (PAGE
@@ -449,13 +395,14 @@ def make_handler(catalogue, rates, operators):
             self.wfile.write(body)
 
         def log_message(self, *args):
-            pass          # one line per keystroke-ish reload is just noise
+            pass
 
     return Handler
 
 
 def main():
-    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser = argparse.ArgumentParser(
+        description="One web page for the matcher and the trained models.")
     parser.add_argument("--port", type=int, default=8000)
     parser.add_argument("--no-open", action="store_true",
                         help="do not open a browser")
