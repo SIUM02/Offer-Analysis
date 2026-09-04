@@ -318,7 +318,7 @@ Flask and nothing to install, bound to `127.0.0.1`.
 ### Putting it online
 
 ```bash
-npx vercel          # preview URL
+npx vercel          # https://offer-analysis.vercel.app/
 npx vercel --prod   # live
 ```
 
