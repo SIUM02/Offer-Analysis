@@ -16,16 +16,77 @@ regression output for the polynomial one, which is a ranking number and not
 a probability however much it looks like one.
 """
 
+import gzip
+import json
 import os
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL_PATH = os.path.join(BASE, "models", "offer_recommender.joblib")
+
+# The same models written out as plain data by scripts/export_models.py.
+# Preferred over the pickle: it reads with the standard library, so the page
+# needs no scikit-learn, matches no version, and installs nothing -- which is
+# what lets the models run on a serverless host at all.
+EXPORT_PATH = os.path.join(BASE, "models", "models.json.gz")
+
+_export = None
 
 MATCHER = "Cost matcher (no model)"
 
 # Filled by _load() on first use: the bundle, or the reason there is none.
 _bundle = None
 _problem = None
+
+
+def _load_export():
+    """The exported models, read with the standard library. None if absent."""
+    global _export
+    if _export is None and os.path.exists(EXPORT_PATH):
+        with gzip.open(EXPORT_PATH, "rt", encoding="utf-8") as handle:
+            _export = json.load(handle)
+    return _export
+
+
+def _leaf(tree, features):
+    """Walk one tree to the leaf this request lands in."""
+    node = 0
+    while tree["left"][node] != -1:
+        feature = tree["feature"][node]
+        node = (tree["left"][node] if features[feature] <= tree["threshold"][node]
+                else tree["right"][node])
+    return tree["leaves"][str(node)]
+
+
+def raw_scores(spec, features):
+    """One score per pack, from an exported model, in pure Python.
+
+    A forest averages the class distribution of the leaf each tree drops the
+    request into -- exactly what predict_proba does, over the sparse leaves
+    the export keeps. The linear model standardises, expands to the stored
+    powers and takes one dot product per pack, which is decision_function.
+    """
+    n_classes = spec["n_classes"]
+    if spec["kind"] == "forest":
+        totals = [0.0] * n_classes
+        trees = spec["trees"]
+        for tree in trees:
+            pairs = _leaf(tree, features)
+            weight = sum(count for _, count in pairs)
+            for index, count in pairs:
+                totals[index] += count / weight
+        return [total / len(trees) for total in totals]
+
+    standardised = [(value - mean) / scale for value, mean, scale
+                    in zip(features, spec["mean"], spec["scale"])]
+    expanded = []
+    for powers in spec["powers"]:
+        term = 1.0
+        for value, power in zip(standardised, powers):
+            if power:
+                term *= value ** power
+        expanded.append(term)
+    return [sum(c * f for c, f in zip(row, expanded)) + bias
+            for row, bias in zip(spec["coef"], spec["intercept"])]
 
 
 def _load():
@@ -50,6 +111,10 @@ def _load():
 
 def available():
     """The model names that can be used now, and the reason if none can."""
+    export = _load_export()
+    if export is not None:
+        return list(export["models"]), None
+
     bundle = _load()
     if bundle is None:
         return [], _problem
@@ -94,6 +159,9 @@ def class_list(bundle, name, model):
 
 def metrics():
     """What each model scored when it was trained, or {} if unavailable."""
+    export = _load_export()
+    if export is not None:
+        return dict(export["metrics"])
     bundle = _load()
     return dict(bundle["metrics"]) if bundle else {}
 
@@ -106,6 +174,28 @@ def rank(name, operator, wants, allowed, top=10):
     Grameenphone pack. Scores are comparable within one answer, not between
     models.
     """
+    export = _load_export()
+    if export is not None:
+        if name not in export["models"]:
+            raise RuntimeError(f"{name} is not one of the trained models")
+        spec = export["models"][name]
+        features = [export["operator_index"][operator], *wants]
+        scores = raw_scores(spec, features)
+        classes = export["classes"][name]
+
+        if spec["kind"] == "forest":
+            label = "Confidence"
+        else:
+            low, high = min(scores), max(scores)
+            span = high - low
+            scores = [(s - low) / span if span else 0.0 for s in scores]
+            label = "Score"
+
+        ranked = sorted(((offer_id, score) for offer_id, score
+                         in zip(classes, scores) if offer_id in allowed),
+                        key=lambda pair: -pair[1])[:top]
+        return ranked, label
+
     import numpy as np
 
     bundle = _load()

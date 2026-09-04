@@ -450,11 +450,40 @@ runtime expects, and the page itself comes from `web.render_page`, so the
 deployed site and `python3 scripts/web.py` render from the same code.
 
 `vercel.json` does the two things the deployment needs: it rewrites every
-path to the function, and it ships `data/` and `scripts/` with it —
-`includeFiles`, without which the function would start with no catalogue to
-read. There are no dependencies to install, so there is no
-`requirements.txt`. The catalogue is parsed once per cold start, not once
-per request.
+path to the function, and it ships `data/`, `scripts/` and `models/` with it
+— `includeFiles`, without which the function would start with no catalogue
+and no models to read. There are still no dependencies to install, so there
+is no `requirements.txt`. The catalogue is parsed once per cold start, not
+once per request.
+
+**The models are deployed as data, not as a pickle.** Shipping the trained
+models the obvious way does not work here: `models/offer_recommender.joblib`
+needs scikit-learn to read, which drags in numpy, scipy and pandas — over
+250 MB unzipped, past what a Vercel function may be, and the forest alone
+wants 400 MB of memory once loaded. So `scripts/export_models.py` writes the
+models out as gzipped JSON instead:
+
+```bash
+python3 scripts/train_model.py      # fit them
+python3 scripts/export_models.py    # write models/models.json.gz
+```
+
+3.2 MB, read by `ml.py` with `gzip` and `json`, predicted in pure Python —
+no scikit-learn, no version to match, nothing to install. It loses nothing:
+a tree is thresholds and child indices, and because `min_samples_leaf` is 5,
+a leaf holds 2.12 classes on average rather than the 156 scikit-learn stores
+densely at every one of 150,592 leaves. `export_models.py` refuses to write
+unless the exported models reproduce scikit-learn's own answers — currently
+the same pick on 400 of 400 random requests, with scores differing by at
+most 2 × 10⁻¹⁶.
+
+Measured on the deployed code path with no ML libraries installed at all:
+19 ms cold start, 247 ms on the first request that touches the models, 1 ms
+per prediction after that.
+
+`models/models.json.gz` is committed for exactly this reason, while the
+15 MB `.joblib` stays ignored — the export is the portable one, and it is
+what makes the models work on the live site.
 
 Anywhere that runs a normal process — Railway, Render, Fly, PythonAnywhere
 — can skip all of this and run `python3 scripts/web.py --port $PORT` as-is,

@@ -1,10 +1,13 @@
 {
   "functions": {
     "api/index.py": {
-      "includeFiles": "{data,scripts}/**"
+      "includeFiles": "{data,scripts,models}/**"
     }
   },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/api/index" }
+    {
+      "source": "/(.*)",
+      "destination": "/api/index"
+    }
   ]
 }

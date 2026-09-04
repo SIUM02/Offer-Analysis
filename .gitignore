@@ -6,3 +6,9 @@ __pycache__/
 # Built by scripts/train_model.py, not source
 models/
 data/training_profiles.csv
+
+# ...except the exported models, which the deployed site needs and which are
+# 3 MB of plain data rather than a 15 MB pickle nothing else can read.
+!models/
+!models/models.json.gz
+models/*.joblib
