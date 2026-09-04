@@ -222,9 +222,77 @@ Best match:
     confidence : 68%
 ```
 
-`RandomForestClassifier` over `offer_id`, 25,000 training requests.
-Predictions are filtered to the chosen operator's packs, so it can never
-suggest another operator's offer.
+### Three models, compared
+
+`scripts/train_model.py` trains all three on the same 25,000 requests, the
+same five features and the same split, and scores them on the 5,000 held
+out. Every prediction is filtered to the chosen operator's packs, so no
+model can answer a Robi request with a Grameenphone offer, and the filter is
+applied identically to all three.
+
+| Model | Top-1 | Top-3 | Mean BDT lost | 90th pct | Fit |
+|---|---|---|---|---|---|
+| Decision tree | 92.9% | 95.2% | 9.93 | 0.00 | 0.1 s |
+| Random forest (150 trees) | 91.6% | 97.7% | 25.79 | 0.00 | 1.0 s |
+| Polynomial regression (degree 2) | 37.8% | 66.7% | 153.86 | 538.50 | 0.1 s |
+
+**What the columns mean.** Top-1 and Top-3 are how often the pick, or the
+top three, contain the pack the cost model chose. That is agreement with the
+cost model — the thing that labelled the data — and not real-world
+correctness; no customer ever told us which pack they wanted. **Mean BDT
+lost** prices the disagreements: what the model's pack costs over the pack
+it should have chosen, for the same request, in money terms. A correct pick
+scores 0. It is the more honest column, because a wrong pack that costs the
+same is not a bad answer.
+
+**What the numbers say.** The tree models learn the cost rule almost
+exactly; the polynomial regression does not come close, and that is the
+useful result rather than a disappointing one. A degree-2 surface has to
+separate 158 packs with one smooth function of five inputs, and the rule it
+is chasing is full of hard edges — a pack is disqualified the moment it
+falls one SMS short. Trees cut on exactly those edges. Note also that the
+decision tree is *less* accurate than the forest but loses *less money*: the
+forest's extra correct picks are on requests where being wrong was cheap
+anyway, while its mistakes are worse when it makes them.
+
+**Why 150 trees.** A forest stores a probability for all 158 packs at every
+leaf, so its size is driven by leaf count, not by accuracy:
+
+| trees | min leaf | top-1 | top-3 | in memory | on disk |
+|---|---|---|---|---|---|
+| 300 | 2 | 93.5% | 98.8% | 1333 MB | 41 MB |
+| 150 | 5 | 91.6% | 97.7% | 395 MB | 15 MB |
+| 100 | 8 | 89.9% | 97.0% | 191 MB | 9 MB |
+| 60 | 12 | 87.3% | 96.4% | 86 MB | 4 MB |
+
+The 300-tree forest is the most accurate and needs 1.3 GB of memory to
+answer one question, which no web process should carry. 150 trees gives up
+1.9 points of top-1 for a model a fifth the size.
+
+**Reproducing it.** `scripts/train_model.py` needs scikit-learn, pandas and
+joblib; the matcher and the web page do not. On a machine where the default
+`python3` has no scikit-learn, point at one that does:
+
+```bash
+/opt/anaconda3/bin/python3 scripts/train_model.py
+```
+
+It writes `models/offer_recommender.joblib` (15 MB, all three models) and
+`data/training_profiles.csv`. Both are gitignored — they are built, not
+source.
+
+**Train with the interpreter you will run the page with.** A saved model is
+a pickle, and a pickle is only portable between matching library versions.
+This machine has two Pythons with scikit-learn — the framework 3.13
+(scikit-learn 1.9, pandas 3.0) and Anaconda (1.6, 2.2) — and a bundle
+written by one does not load in the other: the models fail on
+`RidgeClassifier.classes_`, whose internals moved between versions, and the
+catalogue DataFrame in the bundle fails on a pandas `StringDtype` change.
+The page handles it rather than crashing — it says which interpreter can't
+read the models, offers the cost matcher, and admits when a model you
+selected was not the thing that answered — but the fix is simply to retrain,
+which takes eleven seconds. The results themselves are stable across both
+versions: identical top-1, top-3 and BDT figures under 1.6 and 1.9.
 
 ## Trying it on your own input
 
@@ -315,11 +383,46 @@ python3 scripts/web.py            # opens http://127.0.0.1:8000
 python3 scripts/web.py --port 8080 --no-open
 ```
 
-One page: the same five inputs as a form, the same three packs as cards,
-then seven more in a table under them &mdash; ten in all, ranked the same
-way, with each row showing what it gives, what it costs, what filling its
-gaps would add and the all-in total. `CARDS` and `MORE` at the top of the
-file set how many of each. The same arithmetic runs underneath. It imports `recommend`, `topup` and
+One page: the five inputs as a form, a **Ranked by** selector, and three
+packs as cards. `CARDS` at the top of the file sets how many cards; `MORE`
+lists further packs in a table under them and is currently 0, so there is
+no table — raise it to bring one back.
+
+**Ranked by** chooses which trained model answers: random forest (the
+default), decision tree, or polynomial regression. They genuinely disagree —
+ask Teletalk for 5 GB, 250 minutes and 50 SMS over 30 days and the decision
+tree leads with the BDT 208 pack that fits it at 100% confidence, while the
+random forest leads with the BDT 312 pack at 54%. The bar is labelled for
+what it shows: *Confidence* for the tree models (a probability), *Score* for
+the polynomial regression (its regression output, squashed into 0–1 for
+ranking — not a probability).
+
+**The model picks; price orders.** The three cards are the model's three
+packs, shown cheapest first, where cheapest means what the request really
+costs with that pack — repeat purchases and any top-up included, not the
+sticker price. A BDT 39 pack that has to be bought five times and still
+leaves 125 minutes to buy costs BDT 301, so it sits behind the BDT 208 pack
+that covers the month outright. Because the order is by price and the bar
+shows confidence, the model's own favourite is not always first, so it is
+labelled *the model's top pick* where it lands.
+
+The cost matcher is not in the selector. It is the fallback: when no model
+can be loaded, it answers and the page says so, and if a request names a
+model this interpreter cannot load, the request line admits which one
+answered instead. Where a pack falls short, the top-up and all-in figures
+under it still come from the catalogue rather than the model — those are
+facts about a pack, not opinions about it. `--strict` is likewise a matcher
+setting and lives on the command line only.
+
+The models need scikit-learn and joblib, so run the page under an
+interpreter that has them to see all four options:
+
+```bash
+/opt/anaconda3/bin/python3 scripts/web.py
+```
+
+Under a bare `python3`, or before `train_model.py` has ever run, the
+selector simply offers the cost matcher and the page says why. It imports `recommend`, `topup` and
 `period_price` straight out of `user_test.py`, so there is one matching
 algorithm in this project and the page cannot drift away from the command
 line — change the matcher and both change together.

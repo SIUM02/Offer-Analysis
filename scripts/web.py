@@ -25,14 +25,21 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from user_test import (SMS_TOPUP_BDT, covers, load_catalogue, period_price,
-                       recommend, reference_rates, repeats_needed, topup)
+import ml
+from user_test import (SMS_TOPUP_BDT, allin_cost, covers, load_catalogue,
+                       period_price, recommend, reference_rates,
+                       repeats_needed, topup)
 
-# Three packs get a card each. The rest of the shortlist goes in a table
-# underneath, ranked the same way -- enough to see where the three came from
-# and what the next-best thing costs, without a wall of cards.
+# Three packs get a card each. MORE is how many further packs are listed in
+# a table under them, ranked the same way; 0 turns that table off, which is
+# how the page currently stands. Raise it to bring the table back.
 CARDS = 3
-MORE = 7
+MORE = 0
+
+# The models the page can rank with, best first, so the first is the default.
+# The cost matcher still answers when no model can be loaded -- it is what
+# the page falls back to, not something to choose.
+MODEL_ORDER = ["Random forest", "Decision tree", "Polynomial regression"]
 
 PAGE = """<!doctype html>
 <html lang="en">
@@ -126,15 +133,17 @@ PAGE = """<!doctype html>
 <body>
 <main>
   <h1>SIM offer recommender</h1>
+  <p class="sub">MATCHER_LINE</p>
   <form method="get" action="/">
     FORM_FIELDS
   </form>
   RESULTS
   <footer>
-    Ranked on the all-in cost: the pack over the period you asked for, plus
-    what it costs to buy whatever it leaves out. SMS that no pack covers is
-    priced at BDT SMS_RATE each. Same matcher as
-    <code>python3 scripts/user_test.py</code>.
+    Ranked by the trained model chosen above, over the packs the operator
+    actually sells. Where a pack falls short of the request, the top-up
+    priced under it comes from the catalogue, not the model: the cheapest
+    pack that fills the gap, or BDT SMS_RATE an SMS where no pack does.
+    Trained by <code>python3 scripts/train_model.py</code>.
   </footer>
 </main>
 </body>
@@ -157,7 +166,12 @@ def form_fields(operators, form):
                 f'<input id="{name}" name="{name}" type="number" min="0" '
                 f'step="{step}" value="{esc(format(value, "g"))}"></div>')
 
-    checked = " checked" if form["strict"] else ""
+    sources = form["models"] or [ml.MATCHER]
+    ranked_by = "".join(
+        f'<option value="{esc(name)}"'
+        f'{" selected" if form["source"] == name else ""}>{esc(name)}</option>'
+        for name in sources)
+
     return (
         f'<div><label for="operator">Operator</label>'
         f'<select id="operator" name="operator">{options}</select></div>'
@@ -165,18 +179,24 @@ def form_fields(operators, form):
         + field("minutes", "Minutes", form["minutes"])
         + field("sms", "SMS", form["sms"])
         + field("validity", "Validity (days)", form["validity"], step="1")
+        + '<div><label for="source">Ranked by</label>'
+          f'<select id="source" name="source">{ranked_by}</select></div>'
         + '<div class="wide">'
           '<button type="submit">Recommend</button>'
-          f'<label class="check"><input type="checkbox" name="strict" value="1"'
-          f'{checked}> Only packs that meet the request in full</label>'
           '</div>')
 
 
-def render_pack(row, value, wants, packs, rates, rank, nothing_covers):
+def render_pack(row, value, wants, packs, rates, rank, nothing_covers,
+                value_label="Value", top_pick=False):
     validity_want = wants[3]
     unlimited = row["category"] == "Unlimited"
     data = "Unlimited" if unlimited else f"{row['data_gb']:g} GB"
     heading = "Recommended" if rank == 0 else f"Alternative {rank}"
+    # Cards are ordered by price, so the model's own favourite is not
+    # necessarily the first one. Say which it was, or a 54% sitting under a
+    # 16% reads as a bug.
+    if top_pick:
+        heading += " &middot; the model's top pick"
 
     cells = [("Data", data), ("Minutes", f"{row['minutes']:g}"),
              ("SMS", f"{row['sms']:g}"),
@@ -213,15 +233,16 @@ def render_pack(row, value, wants, packs, rates, rank, nothing_covers):
 
     return (
         f'<article class="pack{" best" if rank == 0 else ""}">'
-        f'<div class="rank">{esc(heading)}</div>'
+        f'<div class="rank">{heading}</div>'
         f'<div class="name">{esc(row["offer_name"])}</div>'
         f'<div class="grid">{grid}</div>'
         f'<div class="bar"><i style="width:{value * 100:.0f}%"></i></div>'
-        f'<div class="rank">Value {value:.0%}</div>'
+        f'<div class="rank">{esc(value_label)} {value:.0%}</div>'
         f'{"".join(notes)}</article>')
 
 
 def render_row(row, value, wants, packs, rates):
+    """One line of the table under the cards."""
     """One line of the table under the cards: what it gives, what it all
     costs, and what it would take to fill whatever it misses."""
     unlimited = row["category"] == "Unlimited"
@@ -244,7 +265,7 @@ def render_row(row, value, wants, packs, rates):
                 "".join(f"<td>{c}</td>" for c in cells), allin, value)
 
 
-def render_more(results, wants, packs, rates, strict):
+def render_more(results, wants, packs, rates, strict, value_label="Value"):
     if not results:
         return ""
     rows = "".join(render_row(row, value, wants, packs, rates)
@@ -253,9 +274,15 @@ def render_more(results, wants, packs, rates, strict):
     # In strict mode the order comes from the hard rule -- coverage first,
     # then the cost model -- so the all-in and value columns are genuinely
     # not in order, and the note should not pretend they are.
-    order = ("Ordered by the strict rule, coverage first, so the last two "
-             "columns are not in order." if strict else
-             "Ranked the same way as the three above, by the all-in cost.")
+    if value_label != "Value":
+        order = ("Ordered by the model, like the three above. All in is what "
+                 "the matcher says each pack really costs, which the model "
+                 "never sees.")
+    elif strict:
+        order = ("Ordered by the strict rule, coverage first, so the last "
+                 "two columns are not in order.")
+    else:
+        order = "Ranked the same way as the three above, by the all-in cost."
     return (
         "<h2>More options</h2>"
         f'<p class="more-note">{order} <b>All in</b> includes '
@@ -263,7 +290,7 @@ def render_more(results, wants, packs, rates, strict):
         "the repeat purchases cost over the whole period.</p>"
         '<div class="scroll"><table><thead><tr>'
         "<th>Pack</th><th>Data</th><th>Min</th><th>SMS</th><th>Days</th>"
-        "<th>Price</th><th>All in</th><th>Value</th>"
+        f"<th>Price</th><th>All in</th><th>{esc(value_label)}</th>"
         f"</tr></thead><tbody>{rows}</tbody></table></div>")
 
 
@@ -274,26 +301,66 @@ def render_results(catalogue, rates, form):
 
     operator = form["operator"]
     wants = (form["data"], form["minutes"], form["sms"], form["validity"])
-    results = recommend(catalogue, rates, operator, wants,
-                        top=CARDS + MORE, strict=form["strict"])
+    packs = [o for o in catalogue if o["operator"] == operator]
+
+    if form["source"] == ml.MATCHER:
+        results = recommend(catalogue, rates, operator, wants,
+                            top=CARDS + MORE, strict=form["strict"])
+        value_label = "Value"
+        asked = form["asked_for"]
+        aside = ("" if asked in ("", ml.MATCHER) else
+                 f" &middot; {esc(asked)} is not available in this "
+                 "interpreter, so the cost matcher answered")
+    else:
+        # The model ranks; the matcher's numbers still describe each pack it
+        # returns, because those are facts about the pack, not opinions.
+        by_id = {offer["offer_id"]: offer for offer in packs}
+        try:
+            picked, value_label = ml.rank(form["source"], operator, wants,
+                                          set(by_id), top=CARDS + MORE)
+        except Exception as exc:
+            # A model that will not answer must not take the page down with
+            # it: say what happened, and let the matcher still be one click
+            # away in the selector above.
+            return (f'<p class="empty">{esc(form["source"])} could not answer '
+                    f"this request: {esc(exc)}.<br>Retrain with "
+                    "<code>python3 scripts/train_model.py</code>, or pick "
+                    "the cost matcher above.</p>")
+        results = [(by_id[offer_id], score) for offer_id, score in picked]
+
+        # The model chooses which packs are worth showing; price decides the
+        # order they are shown in, cheapest first. Cheapest means what the
+        # request really costs with that pack -- repeat purchases and any
+        # top-up included -- so a BDT 52 pack that has to be bought five
+        # times does not lead a BDT 208 one that lasts the month.
+        results.sort(key=lambda pair: (allin_cost(pair[0], wants, packs,
+                                                  rates[operator]),
+                                       pair[0]["price_bdt"]))
+        aside = (" &middot; picked by " + esc(form["source"])
+                 + ", cheapest first"
+                 + (" (strict applies to the cost matcher only)"
+                    if form["strict"] else ""))
+
     if not results:
         return f'<p class="empty">{esc(operator)} sells no buyable pack.</p>'
-
-    packs = [o for o in catalogue if o["operator"] == operator]
     nothing_covers = not any(covers(o, wants) for o in packs)
 
     header = ('<p class="request">{} &middot; {:g} GB &middot; {:g} min '
-              '&middot; {:g} SMS &middot; {:g} days</p>').format(
-                  esc(operator), *wants)
+              '&middot; {:g} SMS &middot; {:g} days{}</p>').format(
+                  esc(operator), *wants, aside)
+    shown = results[:CARDS]
+    favourite = max(range(len(shown)), key=lambda i: shown[i][1]) if shown else -1
     cards = "".join(
         render_pack(row, value, wants, packs, rates[operator], rank,
-                    nothing_covers)
-        for rank, (row, value) in enumerate(results[:CARDS]))
+                    nothing_covers, value_label,
+                    top_pick=(rank == favourite and value_label != "Value"))
+        for rank, (row, value) in enumerate(shown))
     return header + cards + render_more(results[CARDS:], wants, packs,
-                                        rates[operator], form["strict"])
+                                        rates[operator], form["strict"],
+                                        value_label)
 
 
-def read_form(query, operators):
+def read_form(query, operators, models):
     fields = urllib.parse.parse_qs(query)
 
     def number(name, default=0.0):
@@ -303,15 +370,39 @@ def read_form(query, operators):
             return default
 
     operator = fields.get("operator", [""])[0]
+    source = fields.get("source", [""])[0]
     return {
         "submitted": bool(fields),
+        "models": models,
+        "source": (source if source in models
+                   else (models[0] if models else ml.MATCHER)),
+        # What was asked for, so a fallback to the matcher can be admitted
+        # rather than passed off as the model's answer.
+        "asked_for": source,
         "operator": operator if operator in operators else operators[0],
         "data": number("data"),
         "minutes": number("minutes"),
         "sms": number("sms"),
         "validity": number("validity", 30.0) or 30.0,
-        "strict": bool(fields.get("strict")),
+        # A matcher-only setting, kept for the command line and for the
+        # fallback below; the page no longer offers it.
+        "strict": False,
     }
+
+
+def source_line(models, problem):
+    """One line saying what is doing the ranking, with what each scored."""
+    if not models:
+        return (f"No trained model can be loaded here ({esc(problem)}), so "
+                "the cost matcher is answering.")
+    warning = (f' <b>Warning:</b> {esc(problem)}.' if problem else "")
+    scored = ml.metrics()
+    parts = [f"{name.lower()} {scored[name]['accuracy']:.0%}"
+             for name in models if name in scored]
+    return ("Ranked by a model trained on 25,000 requests &mdash; "
+            + ", ".join(parts)
+            + " top-1 agreement with the cost model on held-out requests."
+            + warning)
 
 
 def render_page(catalogue, rates, operators, query):
@@ -321,9 +412,15 @@ def render_page(catalogue, rates, operators, query):
     serve it: the local server below, and api/index.py on Vercel, which gets
     one invocation per request and no server to run.
     """
-    form = read_form(query, operators)
-   
+    models, problem = ml.available()
+    models = ([name for name in MODEL_ORDER if name in models]
+              + [name for name in models if name not in MODEL_ORDER])
+    form = read_form(query, operators, models)
+    matcher_line = (f"303 buyable packs across "
+                    f"{len(operators)} operators. "
+                    + source_line(models, problem))
     return (PAGE
+            .replace("MATCHER_LINE", matcher_line)
             .replace("FORM_FIELDS", form_fields(operators, form))
             .replace("RESULTS", render_results(catalogue, rates, form))
             .replace("SMS_RATE", f"{SMS_TOPUP_BDT:g}")

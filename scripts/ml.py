@@ -1,0 +1,137 @@
+"""Ranking packs with the trained models, for anything that wants to.
+
+    from ml import available, rank
+
+`available()` says which models can be used right now, and why not when the
+answer is none: the models live in models/offer_recommender.joblib, which
+scripts/train_model.py writes, and reading it needs joblib and scikit-learn.
+Neither is needed by the matcher, so nothing here is imported until it is
+asked for -- the page still runs on a bare python3, with the matcher alone.
+
+`rank(name, operator, wants, allowed, top)` returns the model's best packs
+for one request, as [(offer_id, score)], highest first, restricted to packs
+the operator actually sells. What the score means depends on the model, so
+it comes back labelled: a probability for the two tree models, a normalised
+regression output for the polynomial one, which is a ranking number and not
+a probability however much it looks like one.
+"""
+
+import os
+
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MODEL_PATH = os.path.join(BASE, "models", "offer_recommender.joblib")
+
+MATCHER = "Cost matcher (no model)"
+
+# Filled by _load() on first use: the bundle, or the reason there is none.
+_bundle = None
+_problem = None
+
+
+def _load():
+    global _bundle, _problem
+    if _bundle is not None or _problem is not None:
+        return _bundle
+
+    if not os.path.exists(MODEL_PATH):
+        _problem = ("no models/offer_recommender.joblib -- run "
+                    "python3 scripts/train_model.py to build it")
+        return None
+    try:
+        import joblib                                    # noqa: F401
+        _bundle = joblib.load(MODEL_PATH)
+    except ImportError as exc:
+        _problem = (f"{exc.name} is not installed in this interpreter, so the "
+                    "saved models cannot be read")
+    except Exception as exc:                             # pragma: no cover
+        _problem = f"the model file could not be read ({exc})"
+    return _bundle
+
+
+def available():
+    """The model names that can be used now, and the reason if none can."""
+    bundle = _load()
+    if bundle is None:
+        return [], _problem
+    return list(bundle["models"]), version_warning()
+
+
+def version_warning():
+    """A warning if these models were saved by a different scikit-learn.
+
+    A model pickled by one version and loaded by another is not reliably the
+    same model: attributes move, defaults change, and the failure is not
+    always an exception -- it can be a silently different answer. The models
+    still load, so this is said rather than enforced, but it is said.
+    """
+    bundle = _load()
+    if bundle is None:
+        return None
+    saved = bundle.get("sklearn_version")
+    try:
+        import sklearn
+    except ImportError:
+        return None
+    if saved and saved != sklearn.__version__:
+        return (f"the models were trained with scikit-learn {saved} and this "
+                f"interpreter has {sklearn.__version__}; retrain with "
+                f"python3 scripts/train_model.py to be sure of them")
+    return None
+
+
+def class_list(bundle, name, model):
+    """The packs a model scores, in the order its scores come back in.
+
+    Taken from the bundle, which recorded them at training time; only if an
+    older bundle lacks them is the estimator asked, which is exactly what
+    breaks across scikit-learn versions.
+    """
+    stored = bundle.get("classes", {}).get(name)
+    if stored is not None:
+        return stored
+    return [str(c) for c in model.classes_]
+
+
+def metrics():
+    """What each model scored when it was trained, or {} if unavailable."""
+    bundle = _load()
+    return dict(bundle["metrics"]) if bundle else {}
+
+
+def rank(name, operator, wants, allowed, top=10):
+    """One model's best packs for one request: [(offer_id, score)], best first.
+
+    `allowed` is the set of offer_ids the operator sells; everything else is
+    masked out before ranking, so a Robi request can never come back with a
+    Grameenphone pack. Scores are comparable within one answer, not between
+    models.
+    """
+    import numpy as np
+
+    bundle = _load()
+    if bundle is None:
+        raise RuntimeError(_problem)
+    if name not in bundle["models"]:
+        raise RuntimeError(f"{name} is not one of the trained models")
+    model = bundle["models"][name]
+
+    features = np.array([[bundle["operator_index"][operator], *wants]])
+    if hasattr(model, "predict_proba"):
+        scores = model.predict_proba(features)[0]
+        label = "Confidence"
+    else:
+        # A least-squares regression per pack: the numbers are unbounded and
+        # often negative, so they are squashed into 0-1 across the packs on
+        # offer. That makes them readable as a ranking; it does not make
+        # them probabilities.
+        raw = model.decision_function(features)[0]
+        low, high = float(np.min(raw)), float(np.max(raw))
+        scores = (raw - low) / (high - low) if high > low else np.zeros_like(raw)
+        label = "Score"
+
+    classes = np.asarray(class_list(bundle, name, model))
+    keep = np.isin(classes, list(allowed))
+    masked = np.where(keep, scores, -np.inf)
+    order = np.argsort(masked)[::-1][:top]
+    return [(str(classes[i]), float(scores[i])) for i in order
+            if masked[i] != -np.inf], label
